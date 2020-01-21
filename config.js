@@ -1,43 +1,51 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'http://thevictoryisyours.com/',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Victory in Jesus',
+  subtitle: 'We can have victory because Our Lord and Savior conquered Sin and Death!',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 6,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
+    {
+      label: 'Tell me more',
+      path: 'pages/victory'
+    },
     {
       label: 'Articles',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'About us',
+      path: '/'
+    },
+    {
+      label: 'My statement of faith',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'Need Prayer?',
+      path: '/pages/prayer'
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Victory in Jesus Christ',
+    photo: '/media/logo.png',
+    bio: 'We can have victory because Our Lord and Savior conquered Sin and Death!',
     contacts: {
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      facebook: '',
+      telegram: '',
+      twitter: '',
+      github: '',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: '',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
