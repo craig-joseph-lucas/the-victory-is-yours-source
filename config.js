@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-  url: 'http://thevictoryisyours.com/',
-  pathPrefix: '/',
+  url: '/',
+  pathPrefix: '/the-victory-is-yours/',
   title: 'Victory in Jesus',
   subtitle: 'We can have victory because Our Lord and Savior conquered Sin and Death!',
   copyright: '© All rights reserved.',
@@ -12,16 +12,12 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Tell me more',
-      path: 'pages/victory'
-    },
-    {
       label: 'Articles',
       path: '/'
     },
     {
       label: 'About us',
-      path: '/'
+      path: '/pages/about'
     },
     {
       label: 'My statement of faith',

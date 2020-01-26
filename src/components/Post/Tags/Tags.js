@@ -10,6 +10,7 @@ type Props = {
 
 const Tags = ({ tags, tagSlugs }: Props) => (
   <div className={styles['tags']}>
+    <h2>Posted in</h2>
     <ul className={styles['tags__list']}>
       {tagSlugs && tagSlugs.map((slug, i) => (
         <li className={styles['tags__list-item']} key={tags[i]}>

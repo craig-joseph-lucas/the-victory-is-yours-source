@@ -12,23 +12,21 @@ import type { Node } from '../../types';
 type Props = {
   post: Node
 };
-
+ 
 const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date, verse } = post.frontmatter;
+
 
   return (
     <div className={styles['post']}>
       <Link className={styles['post__home-button']} to="/">All Articles</Link>
 
       <div className={styles['post__content']}>
-        <Content body={html} title={title} />
+        <Content body={html} title={title} verseKeyword={verse} />
       </div>
 
-      <div className={styles['post__verse']}>
-        { verse }
-      </div>
 
       <div className={styles['post__footer']}>
         <Meta date={date} />

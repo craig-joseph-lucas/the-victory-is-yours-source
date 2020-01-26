@@ -191,6 +191,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+        mediaTypes: [`text/markdown`, `text/x-markdown`]
+      }
+    },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {

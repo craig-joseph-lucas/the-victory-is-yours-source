@@ -7,11 +7,13 @@
   margin: 0 auto;
 
   &__title {
-    font-size: $typographic-base-font-size * 2;
-    max-width: $layout-post-width;
+    font-size: $typographic-base-font-size * 3;
+    font-family: stencil-std, sans-serif;    
     margin-left: auto;
     margin-right: auto;
+    color: red;
     font-weight: 600;
+    padding: 0 50px;
     text-align: center;
     @include line-height(1.65);
     @include margin-top(1);

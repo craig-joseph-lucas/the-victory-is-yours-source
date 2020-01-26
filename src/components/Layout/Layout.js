@@ -36,6 +36,8 @@ const Layout = ({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+        <script src="//use.edgefonts.net/stencil-std;open-sans;droid-sans.js"></script>
+
       </Helmet>
       {children}
     </div>

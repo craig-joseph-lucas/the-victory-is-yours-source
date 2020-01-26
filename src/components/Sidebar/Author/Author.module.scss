@@ -3,20 +3,22 @@
 
 .author {
   &__photo {
-    display: inline-block;
-    margin-bottom: 0;
+    display: block;
     border-radius: 50%;
+    margin: 0 auto;
     background-clip: padding-box
   }
 
   &__title {
     font-size: $typographic-base-font-size * 1.125;
     font-weight: 600;
+    text-align: center;
     @include line-height(1.125);
-    @include margin(.5, 0, .5, 0);
+    @include margin(.25, 0, .1, 0);
 
     &-link {
-      color: $color-base;
+      color: red;
+      font-family: stencil-std, sans-serif;    
 
       &:hover,
       &:focus {
@@ -29,8 +31,21 @@
 
   &__subtitle {
     color: $color-gray;
+    font-family: droid-sans, sans-serif;
     @include line-height(1);
+    @include margin-top(0);
     @include margin-bottom(1)
+  }
+
+
+  @include breakpoint-md {
+    &__photo {
+      display: inline-block;
+    }
+    &__title {
+      text-align: left;
+      @include margin(.5, 0, .5, 0);
+    }
   }
 
 }
