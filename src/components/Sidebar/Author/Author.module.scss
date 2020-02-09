@@ -39,11 +39,8 @@
 
 
   @include breakpoint-md {
-    &__photo {
-      display: inline-block;
-    }
+
     &__title {
-      text-align: left;
       @include margin(.5, 0, .5, 0);
     }
   }

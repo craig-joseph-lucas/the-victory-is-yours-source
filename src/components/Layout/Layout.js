@@ -3,6 +3,9 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
+import BibleReflagger from '../BibleReflagger';
+import Verse from '../Verse';
+import SiteFooter from './SiteFooter';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
 
@@ -24,7 +27,10 @@ const Layout = ({
   const metaImageUrl = url + withPrefix(metaImage);
 
   return (
-    <div className={styles.layout}>
+    
+
+    <div>
+      <div className={styles.layout}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -37,9 +43,15 @@ const Layout = ({
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
         <script src="//use.edgefonts.net/stencil-std;open-sans;droid-sans.js"></script>
-
+      
       </Helmet>
       {children}
+      <BibleReflagger />
+      </div>
+      <SiteFooter 
+        title={title}
+      />
+
     </div>
   );
 };

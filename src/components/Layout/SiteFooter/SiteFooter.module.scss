@@ -1,0 +1,162 @@
+//@import '../../assets/scss/variables';
+//@import '../../assets/scss/mixins';
+
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins/';
+
+.site-footer {
+    max-width: 1070px;
+    margin: 0 auto 25px;
+    &__logo {
+        flex: 1;
+    }
+    &__title {
+        font-size: $typographic-base-font-size * 1.125;
+        font-weight: 600;
+        position: relative;
+        text-transform: uppercase;
+        text-align: center;
+        @include line-height(1.125);
+        @include margin(.25, 0, 2, 0);
+        &-link {
+            color: black;
+            font-family: open-sans, sans-serif;
+                display: inline-block;
+            &:hover,
+            &:focus {
+              color: $color-base;
+            }
+        }
+        &:before,
+        &:after {
+            content: "";
+            width: calc(33.333333% - 40px);
+            height: 1px;
+            background: #000000;
+            position: absolute;
+            display: block;
+            transform: scale(1, 1);
+            top: 50%;
+            box-sizing: inherit;
+            margin-top: 0;            
+        }
+        &:before {
+            left: 0%;
+            transform-origin: right center;
+        }
+        &:after {
+            right: 0%;
+            transform-origin: left center;
+        }
+
+    }
+    &__jesus-name {
+        display: block;
+        font-family: stencil-std, sans-serif;    
+        color: red;
+        font-size: 40px;
+    }
+    &__text-link {
+        color: #000;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+        -webkit-tap-highlight-color: transparent;
+        font-family: open-sans, sans-serif;
+        &:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            -webkit-transform-origin: right center;
+            -ms-transform-origin: right center;
+            transform-origin: right center;
+            height: 1px;
+            background: #000000;
+            -webkit-transform: scale(0, 1);
+            -ms-transform: scale(0, 1);
+            transform: scale(0, 1);
+            -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);           
+        }
+        &:hover::before {
+            -webkit-transform-origin: left center;
+            -ms-transform-origin: left center;
+            transform-origin: left center;
+            -webkit-transform: scale(1, 1);
+            -ms-transform: scale(1, 1);
+            transform: scale(1, 1);
+            color: #000;      
+        }
+    }
+
+
+    &__icon-links {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        text-align: center;
+        flex: 1 1;
+    }
+
+    &__icon-link {
+        display: inline-block;
+        margin: 0 12%;
+        font-size: 30px;
+        width: 25px;
+        height: 25px;
+        line-height: 35px;
+        vertical-align: middle;
+        svg {
+            vertical-align: middle;
+            width: inherit;
+            height: inherit;
+        }
+    }
+    &__copyright { 
+        text-align: center;
+        color: #999;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    &__verse {
+        position: relative;
+        div[class^="Verse-module--verse__passage"] {
+            border-left: 0;
+        }
+        h3 {
+            font-size: 34px;
+        }
+        p {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+    &__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    @include breakpoint-md {
+        &__column {
+            flex: 1;
+        }
+        &--double {
+            flex: 2;
+        }
+        &--span3 {
+            flex: 3;
+        }
+    }
+}

@@ -6,21 +6,31 @@ import type { Node } from '../../types';
 var bible = require('holy-bible');
 
 type Props = {
-    keyword: string
+    keyword: string,
+    version?: string,
+    overrideVerse?: string
 };
    
 class Verse extends React.Component {
+    static defaultProps = {
+        version: 'ASV'
+    }    
     constructor (props) {
       super(props);
       this.state = { 
-          verseInfo: '',
+          verse: '',
           readyToRender: false
        }
     }
   
     componentWillMount() {
-        const { keyword } = this.props;
-        bible.get(keyword, 'KJV') // also supports 2-letter abbrev (ie: Jn 15:13)
+        const { keyword, version, overrideVerse } = this.props;
+        
+        if (overrideVerse) {
+            return;
+        }
+
+        bible.get(keyword, version) // also supports 2-letter abbrev (ie: Jn 15:13)
         .then((res) => {
             console.dir(res)
             this.setState((state, props) => ({
@@ -36,17 +46,19 @@ class Verse extends React.Component {
     }
   
     render() {
-        const { keyword } = this.props;
-      const { verse, readyToRender } = this.state;
+      const { keyword, overrideVerse } = this.props;
+      const { verse } = this.state;
+      const verseToRender = verse && verse.text ? verse.text : '';
+
       return (
         
         <blockquote className={styles['verse']}>
-           <p className={styles['verse__passage']}>
-               <strong className={styles['verse__passage-text']}>
+           <div className={styles['verse__passage']}>
+               <h3 className={styles['verse__passage-text']}>
                    { keyword }
-               </strong>
-                { verse && verse.text }
-            </p>
+               </h3>
+                <p>{ overrideVerse || verseToRender } </p>
+            </div>
         </blockquote>
       )
     }

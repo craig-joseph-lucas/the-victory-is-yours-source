@@ -14,7 +14,7 @@ tags:
   - "Proverbs"
   - "Worry"
   - "Anxiety"
-  - "Daily Devotions"
+  - "Devotional"
 recommendVerses: 
   - Jeremiah 29:11
   - 2 Corinthians 5:7

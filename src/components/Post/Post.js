@@ -2,12 +2,13 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Author from './Author';
-import Comments from './Comments';
+import SiteComments from './SiteComments';
 import Content from './Content';
 import Meta from './Meta';
 import Tags from './Tags';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
+import { useSiteMetadata } from '../../hooks';
 
 type Props = {
   post: Node
@@ -17,6 +18,7 @@ const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date, verse } = post.frontmatter;
+  const { facebookAppId, url } = useSiteMetadata();
 
 
   return (
@@ -35,7 +37,11 @@ const Post = ({ post }: Props) => {
       </div>
 
       <div className={styles['post__comments']}>
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
+        <SiteComments 
+          slug={`${url}${slug}`} 
+          postTitle={post.frontmatter.title}
+          appId={facebookAppId}
+        />
       </div>
     </div>
   );

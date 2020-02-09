@@ -10,31 +10,51 @@
     margin: 0;
 
     &-item {
-      padding: 0;
-      margin: 5px 0;
-      line-height: 18px;
+      display: inline-flex;
 
       &-link {
-        font-size: $typographic-base-font-size;
+        font-size: 11px;
         color: $typographic-base-font-color;
-        font-weight: normal;
-        border: 0;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 45px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+        width: 100px;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
 
         &:hover,
         &:focus {
           color: $color-primary;
-          border-bottom: 1px solid $color-primary;
+          border: 1px solid $color-primary;
         }
 
         &--active {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          color: #fff;
+          background-color: $color-primary;
+          pointer-events: none;
         }
 
       }
 
     }
 
+  }
+
+  @include breakpoint-md {
+    &__list-item {
+      display: block;
+      &-link{
+        width: 145px;
+      }
+    }
   }
 
 }

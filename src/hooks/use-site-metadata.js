@@ -37,7 +37,8 @@ const useSiteMetadata = () => {
             title
             subtitle
             copyright
-            disqusShortname
+            disqusShortname,
+            facebookAppId
           }
         }
       }

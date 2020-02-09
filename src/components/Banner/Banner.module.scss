@@ -1,0 +1,9 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.banner {
+  background-color: #ccc;
+  &__link {
+    background-color: red;
+  }
+}

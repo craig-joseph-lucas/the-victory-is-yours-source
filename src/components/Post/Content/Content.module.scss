@@ -7,13 +7,14 @@
   margin: 0 auto;
 
   &__title {
-    font-size: $typographic-base-font-size * 3;
+    font-size: $typographic-base-font-size * 1.75;
+    line-height: $typographic-base-font-size * 2;
     font-family: stencil-std, sans-serif;    
     margin-left: auto;
     margin-right: auto;
     color: red;
     font-weight: 600;
-    padding: 0 50px;
+    padding: 0 84px;
     text-align: center;
     @include line-height(1.65);
     @include margin-top(1);
@@ -67,8 +68,8 @@
     &__title {
       font-size: $typographic-base-font-size * 3;
       @include line-height(2.25);
-      @include margin-top(2.25);
-      @include margin-bottom(1.5)
+      @include margin-top(1);
+      @include margin-bottom(1)
     }
 
     &__body {

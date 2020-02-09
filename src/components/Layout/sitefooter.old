@@ -1,0 +1,19 @@
+    <footer className={styles['layout__footer']}>
+      <div className={styles['layout__footer-wrapper']}>
+        <div className={styles['layout__footer-bible-img']}>
+          <img src="/media/opened-bible.png" />
+        </div>
+        <div className={styles['layout__footer-verse']}>
+          <Verse 
+            keyword="John 16:33"
+            overrideVerse="These things I have spoken to you, that in Me you may have peace. In the world you [a]will have tribulation; but be of good cheer, I have overcome the world!"
+            version=""
+          />
+        </div>
+      </div>
+    </footer> 
+    <div className={styles['layout__footer-copyright']}>
+          <div>Victory In Jesus Christ</div>
+          <div>By Craig Lucas</div>
+      </div>
+  </div>

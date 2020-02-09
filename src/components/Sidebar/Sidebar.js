@@ -2,7 +2,7 @@
 import React from 'react';
 import Author from './Author';
 import Contacts from './Contacts';
-import Copyright from './Copyright';
+import Banner from '../Banner';
 import Menu from './Menu';
 import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
@@ -20,7 +20,11 @@ const Sidebar = ({ isIndex }: Props) => {
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
-        <Copyright copyright={copyright} />
+        <Banner 
+          url="https://www.biblegateway.com"
+          title="Click to Study Scripture at Bible Gateway"
+          imgSrc="https://bg3-blog.s3.amazonaws.com/blog/wp-content/uploads/2014/08/bg-badge-option-1.jpg"
+        />
       </div>
     </div>
   );

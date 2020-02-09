@@ -11,7 +11,7 @@ socialImage: "/media/image-2.jpg"
 [Sin](#sin) | <br />
 [Salvation](#salvation) |
 [The Church](#the-church) |
-[End Times](#end-times) |
+[End Times](#end-times) 
 
 ## God
 

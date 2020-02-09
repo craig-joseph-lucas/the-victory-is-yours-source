@@ -2,25 +2,36 @@
 @import '../../assets/scss/mixins';
 
 .verse{
-  @include margin-top(2);
-  @include margin-bottom(2);
+  @include margin-top(1);
+  @include margin-bottom(1);
 
   &__passage{
-    font-size: 20px;
-    line-height: 24px;
-    border-left: 0.3rem solid #d1d1d1;
+    font-size: 12px;
+    line-height: 14px;
     font-family: open-sans, sans-serif;
     margin-left: 0;
     font-style: normal;
-    line-height: 28px;
     margin-right: 0;
     text-align: justify;
     padding: 1rem 1.5rem;
     &-text{
       display: block;
+      @include margin-top(.25);
       font-family: stencil-std, sans-serif;
       font-size: 20px;
       font-weight: bold;
+    }
+  }
+
+  @include breakpoint-md {
+    @include margin-top(2);
+    @include margin-bottom(2);
+  
+    &__passage {
+      font-size: 20px;
+      line-height: 24px;
+      padding: 1rem 1.5rem;
+      border-left: 0.3rem solid #d1d1d1;
     }
   }
 }

@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: '/',
+  url: 'https://craig-joseph-lucas.github.io/the-victory-is-yours/',
   pathPrefix: '/the-victory-is-yours/',
   title: 'Victory in Jesus',
   subtitle: 'We can have victory because Our Lord and Savior conquered Sin and Death!',
@@ -10,23 +10,48 @@ module.exports = {
   postsPerPage: 6,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
+  facebookAppId: '161617535284597',
   menu: [
     {
       label: 'Articles',
       path: '/'
     },
     {
-      label: 'About us',
-      path: '/pages/about'
+      label: 'About',
+      path: '/pages/about/'
     },
     {
-      label: 'My statement of faith',
-      path: '/pages/about'
+      label: 'Beliefs',
+      path: '/pages/my-beliefs/'
+    }
+  ],
+  siteFooterLinksLeft: [
+    {
+      label: 'All Articles',
+      path: '/'
+    },
+    {
+      label: 'About Victory in Jesus',
+      path: '/pages/about/'
+    },
+    {
+      label: 'Statement of Faith',
+      path: '/pages/my-beliefs/'
+    }
+  ],
+  siteFooterLinksRight: [
+    {
+      label: 'Privacy Policy',
+      path: '/pages/privacy-policy'
+    },
+    {
+      label: 'Contact us',
+      path: '/pages/contact-us'
     },
     {
       label: 'Need Prayer?',
-      path: '/pages/prayer'
-    }
+      path: '/pages/need-prayer'
+    }    
   ],
   author: {
     name: 'Victory in Jesus Christ',
