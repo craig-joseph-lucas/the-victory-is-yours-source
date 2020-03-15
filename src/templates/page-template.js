@@ -40,7 +40,8 @@ export const query = graphql`
         date
         description
         socialImage,
-        verse
+        verse,
+        recommendVerses
       }
     }
   }

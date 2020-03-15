@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "About Victory in Jesus Christ"
 template: "page"
 socialImage: "/media/image-2.jpg"
 ---
@@ -12,7 +12,7 @@ I currently work for Everyday Health as a Web Developer. I have been there for 1
 Which, has been a true blessing for me. As I have been able to spend the days with my children.
 God is so great in giving me that opportunity. 
 
-I attend Revival Christian Fellowship and have been going there for 4 years. It was not till recently that I came to know Jesus Christ as my personal Savior and Lord. God truly has saved my life. He has been with me my entire life but it wasn't till three years ago when I made that great decision. To repent and declare Jesus as Lord. 
+I attend Revival Christian Fellowship in Menifee, CA and have been going there for 4 years. It was not till recently that I came to know Jesus Christ as my personal Savior and Lord. God truly has saved my life. He has been with me my entire life but it wasn't till three years ago when I made that great decision. To repent and declare Jesus as Lord. 
 
 My life before I came to Christ was filled with pursuing all the desires of my flesh. Whether, it was drinking heavy, smoking, gambling, doing drugs. I did whatever my flesh told me to do. No matter what route I took I always came back to me feeling empty. I always thought I can fill that empty void by these fleshful desires. I was in bondage to sin and knew no other way. The way I was living was really bad. Thanks be to God that He was there for me through my days of darkness. Not only was I fullfilling my fleshful desires but I also fought depression for a long time. I always wondered what was my purpose in life.  
 

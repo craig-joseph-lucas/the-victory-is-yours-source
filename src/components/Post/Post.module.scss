@@ -14,6 +14,12 @@
     padding: 0 15px;
   }
 
+  &__footer-share {
+     max-width: $layout-post-width;
+     margin: 48px auto 0;
+     padding: 0;
+  }
+
   &__home-button {
     display: block;
     max-width: 90px;

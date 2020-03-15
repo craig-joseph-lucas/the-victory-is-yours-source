@@ -1,10 +1,19 @@
 // @flow strict
 import React from 'react';
 import styles from '../Verse/Verse.module.scss';
-import type { Node } from '../../types';
 
-var bible = require('holy-bible');
-
+const ESV_TEXT_ONLY = {
+  'include-passage-references': false,
+  'include-verse-numbers': false,
+  'include-first-verse-numbers': false,
+  'include-footnotes': false,
+  'include-footnote-body': false,
+  'include-headings': false,
+  'include-chapter-numbers': false,
+  'include-audio-link': false,
+  'wrapping-div': false
+};
+const TOKEN = 'bbc2a930dcc019b8b9b73e3203919a258ad96ba2';
 type Props = {
     keyword: string,
     version?: string,
@@ -23,32 +32,38 @@ class Verse extends React.Component {
        }
     }
   
-    componentWillMount() {
-        const { keyword, version, overrideVerse } = this.props;
-        
-        if (overrideVerse) {
-            return;
-        }
+    componentDidMount() {
+      const { keyword, version, overrideVerse } = this.props;
 
-        bible.get(keyword, version) // also supports 2-letter abbrev (ie: Jn 15:13)
-        .then((res) => {
-            console.dir(res)
-            this.setState((state, props) => ({
-                verse: res
-            }));
+      if (overrideVerse) {
+        return;
+      }
+
+      const params = new URLSearchParams({
+        ...ESV_TEXT_ONLY,
+        q: keyword
+      });
+
+      return fetch('https://api.esv.org/v3/passage/text/?' + params.toString(), {
+        method: 'GET',
+        headers: new Headers({
+            'Authorization': `Token ${TOKEN}`
+        })
+      })
+      .then(res=>res.clone().json())
+      .then(verses => {
+        console.log(verses);
+        this.setState({
+          verse: verses.passages[0]
         });
-      
+      }).catch(err => {
+        console.log(err)
+      });
     }
-
-
-    renderVerse(verse) {
-        <h3>{ verse }</h3>
-    }
-  
+    
     render() {
       const { keyword, overrideVerse } = this.props;
       const { verse } = this.state;
-      const verseToRender = verse && verse.text ? verse.text : '';
 
       return (
         
@@ -57,10 +72,10 @@ class Verse extends React.Component {
                <h3 className={styles['verse__passage-text']}>
                    { keyword }
                </h3>
-                <p>{ overrideVerse || verseToRender } </p>
+                <p>{ overrideVerse || verse } </p>
             </div>
         </blockquote>
-      )
+      );
     }
   }
 

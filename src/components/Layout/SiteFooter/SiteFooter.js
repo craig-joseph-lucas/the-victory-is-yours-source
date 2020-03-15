@@ -6,6 +6,10 @@ import { Link } from 'gatsby';
 import Icon from '../../Icon';
 import { getIcon } from '../../../utils';
 import Verse from '../../Verse';
+import {
+  EmailShareButton,
+} from "react-share";
+
 
 import { 
   siteFooterLinksLeft,
@@ -41,7 +45,7 @@ class SiteFooter extends React.Component {
     renderTextLink(link) {
       const { path, label } = link;
       return (
-        <div>
+        <div key={label}>
             <a 
               href={path}
               className={styles['site-footer__text-link']}
@@ -61,7 +65,7 @@ class SiteFooter extends React.Component {
               href="https://twitter.com/JesusIsVictory1"
               className={styles['site-footer__icon-link']}
             >
-              <Icon name={name} icon={getIcon("twitter")} />
+              <Icon name="twitter" icon={getIcon("twitter")} />
             </a>
             <a 
               href="https://www.facebook.com/victorywithjesuschrist"
@@ -70,7 +74,7 @@ class SiteFooter extends React.Component {
               <Icon name="facebook" icon={getIcon("facebook")} />
             </a>
             <a 
-              href="#"
+              href="mailto:wecanhavevictoryinjesus@gmail.com?subject=Mail from our site"
               className={styles['site-footer__icon-link']}
             >
               <Icon name="email" icon={getIcon("email")} />
@@ -85,10 +89,11 @@ class SiteFooter extends React.Component {
           <div className={styles['site-footer__column']}>
             { siteFooterLinksLeft.map((link) => this.renderTextLink(link) )}
           </div>
-            { this.renderIconLinks() }
+          { this.renderIconLinks() }              
+
           <div className={styles['site-footer__column']}>
             { siteFooterLinksRight.map((link) => this.renderTextLink(link) )}
-          </div>                 
+          </div>
         </div>
       );
     }
@@ -97,17 +102,8 @@ class SiteFooter extends React.Component {
       const { title } = this.props;
       return ( 
         <footer className={styles['site-footer']}>
-          <div className={styles['site-footer__verse']}>
-            <Verse 
-              keyword="1 Corinthians 15:55-57"
-              overrideVerse="O[a] Death, where is your sting? O Hades, where is your victory?”
-              56 The sting of death is sin, and the strength of sin is the law. 57 But thanks be to God, who gives us the victory through our Lord Jesus Christ."
-            />
-          </div>
-
           { this.renderLogo(title) }
           { this.renderLinks() }
-          
           <p className={styles['site-footer__copyright']}>© 2020. All rights reserverd</p>
         </footer>
       )

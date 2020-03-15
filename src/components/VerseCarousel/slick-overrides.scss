@@ -1,0 +1,52 @@
+div[class^="VerseCarousel-module--verse-carousel--"] {
+
+    blockquote[class^="Verse-module--verse--"] {
+        margin-top: 10px !important;
+    }
+
+    div[class^="Verse-module--verse__passage--"] {
+        border-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        h3 {
+            flex-basis:  100%;
+            order: 2;
+            font-size: 16px;
+            text-align: right;
+            font-family: arial;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .slick-arrow {
+        top: 70px !important;
+        width: 24px;
+        height: 24px;
+        border-color: #000;
+        position: absolute;
+        top: 50%;
+        margin-top: -31px;
+        color: #000;       
+    }
+
+    .slick-prev {
+        border-bottom: 6px solid;
+        border-left: 6px solid;
+        transform: rotate(45deg);
+        left: 10px;
+    }
+
+    .slick-next {
+        border-bottom: 6px solid;
+        border-left: 6px solid;
+        transform: rotate(-135deg);
+        right: 10px;
+    }
+
+    .slick-list {
+        margin: 0 40px;
+    }
+
+}

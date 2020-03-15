@@ -46,7 +46,8 @@ export const query = graphql`
         tags
         title
         socialImage,
-        verse
+        verse,
+        recommendVerses
       }
     }
   }

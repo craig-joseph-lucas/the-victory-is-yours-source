@@ -14,7 +14,7 @@
     margin-right: auto;
     color: red;
     font-weight: 600;
-    padding: 0 84px;
+    padding: 0 20px;
     text-align: center;
     @include line-height(1.65);
     @include margin-top(1);
@@ -67,6 +67,7 @@
 
     &__title {
       font-size: $typographic-base-font-size * 3;
+      padding: 0 84px;
       @include line-height(2.25);
       @include margin-top(1);
       @include margin-bottom(1)

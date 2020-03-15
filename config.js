@@ -41,17 +41,13 @@ module.exports = {
   ],
   siteFooterLinksRight: [
     {
+      label: 'Our Mission',
+      path: '/pages/our-mission'
+    },   
+    {
       label: 'Privacy Policy',
       path: '/pages/privacy-policy'
-    },
-    {
-      label: 'Contact us',
-      path: '/pages/contact-us'
-    },
-    {
-      label: 'Need Prayer?',
-      path: '/pages/need-prayer'
-    }    
+    }
   ],
   author: {
     name: 'Victory in Jesus Christ',

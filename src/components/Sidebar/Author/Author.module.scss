@@ -13,6 +13,7 @@
     font-size: $typographic-base-font-size * 1.125;
     font-weight: 600;
     text-align: center;
+    text-transform: uppercase;
     @include line-height(1.125);
     @include margin(.25, 0, .1, 0);
 

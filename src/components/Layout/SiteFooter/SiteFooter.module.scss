@@ -11,13 +11,13 @@
         flex: 1;
     }
     &__title {
-        font-size: $typographic-base-font-size * 1.125;
+        font-size: 18px;
         font-weight: 600;
         position: relative;
         text-transform: uppercase;
         text-align: center;
         @include line-height(1.125);
-        @include margin(.25, 0, 2, 0);
+        @include margin(.25, 0, .5, 0);
         &-link {
             color: black;
             font-family: open-sans, sans-serif;
@@ -30,7 +30,7 @@
         &:before,
         &:after {
             content: "";
-            width: calc(33.333333% - 40px);
+            width: calc(33.333333% - 100px);
             height: 1px;
             background: #000000;
             position: absolute;
@@ -96,21 +96,23 @@
 
 
     &__icon-links {
-        display: flex;
-        flex-direction: row;
-        flex-basis: 100%;
+        display: block;
         text-align: center;
-        flex: 1 1;
+        width: 100%;
+        order: 2;
     }
 
     &__icon-link {
         display: inline-block;
-        margin: 0 12%;
+        margin: 0 10px;
         font-size: 30px;
         width: 25px;
         height: 25px;
         line-height: 35px;
         vertical-align: middle;
+        &--email svg  {
+            fill: rgb(93, 147, 255);
+        }
         svg {
             vertical-align: middle;
             width: inherit;
@@ -129,11 +131,16 @@
             border-left: 0;
         }
         h3 {
-            font-size: 34px;
+            text-align: center;
+            font-size: 20px;
+            @include breakpoint-md {
+                font-size: 34px;
+                line-height: 42px;
+            }            
         }
         p {
-            font-size: 30px;
-            line-height: 35px;
+            font-size: 16px;
+            line-height: 20px;
         }
     }
     &__row {
@@ -141,22 +148,66 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 15px;
     }
     &__column {
         display: flex;
         flex-direction: column;
         flex-basis: 100%;
         text-align: center;
+        margin-bottom: 8px;
+        align-self: center;
+        order: 1;
+        &:first-child {
+            order: 0;
+        }
     }
+
+
     @include breakpoint-md {
+        &__row {
+        }
+
         &__column {
+            margin-bottom: 0;
             flex: 1;
+            order: 2;
         }
-        &--double {
-            flex: 2;
+        &__title {
+            font-size: $typographic-base-font-size * 1.125;
+            font-weight: 600;
+            position: relative;
+            text-transform: uppercase;
+            text-align: center;
+            @include line-height(1.125);
+            @include margin(.25, 0, 2, 0);
+            &:before,
+            &:after {
+                width: calc(33.333333% - 40px);
+            }    
         }
-        &--span3 {
-            flex: 3;
+
+        &__verse {
+            position: relative;
+            p {
+                font-size: 30px;
+                line-height: 35px;
+            }
+        }
+        div[class^="Verse-module--verse__passage"] {
+            border-left: 0;
+        }
+        &__icon-links {
+            display: flex;
+            flex-direction: row;
+            flex-basis: 100%;
+            text-align: center;
+            flex: 1 1;
+            order: 1;
+        }
+
+        &__icon-link {
+            margin: 0 12%;
         }
     }
 }

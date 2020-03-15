@@ -9,7 +9,7 @@
     }
 }
 
-@include breakpoint-sm {
+@include breakpoint-md {
     .sidebar {
         lost-column: 5/12;
         &__inner {

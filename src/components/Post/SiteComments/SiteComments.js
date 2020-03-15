@@ -26,13 +26,6 @@ class SiteComments extends Component {
     return (
       <div>
         { this.renderComments() }
-      <FacebookProvider appId={appId}>
-        <ShareButton href={slug}>
-          Share
-        </ShareButton>
-      </FacebookProvider>
-
-
       </div>
     )
   }

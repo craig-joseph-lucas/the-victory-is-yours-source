@@ -4,14 +4,25 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
+<style type="text/css" rel="stylesheet">
+    .inline-nav {
+        padding-right: 30px;
+        font-size: 18px;
+    }
+</style>
+
+<div class="inline-nav">
+
 [God](#god) |
 [Word of God](#word-of-god) |
 [Jesus Christ](#jesus-christ) |
 [Holy Spirit](#holy-spirit) |
-[Sin](#sin) | <br />
+[Sin](#sin) | 
 [Salvation](#salvation) |
 [The Church](#the-church) |
 [End Times](#end-times) 
+
+</div>
 
 ## God
 

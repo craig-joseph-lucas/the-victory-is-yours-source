@@ -2,8 +2,12 @@
 @import '../../assets/scss/mixins';
 
 .banner {
-  background-color: #ccc;
   &__link {
     background-color: red;
+  }
+  &__img {
+    max-width: 200px;
+    display: block;
+    margin: 20px auto;
   }
 }

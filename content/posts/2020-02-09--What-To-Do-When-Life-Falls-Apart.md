@@ -17,7 +17,6 @@ tags:
   - "Anxiety"
   - "Devotional"
 recommendVerses: 
-  - Psalm 46
   - John 4:13-14
   - Proverbs 30:24
   - Acts 2:38
@@ -42,8 +41,8 @@ Why should we run to God?
 - God is our help. When you believe in God you receieve the Holy Spirit who is your helper. Acts 2:38
 - God takes away our fear. God is always with us so no need to fear. Deuteronomy 31:8  
 
-### Drink in the Lord
-We should be thirsty for what the Lord has to offer. John 4:13-14.
+### Drink of the Lord
+We should be thirsty for what the Lord has to offer (John 4:13-14). We can think of Jesus like a river. He has the living water J
 When we drink from the river.
 - We receive joy. Psalm 46:4
 - We receive stability. Psalm 46:5
@@ -52,8 +51,8 @@ When we drink from the river.
 
 ### Be still and know God (8-12).
 The Lord has a plan for you so be patient and trust in His plan. 
-In psalm 46:8 we are told that the Lord ceases wars. This could be prothetic to His second coming. When Jesus will put and end to the tribulation. What this shows is that God really cares for you. So cast your cares on Him and He will give you rest(Matthew 11:28).
+In psalm 46:8 we are told that the Lord ceases wars. This could be prothetic to His second coming. When Jesus will put and end to the great tribulation. What this shows is that God really cares for you. So cast your cares on Him and He will give you rest(Matthew 11:28).
 
-So don't tell God about your problems but leave them with Him. Lay it at His feet as we can't be God. So let God take care of your problems and He will be exalted high. 
+God wants you to not just tell him about your problems but to also leave them with Him. Simply lay your problems at the feet of God. So let God take care of your problems and He will be exalted high. 
 
-Finally the most important part is that we can't run to God unless He is our savior. Do you know Christ personally? Is He your lord and savior? If not now is the time(Revelation 3:20) to know Him and trust Him as your Lord.  
+Finally the most important part is that we can't run to God unless He is our savior. Do you know Christ personally? Is He your Lord and Savior? If not now is the time(Revelation 3:20) to know Him and trust Him as your Lord.  

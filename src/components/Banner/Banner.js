@@ -1,19 +1,14 @@
 // @flow strict
 import React from 'react';
 import { Link } from 'gatsby';
+import styles from './Banner.module.scss';
 import type { Node } from '../../types';
 
 type Props = {
   url: string,
   imgSrc: string,
-  title: ?string
-};
-
-const imgStyles = {
-  maxWidth: '200px',
-  display: 'block',
-  margin: '50px auto'
-
+  title: ?string,
+  customStyles: ?CSS
 };
 
 class Banner extends React.Component {
@@ -22,12 +17,13 @@ class Banner extends React.Component {
     const {
       url,
       imgSrc,
-      title
+      title,
+      customStyles
     } = this.props;
 
     return (
   
-      <div className="banner">
+      <div className={styles['banner']}>
       { url && 
           <a 
             href={url}
@@ -36,9 +32,9 @@ class Banner extends React.Component {
             <img 
               src={imgSrc}
               alt={title}
-              style={imgStyles}
+              className={styles['banner__img']}
+              style={customStyles}
               title={title}
-            
             />
           </a>
       }
