@@ -46,9 +46,9 @@ const Post = ({ post }: Props) => {
           />
         </div>
 
-        <div style={{ maxHeight: 300}}>
+        
           <VerseCarousel autoPlay={false} verses={recommendVerses} />
-        </div>      
+
 
         <div className={styles['post__comments']}>
           <SiteComments 

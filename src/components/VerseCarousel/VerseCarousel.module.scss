@@ -1,7 +1,9 @@
 .verse-carousel {
-    position: relative;
-    max-height: 300px;
-    overflow: hidden;
+    @media screen {
+        position: relative;
+        max-height: 300px;
+        overflow: hidden;
+    }    
     &__h2 {
         text-align: center;
         font-family: stencil-std, sans-serif;

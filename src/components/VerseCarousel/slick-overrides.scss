@@ -1,5 +1,5 @@
 div[class^="VerseCarousel-module--verse-carousel--"] {
-
+    
     blockquote[class^="Verse-module--verse--"] {
         margin-top: 10px !important;
     }
@@ -19,6 +19,14 @@ div[class^="VerseCarousel-module--verse-carousel--"] {
         p {
             margin-bottom: 0;
         }
+        @media print {
+            display: block;
+            flex: none;
+            h3 {
+                order: 1;
+                text-align: left;
+            }
+        }
     }
     .slick-arrow {
         top: 70px !important;
@@ -28,7 +36,10 @@ div[class^="VerseCarousel-module--verse-carousel--"] {
         position: absolute;
         top: 50%;
         margin-top: -31px;
-        color: #000;       
+        color: #000;
+        @media print {
+            display: none !important;
+        }
     }
 
     .slick-prev {
@@ -47,6 +58,20 @@ div[class^="VerseCarousel-module--verse-carousel--"] {
 
     .slick-list {
         margin: 0 40px;
+        @media print {
+            transform: none;
+            overflow: auto;
+        }
+        .slick-track {
+            @media print {
+                transform: none !important;
+            }
+        }
+        .slick-slide {
+            @media print {
+                float: none;
+            }
+        }
     }
 
 }

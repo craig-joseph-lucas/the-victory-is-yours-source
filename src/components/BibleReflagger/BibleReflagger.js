@@ -33,14 +33,13 @@ class BibleReflagger extends React.Component {
   }
 
   componentDidUpdate() {
-    //window.refTagger.tag();
+    window.refTagger = {
+      settings: reflaggerSettings
+    };
   }
 
 
   render() {
-    window.refTagger = {
-      settings: reflaggerSettings
-    };
 
     if(!this.state.rendered) {
       return null;

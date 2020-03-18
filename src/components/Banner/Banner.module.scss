@@ -10,4 +10,7 @@
     display: block;
     margin: 20px auto;
   }
+  @media print {
+    display: none;
+  }
 }

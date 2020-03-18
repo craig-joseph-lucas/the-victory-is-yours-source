@@ -4,14 +4,7 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-<style type="text/css" rel="stylesheet">
-    .inline-nav {
-        padding-right: 30px;
-        font-size: 18px;
-    }
-</style>
-
-<div class="inline-nav">
+<div class="inline-my-beliefs-nav">
 
 [God](#god) |
 [Word of God](#word-of-god) |
@@ -36,9 +29,9 @@ and grace. He is love and He is sovereign in all He does.
 
 I believe the Bible is the inspired word by God. The Bible is God breathed and it is living
 (Timothy 3:16). I also believe the Bible is fully true and error free and it is a basis for us
-on how to live. It’s also one our main weapons in fighting the enemy. It is also also
+on how to live. It's also one our main weapons in fighting the enemy. It is also also
 known as the sword of the spirit. It is the most essential part of the armor of God. Finally
-I believe the theme of the bible is God’s redemption of man.
+I believe the theme of the bible is God's redemption of man.
 
 ## Jesus Christ
 I believe that Jesus Christ is God and that he pre-existed as God in all glory in the
@@ -54,7 +47,7 @@ and seated at the right hand of the Father.
 
 Finally I believe He will come back to earth in the second coming
 where He will reign and have judgment on the living and the dead. Jesus paid the
-ultimate sacrifice for us. A debt he didn’t have to pay. A debt we can never pay back.
+ultimate sacrifice for us. A debt he didn't have to pay. A debt we can never pay back.
 This is why I am so thankful for what He did for us. Without His sacrifice we cannot be
 set free from sin. Without his sacrifice there is no chance for salvation or to be filled with
 the Holy Spirit.

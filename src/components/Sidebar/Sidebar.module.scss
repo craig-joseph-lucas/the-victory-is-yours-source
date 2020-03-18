@@ -7,6 +7,9 @@
         position: relative;
         padding: 25px 20px 0;
     }
+    @media print {
+        text-align: center;
+    }
 }
 
 @include breakpoint-md {

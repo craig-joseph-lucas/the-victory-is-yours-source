@@ -41,6 +41,10 @@
       color: $color-primary;
     }
 
+    @media print {
+      display: none;
+    }
+
   }
 
 }

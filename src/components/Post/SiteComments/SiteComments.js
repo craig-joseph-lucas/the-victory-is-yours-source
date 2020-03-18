@@ -2,6 +2,7 @@
 import React, { Component} from 'react';
 import { FacebookProvider, Comments, ShareButton } from 'react-facebook';
 import type { Node } from '../../types';
+import styles from './SiteComments.module.scss';
 
 type Props = {
   appId: string,
@@ -24,7 +25,7 @@ class SiteComments extends Component {
     const { slug, appId } = this.props;
 
     return (
-      <div>
+      <div className={styles['sitecomments']}>
         { this.renderComments() }
       </div>
     )

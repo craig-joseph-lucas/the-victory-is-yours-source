@@ -16,28 +16,37 @@ type Props = {
   autoPlay: ?boolean
 };
 
-var settings = {
+var SETTINGS = {
   dots: true,
   arrows: true,
   slidesToShow: 1,
   slidesToScroll: 1,
   adaptiveHeight: true
 };
- 
+
+state: {
+  isPrint: false
+}
 
 class VerseCarousel extends React.Component {
   static defaultProps = {
     autoPlay: true,
     title: 'Recommended Verses'
   };
+
   
     render() {
       const { verses, autoPlay, title } = this.props;
+
+      if (!verses || !verses.length) {
+        return null;
+      }
+
       return (
         
         <div className={styles['verse-carousel']}>
           <h2 className={styles['verse-carousel__h2']}>{title}</h2>
-          <Slider {...settings}>
+          <Slider>
             
             {  verses.map((verse, index) => (
                 <Verse keyword={verse} key={verse} />
