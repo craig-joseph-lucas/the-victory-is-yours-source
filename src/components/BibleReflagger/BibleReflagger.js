@@ -27,15 +27,16 @@ class BibleReflagger extends React.Component {
   }
 
   componentDidMount() {
+    window.refTagger = {
+      settings: reflaggerSettings
+    };
     loadScriptAsync('https://api.reftagger.com/v2/RefTagger.js').then(() => {
       console.log('script loaded');
     });    
   }
 
   componentDidUpdate() {
-    window.refTagger = {
-      settings: reflaggerSettings
-    };
+
   }
 
 
