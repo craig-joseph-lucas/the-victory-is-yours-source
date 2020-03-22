@@ -1,5 +1,5 @@
 ---
-title: "Our Mission"
+title: "My Mission"
 template: "page"
 socialImage: "/media/image-2.jpg"
 ---

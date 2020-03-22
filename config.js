@@ -17,8 +17,8 @@ module.exports = {
       path: '/pages/about/'
     },
     {
-      label: 'Our Mission',
-      path: '/pages/our-mission'
+      label: 'My Mission',
+      path: '/pages/my-mission'
     },      
     {
       label: 'Devotionals',
@@ -45,8 +45,8 @@ module.exports = {
   ],
   siteFooterLinksRight: [
     {
-      label: 'Our Mission',
-      path: '/pages/our-mission'
+      label: 'My Mission',
+      path: '/pages/my-mission'
     },   
     {
       label: 'Privacy Policy',
