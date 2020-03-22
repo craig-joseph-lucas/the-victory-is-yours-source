@@ -13,29 +13,33 @@ module.exports = {
   facebookAppId: '161617535284597',
   menu: [
     {
-      label: 'Articles',
-      path: '/'
-    },
-    {
-      label: 'About',
+      label: 'About me',
       path: '/pages/about/'
     },
     {
-      label: 'Beliefs',
+      label: 'Our Mission',
+      path: '/pages/our-mission'
+    },      
+    {
+      label: 'Devotionals',
+      path: '/'
+    },
+    {
+      label: 'My Beliefs',
       path: '/pages/my-beliefs/'
-    }
+    }  
   ],
   siteFooterLinksLeft: [
     {
-      label: 'All Articles',
-      path: '/'
-    },
-    {
-      label: 'About Victory in Jesus',
+      label: 'About Me',
       path: '/pages/about/'
     },
     {
-      label: 'Statement of Faith',
+      label: 'All Devotionals',
+      path: '/'
+    },    
+    {
+      label: 'My Beliefs',
       path: '/pages/my-beliefs/'
     }
   ],

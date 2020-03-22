@@ -10,7 +10,16 @@ type Props = {
 };
 
 const Feed = ({ edges }: Props) => (
+
   <div className={styles['feed']}>
+      <h1 className={styles['feed__title']}>
+        Latest Devotionals
+        <img
+          className={styles['feed__title-img']}
+          src="/media/black-and-white-bible.svg" 
+        />
+      </h1>
+
     {edges.map((edge) => (
       <div className={styles['feed__item']} key={edge.node.fields.slug}>
         <div className={styles['feed__item-meta']}>

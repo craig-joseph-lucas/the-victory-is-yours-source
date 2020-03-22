@@ -1,12 +1,17 @@
 ---
-title: "About Victory in Jesus Christ"
+title: "About Me"
 template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
 Hello my name is Craig Lucas. I am a child of God and your brother in Christ.
-I am 37 years old and live in Murrieta, CA. I have an amazing wife and two beautiful Children.
+I am 37 years old and live in Murrieta, CA. I have an amazing wife and two beautiful Children(see pics below).
 They are true gifts of God. My oldest son's name is Riley and he is 5 years old. While my daughter is three who is named Avery.
+
+<div class="post-image post-image--inline-images">
+  <img src="/media/family-christmas.jpg" alt="Water Baptism" />
+  <img src="/media/in-hawaii.jpg" />
+</div>
 
 I currently work for Everyday Health as a Web Developer. I have been there for 10 years and I work remotely. 
 Which, has been a true blessing for me. As I have been able to spend the days with my children.
