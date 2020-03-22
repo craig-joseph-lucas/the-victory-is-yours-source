@@ -17,7 +17,7 @@ recommendVerses:
   - James 1:17
   - James 4:6
 
-description: "Would you believe me if I told you that happiness is a choice? I strongly believe this is true and here is why.
+description: "Would you believe me if I told you that happiness is a choice? I strongly believe this is true and here is why"
 
 socialImage: ""
 ---

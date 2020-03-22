@@ -18,7 +18,7 @@ socialImage: ""
 ---
 
 <div class="post-image post-image--inline-images">
-  <img src="/media/inchrist.jpg" alt="Water Baptism">
+  <img src="/media/inchrist.jpg" alt="Water Baptism" />
   <img src="/media/inchrist2.jpg" />
 </div>
 
