@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-  url: 'https://craig-joseph-lucas.github.io/the-victory-is-yours/',
-  pathPrefix: '/the-victory-is-yours/',
+  url: 'https://thevictoryisyours.com/',
+  pathPrefix: '/',
   title: 'Victory in Jesus',
   subtitle: 'We can have victory because Our Lord and Savior conquered Sin and Death!',
   copyright: '© All rights reserved.',

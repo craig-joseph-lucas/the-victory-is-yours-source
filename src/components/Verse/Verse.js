@@ -52,12 +52,11 @@ class Verse extends React.Component {
       })
       .then(res=>res.clone().json())
       .then(verses => {
-        console.log(verses);
         this.setState({
           verse: verses.passages[0]
         });
       }).catch(err => {
-        console.log(err)
+        console.warn(err)
       });
     }
     
