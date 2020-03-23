@@ -27,7 +27,8 @@ const PostTemplate = ({ data }: Props) => {
       <Layout 
         title={`${postTitle} - ${siteTitle}`} 
         description={metaDescription}
-        socialImage={socialImage} 
+        fullUrl={`${url}posts/${frontmatter.slug}`}
+        socialImage={socialImage}
       >
         <Post post={data.markdownRemark} />
        
@@ -53,7 +54,8 @@ export const query = graphql`
         title
         socialImage,
         verse,
-        recommendVerses
+        recommendVerses,
+        slug
       }
     }
   }

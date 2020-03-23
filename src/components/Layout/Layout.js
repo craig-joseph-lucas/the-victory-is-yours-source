@@ -21,11 +21,11 @@ const Layout = ({
   title,
   description,
   socialImage,
+  fullUrl
 }: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
-
   return (
     
 
@@ -36,7 +36,7 @@ const Layout = ({
         <title>{title}</title>
         <meta name="robots" content="noindex"></meta>
         <meta name="description" content={description} />
-        <meta property="og:url" content={`${url}${location.pathname}`} />
+        <meta property="og:url" content={fullUrl} />
         <meta property="og:site_name" content={title} />
         <meta property="og:type" content="article" />
         <meta property="og:description" content={description} />
