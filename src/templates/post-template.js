@@ -25,7 +25,7 @@ const PostTemplate = ({ data }: Props) => {
 
     <div>
       <Layout 
-        title={`${postTitle} - ${siteTitle}`} 
+        title={`${postTitle} | ${siteTitle}`} 
         description={metaDescription}
         fullUrl={`${url}posts/${frontmatter.slug}`}
         socialImage={socialImage}
