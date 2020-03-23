@@ -18,8 +18,6 @@ const PostTemplate = ({ data }: Props) => {
   const { frontmatter } = data.markdownRemark;
   const { title: postTitle, description: postDescription, socialImage } = frontmatter;
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
-  console.log(frontmatter);
-  console.log(useSiteMetadata())
 
   return (
 
