@@ -5,7 +5,7 @@ template: "post"
 verse: "Phillipians 1:1-22"
 pastor: ""
 series: ""
-draft: false
+draft: true
 slug: "joy-in-any-circumstance"
 category: "Christian Living"
 tags:
