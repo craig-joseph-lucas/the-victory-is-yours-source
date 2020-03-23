@@ -20,7 +20,7 @@ const Layout = ({
   children,
   title,
   description,
-  socialImage
+  socialImage,
 }: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
@@ -36,7 +36,10 @@ const Layout = ({
         <title>{title}</title>
         <meta name="robots" content="noindex"></meta>
         <meta name="description" content={description} />
+        <meta property="og:url" content={`${url}${location.pathname}`} />
         <meta property="og:site_name" content={title} />
+        <meta property="og:type" content="article" />
+        <meta property="og:description" content={description} />
         <meta property="og:image" content={metaImageUrl} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
