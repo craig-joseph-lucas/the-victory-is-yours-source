@@ -13,8 +13,12 @@ tags:
 
 
 description: "Hello guest! Welcome to my Site"
-socialImage: ""
+socialImage: "/media/romans1-16.png"
 ---
+
+<div class="post-image">
+  <img src="/media/romans1-16.png" />
+</div>
 
 Hello guest and welcome to my site. 
 My mission is simple. To spread the good news about Jesus Christ. It is our role as Christians and children of God. God has been putting it on my heart to use my technical skills to help further his kingdom. So I have gone and put together this site to proclaim the goodness of God. 
