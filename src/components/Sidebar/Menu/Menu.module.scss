@@ -8,6 +8,9 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;    
 
     &-item {
       display: inline-flex;
@@ -24,7 +27,7 @@
         justify-content: center;
         align-items: center;
         height: 45px;
-        width: 100px;
+        width: 145px;
         box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease 0s;
         cursor: pointer;
@@ -51,9 +54,6 @@
   @include breakpoint-md {
     &__list-item {
       display: block;
-      &-link{
-        width: 145px;
-      }
     }
   }
 
