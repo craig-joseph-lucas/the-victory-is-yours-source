@@ -34,7 +34,6 @@ const Layout = ({
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
-        <meta name="robots" content="noindex"></meta>
         <meta name="description" content={description} />
         <meta property="og:url" content={fullUrl} />
         <meta property="og:site_name" content={title} />
