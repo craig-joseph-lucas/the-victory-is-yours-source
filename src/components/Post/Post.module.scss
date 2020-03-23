@@ -35,6 +35,7 @@
     margin-left: auto;
     margin-right: auto;
     @include margin-top(1);
+    white-space: nowrap;
 
     &:hover,
     &:focus {
