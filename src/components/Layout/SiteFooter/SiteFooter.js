@@ -62,7 +62,7 @@ class SiteFooter extends React.Component {
           'site-footer__icon-links'
           ]}>
             <a 
-              href="https://twitter.com/JesusIsVictory1"
+              href="https://twitter.com/victoryIsJesus"
               className={styles['site-footer__icon-link']}
             >
               <Icon name="twitter" icon={getIcon("twitter")} />
