@@ -25,7 +25,6 @@ recommendVerses:
   - Revelation 3:20
 
 description: "The Corona Virus has caused many to fear. Some to question if the world is really falling apart. Do you feel this way? How do you respond?Some will turn to social media. Which, could cause you to panic. Some may turn to drugs. Some may turn to alcohol. Some may even consider suicide. What should we really do? Turn to God. He is your refuge and your strength!"
-socialImage: ""
 ---
 
 The Corona Virus has caused many to fear. Some to question if the world is really falling apart. Do you feel this way? How do you respond? Some will turn to social media. Which, could cause you to panic. Some may turn to drugs. Some may turn to alcohol. Some may even consider suicide. What should we really do? Turn to God. He is your refuge and your strength!

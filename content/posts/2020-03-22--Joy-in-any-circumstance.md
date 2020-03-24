@@ -19,7 +19,6 @@ recommendVerse:
   - "Romans 8:28"
 
 description: "Sometimes it may be hard to remain joyous under intense situations like what we are going through with the Corona Virus. However, it's important to remember that God is in control. This passage give us the blueprint on how to remain joyous"
-socialImage: ""
 ---
 
 Sometimes it may be hard to remain joyous under intense situations like what we are going through with the Corona Virus. However, it's important to remember that God is in control. The passage here in Philippians 1 give us the blueprint on how to remain joyous

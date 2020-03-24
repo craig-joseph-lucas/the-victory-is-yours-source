@@ -14,7 +14,6 @@ tags:
   - "Heaven"
 
 description: "Three years it has been! Three years I have been set free. Three years I am no longer a slave to sin. Three glorious years it has been. Three years I have been blessed by God's overflowing mercy and grace when He saved a sinner like me."
-socialImage: ""
 ---
 
 <div class="post-image post-image--inline-images">

@@ -17,7 +17,6 @@ tags:
   - "Victory"
   - "Devotional"
 description: "The passage of Matthew 4 is one of the greatest inspirational messages. It's a clear example of how we can overcome any trial in life."
-socialImage: ""
 ---
 
 

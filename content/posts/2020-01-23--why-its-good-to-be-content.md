@@ -19,7 +19,6 @@ recommendVerses:
 
 description: "Would you believe me if I told you that happiness is a choice? I strongly believe this is true and here is why"
 
-socialImage: ""
 ---
 
 Being happy is all about perspective. Yes you can choose happiness. Happiness is a choice.

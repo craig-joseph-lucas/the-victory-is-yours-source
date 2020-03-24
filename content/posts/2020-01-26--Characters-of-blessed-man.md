@@ -20,7 +20,6 @@ recommendVerses:
   - James 1:22-25
 
 description: "Psalm 1 is a great passage that shows the difference of a Godly walk vs a non Godly walk"
-socialImage: ""
 ---
 
 We need to be separate from the world but not isolated from the world. We should not walk in the counsel of the wicked.

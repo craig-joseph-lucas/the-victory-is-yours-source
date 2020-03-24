@@ -23,7 +23,6 @@ recommendVerses:
   - 1 Thessalonians 5:17-18
 
 description: "Trust is a hard thing to do for some people. When you worry you are not trusting God. God loves you and wants you to trust in him. Will you?"
-socialImage: ""
 ---
 
 Trust is hard thing to do for some people. When you worry you are not trusting God. God loves you and wants you to trust in him. Will you?
