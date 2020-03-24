@@ -2,6 +2,7 @@
 @import '../../assets/scss/mixins';
 
 .banner {
+  display: none;
   &__link {
     background-color: red;
   }
@@ -12,5 +13,8 @@
   }
   @media print {
     display: none;
+  }
+  @include breakpoint-md {
+    display: block;
   }
 }

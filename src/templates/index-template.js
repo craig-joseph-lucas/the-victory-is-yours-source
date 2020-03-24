@@ -33,6 +33,13 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page>
+      <h1 className="devotionals__title">
+        Latest Devotionals
+        <img
+          className="devotionals__title-img"
+          src="/media/black-and-white-bible.svg" 
+        />
+      </h1>
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}

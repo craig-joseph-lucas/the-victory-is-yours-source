@@ -2,20 +2,7 @@
 @import '../../assets/scss/mixins';
 
 .feed {
-  &__title {
-    @include margin-top(2);
-    @include margin-bottom(3);
-    color: red;
-    font-family: stencil-std, sans-serif;
-  }
 
-  &__title-img {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 20px;
-  }
   &__item {
     @include margin-bottom(3);
 
