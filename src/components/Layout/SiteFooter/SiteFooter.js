@@ -104,7 +104,7 @@ class SiteFooter extends React.Component {
         <footer className={styles['site-footer']}>
           { this.renderLogo(title) }
           { this.renderLinks() }
-          <p className={styles['site-footer__copyright']}>© 2020. All rights reserverd</p>
+          <p className={styles['site-footer__copyright']}>© 2020. All rights reserverd.  </p>
         </footer>
       )
     }

@@ -51,7 +51,11 @@ module.exports = {
     {
       label: 'Privacy Policy',
       path: '/pages/privacy-policy'
-    }
+    },
+    {
+      label: 'Copyright',
+      path: '/pages/copyright'
+    }    
   ],
   author: {
     name: 'Victory in Jesus Christ',
