@@ -28,13 +28,13 @@ Phillipians 1 we know was written by Paul while he was in prison (Philippians 1:
 
 ## Three things that Paul was thankful for in spite of his circumstances
   
-  ### Fellowship in the Gospel
+  ### 1. Fellowship in the Gospel
    Despite what is going on we have fellowship with others. We may be limited to our homes right now but we have many means to stay in fellowship with others via social media. It's times like this were we should be eager to fellowship more. 
 
-  ### Opportunities to spread the Gospel 
-  His current circumstances gave opportunity to further the spread of the gospel even more. Paul was placed in jail, shipwrecked and even bit by a snake. Paul didn't let that stop him from his goal of having Christ preached. Instead of being overwhelmed by his trials he used it as platform to further the gospel. Paul had the mindset that no matter what happens in life He was still going to preach Christ. So yes Paul was able to rejoice even in extreme circumstances and so can we if keep that mindset. 
+  ### 2. Opportunities to spread the Gospel 
+  His current circumstances gave opportunity to further the spread of the gospel even more. Paul was placed in jail, shipwrecked and even bit by a snake. Paul didn't let that stop him from his goal of having Christ preached. Instead of being overwhelmed by his trials he used it as platform to further the gospel. Paul had the mindset that no matter what happens in life He was still going to preach Christ. So yes Paul was able to rejoice even in extreme circumstances and so can we if keep that mindset!
 
-  ### Christ will be magnified through Him
+  ### 3. Christ will be magnified through Him
   We want Christ to be magnified in all we do. When we rejoice, which is the theme of the book Phillipians, under any circumstance like Paul did we allow others to see Christ through us. This should motivate us to remain joyous and to bear fruit so we can be good witnesses to all. We are here for a purpose and we should keep that in mind in these hard times. 
 
 
