@@ -25,6 +25,3 @@ Since coming to Christ all things have changed. I have become a new creation in 
 I know with Jesus anything is possible. I no longer have to worry. Jesus said do not let your heart be troubled. You believe in God believe in me.
 
 I want as many people possible to believe in Jesus as well. This is why I have created this site to tell others about the great news of Jesus Christ. That you too can have victory if you put your trust in Jesus Christ. 
-
-I have said these things to you, that in me you may have peace. In the world you will have tribulation. But take heart; I have overcome the world."
-
