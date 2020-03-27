@@ -4,17 +4,16 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-Hello my name is Craig Lucas. I am a child of God and your brother in Christ.
-I am 37 years old and live in Murrieta, CA. I have an amazing wife and two beautiful Children(see pics below).
-They are true gifts of God. My oldest son's name is Riley and he is 5 years old. While my daughter is three who is named Avery.
+Hello my name is Craig. I am a child of God and your brother in Christ.
+I am 37 years old and have an amazing wife and two beautiful Children(see pics below).
+They are true gifts of God. My son is 5 years old. While my daughter is three.
 
 <div class="post-image post-image--inline-images">
   <img src="/media/family-christmas.jpg" alt="Water Baptism" />
   <img src="/media/in-hawaii.jpg" />
 </div>
 
-I currently work for Everyday Health as a Web Developer. I have been there for 10 years and I work remotely. 
-Which, has been a true blessing for me. As I have been able to spend the days with my children.
+I currently work as a Web Developer, where I have been building websites for a living. I have been in the field for over 15 years and I work remotely. Which, has been a true blessing for me. As I have been able to spend the days with my children.
 God is so great in giving me that opportunity. 
 
 I attend Revival Christian Fellowship in Menifee, CA and have been going there for 4 years. It was not till recently that I came to know Jesus Christ as my personal Savior and Lord. God truly has saved my life. He has been with me my entire life but it wasn't till three years ago when I made that great decision. To repent and declare Jesus as Lord. 
