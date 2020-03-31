@@ -4,7 +4,7 @@ import styles from '../Verse/Verse.module.scss';
 
 const ESV_TEXT_ONLY = {
   'include-passage-references': false,
-  'include-verse-numbers': false,
+  'include-verse-numbers': true,
   'include-first-verse-numbers': false,
   'include-footnotes': false,
   'include-footnote-body': false,

@@ -9,7 +9,7 @@ const reflaggerSettings = {
     heading: {
       fontFamily : "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
       fontSize : "14px",
-      color: 'red'
+      color: '#FF0000'
     },
     body: {
       fontSize : "20px"
