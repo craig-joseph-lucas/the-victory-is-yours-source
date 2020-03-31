@@ -22,7 +22,7 @@ recommendVerse:
   - "Luke 22:27"
   - "Matthew 25:23"
   - "1 Peter 5:6"
-socialImage: "/media/humbleyourself.jpg"
+socialImage: "/media/humbleyourself.jpg?v2"
 
 description: "Joy is not dependent on outward things. 
 Joy comes from inward things when you have rest in your soul.
