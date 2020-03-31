@@ -5,6 +5,7 @@
   "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
+    "debug": "node --nolazy --inspect-brk node_modules/gatsby/dist/bin/gatsby develop",
     "build": "yarn run clean && gatsby build",
     "deploy": "yarn run clean && gatsby build --prefix-paths",
     "deploy:github": "yarn run deploy && node ./scripts/deploy-github",
@@ -75,6 +76,7 @@
     "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1",
     "react-lines-ellipsis": "^0.14.1",
+    "react-select": "^3.1.0",
     "react-share": "^4.0.1",
     "react-slick": "^0.25.2"
   },
