@@ -15,10 +15,8 @@ tags:
   - "Grace"
   - "Trust"
   - "Heaven"
-recommendVerse: 
-  - "Romans 3:23"
 
-socialImage: "/media/humbleyourself.jpg?v2"
+socialImage: "/media/posts/do-not-be-troubled.jpg"
 
 description: "There is so much grief going on with the world right now due to COVID 19.You may feel totally helpless. It is normal to have these feelings.
 As we can't do anything on our own about it. We need God. God is our refuge and strength.So remember that and don't let your heart be troubled.
