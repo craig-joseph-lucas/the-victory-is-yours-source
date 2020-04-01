@@ -57,6 +57,13 @@
       max-width: 100%;
     }
 
+    & blockquote {
+      color: #333;
+      padding: 20px 0;
+      font-size: 14px;
+      font-style: italic;
+      text-align: left;
+    }
   }
 
 }
