@@ -7,6 +7,7 @@ module.exports = {
   pathPrefix: siteConfig.pathPrefix,
   siteMetadata: {
     url: siteConfig.url,
+    siteUrl: siteConfig.url,
     title: siteConfig.title,
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
@@ -16,6 +17,9 @@ module.exports = {
     facebookAppId: siteConfig.facebookAppId
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-sitemap`,
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
