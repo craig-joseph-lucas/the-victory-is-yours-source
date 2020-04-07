@@ -15,6 +15,7 @@ tags:
   - "Grace"
   - "Trust"
   - "Heaven"
+  - "John"
 
 socialImage: "/media/posts/do-not-be-troubled.jpg"
 

@@ -14,6 +14,7 @@ tags:
   - "Peace"
   - "Grace"
   - "Trust"
+  - "Phillipians"
 recommendVerse: 
   - "Romans 3:23"
   - "Ephesians 2:8"
