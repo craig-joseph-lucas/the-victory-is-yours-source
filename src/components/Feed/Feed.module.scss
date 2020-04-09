@@ -13,10 +13,10 @@
     &-title {
       font-size: $typographic-base-font-size * 1.6875;
       font-family: open-sans, sans-serif;
-
-      @include line-height(1.5);
+      @include line-height(1.2);
       @include margin-top(0);
-      @include margin-bottom(.5);
+      @include margin-bottom(0.5);
+      padding-right: 15px;
 
       &-link {
         color: $color-base;
@@ -41,8 +41,8 @@
     &-meta {
       &-time {
         font-size: 11px;
-        color: $color-gray;
-        font-weight: 600;
+        color: #000;
+        font-weight: normal;
         text-transform: uppercase;
       }
 

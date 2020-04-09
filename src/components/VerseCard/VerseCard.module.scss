@@ -1,35 +1,37 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
-.verse{
+.verse-card {
   @include margin-top(1);
   @include margin-bottom(1);
   margin-left: 0;
   margin-right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.08), 0 5px 15px 0 rgba(0,0,0,.05);
+  box-sizing: border-box;
 
   &__passage{
-    font-size: 12px;
-    line-height: 14px;
-    font-family: open-sans, sans-serif;
+    font-family: stencil-std, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     margin-left: 0;
-    font-style: normal;
     margin-right: 0;
     text-align: justify;
     padding: 1rem 1.5rem; 
+  }
 
-    &-text{
-      display: block;
-      @include margin-top(.25);
-      font-family: stencil-std, sans-serif;
-      font-size: 20px;
-      font-weight: bold;
-    }
+  &__content{
+    display: block;
+    @include margin-top(.25);
+    @include margin-bottom(.25);
+    padding: 0 15px;
     p {
+      color: #333;
       font-size: 15px;
+      padding-bottom: 20px;
       line-height: 19px;
       text-align: justify;
-      margin-bottom: 15px;
-    }
+    }  
   }
 
   @include breakpoint-md {
@@ -39,8 +41,7 @@
     &__passage {
       font-size: 20px;
       line-height: 24px;
-      padding: 10px 1.5rem 5px;
-      border-left:5px dashed #ddd;
+      padding: 1rem 1.5rem;
     }
   }
 }

@@ -16,5 +16,8 @@
   }
   @include breakpoint-md {
     display: block;
+    img {
+      max-width: 100%;
+    }
   }
 }

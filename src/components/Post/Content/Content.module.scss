@@ -22,25 +22,43 @@
   }
 
   &__body {
+    & h2 {
+      @include margin-bottom(1.5); 
+      font-size: 34px;    
+    }
+
+    & ul {
+      list-style-type:disc;
+      list-style-position: outside;
+    }
+
+    & ul li {
+      @include margin-bottom(1);
+    }
+
     & figure {
       @include margin-bottom(1);
+    }
 
-      & blockquote {
-        font-style: italic;
-        text-align: center;
-        margin-top: 0;
-        @include padding(1, 0);
-
-        & p {
-          max-width: $layout-post-width;
-          font-size: $typographic-base-font-size * 1.6817;
-          margin-top: 0;
-          @include margin-bottom(1);
-          @include line-height(1.5)
-        }
-
+    & blockquote {
+      border-left:5px dashed #ddd;
+      padding: 0.5em 30px;
+      @include margin-top(1.5);
+      @include margin-bottom(1.5);
+      text-align: left;
+      font-size: 16px;
+      strong {
+        text-decoration: underline;
+        text-transform: uppercase;
       }
-
+      p {
+        font-size: 20px;
+        font-style: italic;
+        letter-spacing: 1.5px;
+        padding: 0 25px;
+        color: #333;
+        line-height: 24px;
+      }
     }
 
     & a {
@@ -57,13 +75,6 @@
       max-width: 100%;
     }
 
-    & blockquote {
-      color: #333;
-      padding: 20px 0;
-      font-size: 14px;
-      font-style: italic;
-      text-align: left;
-    }
   }
 
 }
