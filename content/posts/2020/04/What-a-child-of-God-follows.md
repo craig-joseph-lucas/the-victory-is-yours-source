@@ -22,7 +22,7 @@ recommendVerses:
   - "John 13:1-17"
   - "Romans 5:1-5"
 
-socialImage: ""
+socialImage: "/media/posts/child-of-god.jpg"
 
 description: "A man of God should be known for what they do and not what they don't do anymore."
 
