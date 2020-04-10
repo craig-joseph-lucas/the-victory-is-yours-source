@@ -16,10 +16,11 @@ tags:
   - "Steadfastness"
   - "Gentleness"
   - "1 Timothy"
-recommendVerse: 
-  - "1 Peter 2:24"
-  - "1 John 2:29"
-  - "John 13"
+recommendVerses: 
+  - "Matthew 6:33"
+  - "Matthew 14:22-33"
+  - "John 13:1-17"
+  - "Romans 5:1-5"
 
 socialImage: ""
 
@@ -69,8 +70,9 @@ Your brother in Christ,
 <blockquote>
 <strong>Prayer</strong>
 
-Lord we thank you for this amazing scripture. Help us to be like Paul and remember that you are with us through any trial in life. Help us to be humble and turn to you. Help us to acknowledge that it is your will we want done in our lifes and not us. You want to use us and we can make that happen by believing in Christ and always turning to you in prayer. In the mighty powerful name of Jesus. 
+Heavenly father we want to thank you that you have given us the opportunity to be children of God. We have this thanks to Jesus! Jesus payed the ultimate sacrifice for us when He died on the cross for us. Jesus paid a debt He didn't owe and we are forever grateful for the work of the cross. We know you saved us for a reason and that reason is for us to do good works, to spread your gospel and be the salt and light for the world. Lord help to encourage us day by day to walk in the spirit in all we do. Our prayer is for your Holy Spirit to pour into us and your word to pour out of us. 
 
+In the mighty powerful wonderful name of Jesus.
 Amen!
 
 </blockquote>

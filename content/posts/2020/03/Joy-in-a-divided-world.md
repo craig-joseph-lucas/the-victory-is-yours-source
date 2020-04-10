@@ -15,7 +15,7 @@ tags:
   - "Grace"
   - "Trust"
   - "Phillipians"
-recommendVerse: 
+recommendVerses: 
   - "Romans 3:23"
   - "Ephesians 2:8"
   - "Mark 10:45"

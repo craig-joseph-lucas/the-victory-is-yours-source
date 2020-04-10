@@ -15,7 +15,7 @@ tags:
   - "Trials"
   - "Suffering"
   - "2 Corinthians"
-recommendVerse: 
+recommendVerses: 
   - "Ephesians 2:18"
   - "James 1:5"
   - "2 Chronicles 7:14"

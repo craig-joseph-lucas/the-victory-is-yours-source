@@ -14,7 +14,7 @@ tags:
   - "Peace"
   - "Grace"
   - "Trust"
-recommendVerse: 
+recommendVerses: 
   - "1 Timothy 3"
   - "Romans 8:28"
 socialImage: "/media/be-still-cross.jpg"
