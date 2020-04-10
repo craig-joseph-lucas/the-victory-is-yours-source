@@ -6,7 +6,7 @@ verse: "John 3:16"
 pastor: ""
 series: ""
 draft: false
-slug: "three-years-in-christ"
+slug: "2020/03/three-years-in-christ"
 category: "Christian Living"
 tags:
   - "Salvation"

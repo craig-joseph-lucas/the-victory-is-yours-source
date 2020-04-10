@@ -6,7 +6,7 @@ verse: "Romans 1:16"
 pastor: ""
 series: ""
 draft: false
-slug: "welcome-to-my-site"
+slug: "2020/03/welcome-to-my-site"
 category: "Christian Living"
 tags:
   - "Devotionals"

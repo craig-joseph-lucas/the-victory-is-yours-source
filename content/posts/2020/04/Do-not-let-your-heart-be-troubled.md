@@ -6,7 +6,7 @@ verse: "John 14:1-6"
 pastor: ""
 series: ""
 draft: false
-slug: "do-not-let-your-heart-be-troubled"
+slug: "2020/04/do-not-let-your-heart-be-troubled"
 category: "Christian Living"
 tags:
   - "Worry"

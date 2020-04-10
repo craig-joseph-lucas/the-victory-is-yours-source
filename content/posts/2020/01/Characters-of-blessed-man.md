@@ -6,7 +6,7 @@ verse: "Psalm 1"
 pastor: ""
 series: ""
 draft: false
-slug: "the-godly-walk"
+slug: "2020/01/the-godly-walk"
 category: "Christian Living"
 tags:
   - "Blessed"

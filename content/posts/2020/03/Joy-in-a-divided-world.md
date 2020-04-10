@@ -6,7 +6,7 @@ verse: "Phillipians 2:1-16"
 pastor: ""
 series: ""
 draft: false
-slug: "joy-in-a-divided-world"
+slug: "2020/03/joy-in-a-divided-world"
 category: "Christian Living"
 tags:
   - "Joy"

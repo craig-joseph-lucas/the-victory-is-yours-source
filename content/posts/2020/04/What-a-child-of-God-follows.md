@@ -6,7 +6,7 @@ verse: "1 Timothy 6:11"
 pastor: ""
 series: ""
 draft: false
-slug: "What-a-child-of-God-follows"
+slug: "2020/04/What-a-child-of-God-follows"
 category: "Christian Living"
 tags:
   - "Righteousness"

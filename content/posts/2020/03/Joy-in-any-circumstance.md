@@ -6,7 +6,7 @@ verse: "Phillipians 1:1-30"
 pastor: ""
 series: ""
 draft: false
-slug: "joy-in-any-circumstance"
+slug: "2020/03/joy-in-any-circumstance"
 category: "Christian Living"
 tags:
   - "Joy"

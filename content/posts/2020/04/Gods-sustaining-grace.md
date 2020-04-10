@@ -6,7 +6,7 @@ verse: "2 Corinthians 12:1-10"
 pastor: ""
 series: ""
 draft: false
-slug: "Gods-sustaining-grace"
+slug: "2020/04/Gods-sustaining-grace"
 category: "Christian Living"
 tags:
   - "Peace"

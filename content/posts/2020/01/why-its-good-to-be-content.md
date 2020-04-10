@@ -6,7 +6,7 @@ verse: "1 Corinthians 4:7-8"
 pastor: ""
 series: ""
 draft: false
-slug: "happiness-is-a-choice"
+slug: "2020/01/happiness-is-a-choice"
 category: "Christian Living"
 tags:
   - "1 Corinthians"

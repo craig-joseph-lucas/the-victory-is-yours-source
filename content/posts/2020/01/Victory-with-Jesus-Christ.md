@@ -6,7 +6,7 @@ verse: "Matthew 4:1-11"
 pastor: "Ron Hindt"
 series: ""
 draft: false
-slug: "we-can-have-victory-with-christ"
+slug: "2020/01/we-can-have-victory-with-christ"
 category: "Spiritual Warfare"
 tags:
   - "Sermon Notes"
