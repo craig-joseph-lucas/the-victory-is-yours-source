@@ -20,8 +20,7 @@ const Layout = ({
   children,
   title,
   description,
-  socialImage,
-  fullUrl
+  socialImage
 }: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
@@ -35,7 +34,7 @@ const Layout = ({
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-        <meta property="og:url" content={fullUrl} />
+        <meta property="og:url" content={`${url.replace(/\/$/, "")}${location.pathname}`} />
         <meta property="og:site_name" content={title} />
         <meta property="og:type" content="article" />
         <meta property="og:description" content={description} />

@@ -6,7 +6,7 @@ verse: "Proverbs 3:5-6"
 pastor: ""
 series: ""
 draft: false
-slug: "2020/01/trusting-god-and-not-worrying"
+slug: "trusting-god-and-not-worrying"
 category: "Christian Living"
 tags:
   - "Faith"

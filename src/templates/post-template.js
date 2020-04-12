@@ -18,14 +18,12 @@ const PostTemplate = ({ data }: Props) => {
   const { frontmatter } = data.markdownRemark;
   const { title: postTitle, description: postDescription, socialImage } = frontmatter;
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
-
   return (
 
     <div>
       <Layout 
         title={`${postTitle} | ${siteTitle}`} 
         description={metaDescription}
-        fullUrl={`${url}posts/${frontmatter.slug}`}
         socialImage={socialImage}
       >
         <Post post={data.markdownRemark} />

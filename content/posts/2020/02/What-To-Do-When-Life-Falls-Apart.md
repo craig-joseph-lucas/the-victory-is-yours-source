@@ -6,7 +6,7 @@ verse: "Psalm 46"
 pastor: ""
 series: ""
 draft: false
-slug: "2020/02/what-to-do-when-life-falls-apart"
+slug: "what-to-do-when-life-falls-apart"
 category: "Christian Living"
 tags:
   - "Refuge"
