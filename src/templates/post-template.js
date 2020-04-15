@@ -5,6 +5,8 @@ import Layout from '../components/Layout';
 import Post from '../components/Post';
 import Verse from '../components/Verse';
 import { useSiteMetadata } from '../hooks';
+import getOgUrl from '../utils/get-og-url';
+
 import type { MarkdownRemark } from '../types';
 
 type Props = {
@@ -13,16 +15,18 @@ type Props = {
   }
 };
 
-const PostTemplate = ({ data }: Props) => {
+const PostTemplate = ({ data, location }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle, url } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
+  const ogUrl = getOgUrl(url, location.pathname);
   const { title: postTitle, description: postDescription, socialImage } = frontmatter;
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
   return (
 
     <div>
       <Layout 
-        title={`${postTitle} | ${siteTitle}`} 
+        title={`${postTitle} | ${siteTitle}`}
+        ogUrl={ogUrl}
         description={metaDescription}
         socialImage={socialImage}
       >

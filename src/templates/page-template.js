@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
 import { useSiteMetadata } from '../hooks';
+import getOgUrl from '../utils/get-og-url';
 import type { MarkdownRemark } from '../types';
 
 type Props = {
@@ -13,15 +14,21 @@ type Props = {
   }
 };
 
-const PageTemplate = ({ data }: Props) => {
-  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
+const PageTemplate = ({ data, location }: Props) => {
+  const { title: siteTitle, subtitle: siteSubtitle, url } = useSiteMetadata();
+  const ogUrl = getOgUrl(url, location.pathname);
   const { html: pageBody } = data.markdownRemark;
   const { frontmatter } = data.markdownRemark;
   const { title: pageTitle, description: pageDescription, socialImage } = frontmatter;
   const metaDescription = pageDescription !== null ? pageDescription : siteSubtitle;
 
   return (
-    <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
+    <Layout 
+      title={`${pageTitle} - ${siteTitle}`} 
+      description={metaDescription} 
+      socialImage={socialImage}
+      ogUrl={ogUrl}
+    >
       <Sidebar />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
@@ -41,7 +48,8 @@ export const query = graphql`
         description
         socialImage,
         verse,
-        recommendVerses
+        recommendVerses,
+        slug
       }
     }
   }

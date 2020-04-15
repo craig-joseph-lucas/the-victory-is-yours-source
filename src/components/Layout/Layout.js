@@ -20,21 +20,20 @@ const Layout = ({
   children,
   title,
   description,
-  socialImage
+  socialImage,
+  ogUrl
 }: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
   return (
-    
-
     <div>
       <div className={styles.layout}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-        <meta property="og:url" content={`${url.replace(/\/$/, "")}${location.pathname}`} />
+        <meta property="og:url" content={`${url}${ogUrl}`} />
         <meta property="og:site_name" content={title} />
         <meta property="og:type" content="article" />
         <meta property="og:description" content={description} />
