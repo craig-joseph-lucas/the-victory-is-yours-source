@@ -33,7 +33,7 @@ const Layout = ({
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-        <meta property="og:url" content={`${url}${ogUrl}`} />
+        <meta property="og:url" content={ogUrl} />
         <meta property="og:site_name" content={title} />
         <meta property="og:type" content="article" />
         <meta property="og:description" content={description} />
