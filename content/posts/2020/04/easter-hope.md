@@ -23,7 +23,7 @@ tags:
   - "Matthew"
   - "Victory"
 
-socialImage: "/media/posts/do-not-be-troubled.jpg"
+socialImage: "/media/posts/he-is-risen-easter.jpeg"
 
 description: "He has risen! He has risen indeed! Those words bring so much joy to a christians heart. When jesus ressurected from the dead He brought so much hope to the world. "
 ---
