@@ -25,6 +25,7 @@
             &:hover,
             &:focus {
               color: $color-base;
+              text-decoration: none;
             }
         }
         &:before,
@@ -53,7 +54,7 @@
     &__jesus-name {
         display: block;
         font-family: stencil-std, sans-serif;    
-        color: red;
+        color: $color-primary;
         font-size: 40px;
     }
     &__text-link {

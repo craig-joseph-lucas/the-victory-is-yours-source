@@ -18,7 +18,7 @@
     @include margin(.25, 0, .1, 0);
 
     &-link {
-      color: red;
+      color: $color-primary;
       font-family: stencil-std, sans-serif;    
 
       &:hover,

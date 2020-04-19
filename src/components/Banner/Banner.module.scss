@@ -4,7 +4,7 @@
 .banner {
   display: none;
   &__link {
-    background-color: red;
+    background-color: $color-primary;
   }
   &__img {
     max-width: 200px;
