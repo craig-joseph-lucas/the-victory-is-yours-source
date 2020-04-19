@@ -42,7 +42,7 @@ A child of God should be known for what they do and not what they don't do anymo
 
 </blockquote>
 
-  - **They should purse Godliness** - What does this look like? It means you should have a genuine blameless character. A person that is the same person whether they are in public or private. A person that would do the right thing even when nobody is looking. You are simply seeking God. You can't pursuse Godliness without pursuing the Holy Spirit. In verse 6 we are told Godliness with contentment should be our goal. The Lord is all we need!
+  - **They should purse Godliness** - What does this look like? It means you should have a genuine blameless character. A person that is the same person whether they are in public or private. A person that would do the right thing even when nobody is looking. You are simply seeking God. You can't pursuse Godliness without pursuing the Holy Spirit. In verse 6(1 Timothy 6:6) we are told Godliness with contentment should be our goal. The Lord is all we need!
 
   - **They should pursue faith** - What does this look like? It starts with having a saving faith. This is the faith you have when you accept Jesus Christ as your savior. Saving faith only take a little faith. It's the sustaining faith you need. This is the faith you have in God when you are going through major trials in your life. This is the kind of faith Peter had when he stepped out of the boat and walked on the water to Jesus (Matthew 14:22-33). 
 
