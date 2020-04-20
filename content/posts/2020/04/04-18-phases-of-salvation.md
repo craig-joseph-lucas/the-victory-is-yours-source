@@ -76,19 +76,19 @@ Isn't it great that God wants to help us to be more like Christ. Christ is our s
 
 This is the final phase of our salvation. This is when we will go to heaven one day when we will really get to know Christ. How will we get to know Christ? We will get to know Christ because our body will become like Christ. This is when we will recieve our glorified body. See 1 Corinthians 15:53-55.
 
-Those are the three stages of salvation. Isn't salvation such a great gift. Not only is it great but it's free. A pouring out of God's heart and the love He has for us. That he gave His only begotten son. So we can be saved! So we can be set free from the penalty of sin. All God asks is that we believe in His beloved Son. Jesus is the way, the truth and the life. No one comes to the father except through Christ. Do you know Jesus? Do you really know him and have a personal relationship with Him? If not now is the time. The time to get right with Christ. To get free from sin. To become a new creation in Christ. 
+Those are the three stages of salvation. Isn't salvation such a great gift. Not only is it great but it's free. A pouring out of God's heart and the love He has for us. That he gave His only begotten son. So we can be saved! So we can be set free from the penalty of sin. All God asks is that we believe in His beloved Son. 
 
-The bible says if you hear me knocking its time to let me into your heart. Now is the time of acceptance. 
+Jesus is the way, the truth and the life. No one comes to the father except through Christ. Do you know Jesus? Do you really know him and have a personal relationship with Him? If not now is the time. The time to get right with Christ. To get free from sin. To become a new creation in Christ. 
+
+The bible says if you hear Jesus knocking its time to let Him into your heart. Now is the time of acceptance. 
 
 If you are ready to make that leap of faith. I am very happy for you. That decision will change your life drastically for the good. Now repeat after me. 
 
-Jesus I know I am a sinner and there is only one way to be forgiven for my sins. It is to put my faith and trust in you. I believe you were born of the virgin Mary and lived a sinless life for me. That you took my place and died on the cross for my sin. I belive that you ressurected from the dead three days later and that you are exhalted and seated at the right hand of the Father. I want to turn away from my sin and follow you. Please come into my heart and be my Lord. In Jesus Holy name I pray.
-
-Amen!
-
 <blockquote>
 
+Jesus I know I am a sinner and there is only one way to be forgiven for my sins. It is to put my faith and trust in you. I believe you were born of the virgin Mary and lived a sinless life. That you took my place and died on the cross for my sin. I belive that you ressurected from the dead three days later and that you are exhalted and seated at the right hand of the Father. I want to turn away from my sin and follow you. Please come into my heart and be my Lord. In Jesus Holy name I pray.
 
+Amen!
 
 </blockquote>
  
