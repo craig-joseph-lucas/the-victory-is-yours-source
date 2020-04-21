@@ -4,18 +4,18 @@
 .content {
   max-width: $layout-post-single-width;
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 130px auto 0;
 
   &__title {
     font-size: $typographic-base-font-size * 1.75;
     line-height: $typographic-base-font-size * 2;
-    font-family: stencil-std, sans-serif;    
+    font-family: droid-sans, sans-serif;
     margin-left: auto;
     margin-right: auto;
-    color: $color-primary;
+    color: #000;
+    letter-spacing: 2px;
     font-weight: 600;
     padding: 0 20px;
-    text-align: center;
     @include line-height(1.65);
     @include margin-top(1);
     @include margin-bottom(0)
@@ -84,7 +84,8 @@
     padding: 0;
 
     &__title {
-      font-size: $typographic-base-font-size * 2.75;
+      font-size: $typographic-base-font-size * 2.95;
+      text-transform: capitalize;
       padding: 0;
       @include line-height(2.25);
       @include margin-top(1);

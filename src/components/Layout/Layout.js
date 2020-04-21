@@ -5,6 +5,7 @@ import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import BibleReflagger from '../BibleReflagger';
 import Verse from '../Verse';
+import SiteNav from './SiteNav';
 import SiteFooter from './SiteFooter';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
@@ -13,15 +14,21 @@ type Props = {
   children: ReactNode,
   title: string,
   description?: string,
-  socialImage? :string
+  socialImage? :string,
+  hideNav?: boolean
 };
+
+type DefaultProps = {
+  hideNav: false
+}
 
 const Layout = ({
   children,
   title,
   description,
   socialImage,
-  ogUrl
+  ogUrl,
+  hideNav
 }: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
@@ -45,7 +52,8 @@ const Layout = ({
         <script src="//use.edgefonts.net/stencil-std;open-sans;droid-sans.js"></script>
       
       </Helmet>
-      {children}
+  { !hideNav && <SiteNav /> }
+       {children}
       <BibleReflagger />
       </div>
       <SiteFooter 

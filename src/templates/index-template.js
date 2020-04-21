@@ -30,7 +30,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
+    <Layout hideNav={true} title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page>
       <h1 className="devotionals__title">

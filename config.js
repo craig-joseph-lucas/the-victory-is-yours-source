@@ -13,14 +13,17 @@ module.exports = {
   facebookAppId: '161617535284597',
   menu: [
     {
+      id: 'about-me',
       label: 'About me',
       path: '/pages/about/'
     },
     {
+      id: 'my-mission',
       label: 'My Mission',
       path: '/pages/my-mission'
     },      
     {
+      id: 'devotionals',
       label: 'Devotionals',
       path: '/'
     },
