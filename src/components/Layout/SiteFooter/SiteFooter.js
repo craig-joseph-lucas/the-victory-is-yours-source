@@ -2,9 +2,8 @@
 import React from 'react';
 import styles from './SiteFooter.module.scss';
 import type { Node } from '../../../types';
+import SocialLinks from '../SocialLinks';
 import { Link } from 'gatsby';
-import Icon from '../../Icon';
-import { getIcon } from '../../../utils';
 import Verse from '../../Verse';
 import {
   EmailShareButton,
@@ -56,41 +55,13 @@ class SiteFooter extends React.Component {
       );
     }
   
-    renderIconLinks(link) {
-      return (
-        <div className={styles[
-          'site-footer__icon-links'
-          ]}>
-            <a 
-              href="https://twitter.com/victoryIsJesus"
-              className={styles['site-footer__icon-link']}
-            >
-              <Icon name="twitter" icon={getIcon("twitter")} />
-            </a>
-            <a 
-              href="https://www.facebook.com/victorywithjesuschrist"
-              className={styles['site-footer__icon-link']}
-            >
-              <Icon name="facebook" icon={getIcon("facebook")} />
-            </a>
-            <a 
-              href="mailto:wecanhavevictoryinjesus@gmail.com?subject=Mail from our site"
-              className={styles['site-footer__icon-link']}
-            >
-              <Icon name="email" icon={getIcon("email")} />
-            </a>                        
-        </div>
-      );
-    }
-
     renderLinks() {
       return (
         <div className={styles['site-footer__row']}>
           <div className={styles['site-footer__column']}>
             { siteFooterLinksLeft.map((link) => this.renderTextLink(link) )}
           </div>
-          { this.renderIconLinks() }              
-
+          <SocialLinks />        
           <div className={styles['site-footer__column']}>
             { siteFooterLinksRight.map((link) => this.renderTextLink(link) )}
           </div>

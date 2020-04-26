@@ -14,27 +14,27 @@ module.exports = {
   menu: [
     {
       id: 'about-me',
-      label: 'About me',
+      label: 'About',
       path: '/pages/about/'
     },
     {
       id: 'my-mission',
-      label: 'My Mission',
+      label: 'Mission',
       path: '/pages/my-mission'
     },      
     {
-      id: 'devotionals',
-      label: 'Devotionals',
-      path: '/'
+      label: 'Beliefs',
+      path: '/pages/my-beliefs/'
     },
     {
-      label: 'My Beliefs',
-      path: '/pages/my-beliefs/'
-    }  
+      id: 'devotionals',
+      label: 'All Devotionals',
+      path: '/'
+    }
   ],
   siteFooterLinksLeft: [
     {
-      label: 'About Me',
+      label: 'About',
       path: '/pages/about/'
     },
     {
@@ -42,13 +42,13 @@ module.exports = {
       path: '/'
     },    
     {
-      label: 'My Beliefs',
+      label: 'Beliefs',
       path: '/pages/my-beliefs/'
     }
   ],
   siteFooterLinksRight: [
     {
-      label: 'My Mission',
+      label: 'Mission',
       path: '/pages/my-mission'
     },   
     {

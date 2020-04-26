@@ -3,6 +3,8 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
+import { useMediaQuery } from 'react-responsive';
+
 import Page from '../components/Page';
 import { useSiteMetadata } from '../hooks';
 import getOgUrl from '../utils/get-og-url';
@@ -21,15 +23,19 @@ const PageTemplate = ({ data, location }: Props) => {
   const { frontmatter } = data.markdownRemark;
   const { title: pageTitle, description: pageDescription, socialImage } = frontmatter;
   const metaDescription = pageDescription !== null ? pageDescription : siteSubtitle;
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  });
 
   return (
-    <Layout 
+    <Layout
+      hideNav={isDesktopOrLaptop}
       title={`${pageTitle} - ${siteTitle}`} 
       description={metaDescription} 
       socialImage={socialImage}
       ogUrl={ogUrl}
     >
-      <Sidebar />
+      { isDesktopOrLaptop && <Sidebar /> }
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>

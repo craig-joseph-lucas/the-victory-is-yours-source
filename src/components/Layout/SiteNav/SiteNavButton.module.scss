@@ -1,0 +1,170 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.site-nav {
+  $tablet-big: "screen and (min-width: 1280px) and (max-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) ";
+  &-button {
+    $self: &;
+    border: 0;
+    outline: none;
+    background: none;
+    line-height: normal;
+    padding: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0;
+    text-decoration: none;
+    //color: color($ui-colors,'onyx');
+    //font-family: fontFamily('default');
+    transition: color .2s ease-out;
+
+    @media (hover: hover) {
+      &:hover {
+        //color: color($button-colors);
+        text-decoration: none;
+      }
+    }
+
+    @include breakpoint-md {
+      font-size: 13px;
+    }
+
+    &__icon {
+      display: inline-flex;
+      width: 25px;
+      justify-content: center;
+      align-items: center;
+      margin: 0 9px 0 -2px;
+      //color: color($ui-colors,'manatee');
+      transition: color .2s ease-out;
+
+      svg {
+        margin: 0 auto;
+        display: block;
+      }
+
+      #{$self}__menu {
+        top: -5px;
+        position: relative;
+        height: 2px;
+        width: 20px;
+        background-color: #999;
+        transform: rotate(0deg);
+        transition: .2s ease-in-out;
+        margin: 50px auto;
+        cursor: pointer;
+
+        &:before,&:after {
+          position: absolute;
+          content: '';
+          left: 0;
+          width: 20px;
+          height: 2px;
+          background-color: #999;
+          transform: rotate(0deg);
+          transition: .2s ease-in-out;
+          transform-origin: left center;
+        }
+        &:before{
+          top: 5px;
+        }
+        &:after{
+          top: 10px;
+        }
+        &:hover, &:hover:after, &:hover:before {
+          @include breakpoint-md {
+            //background-color: color($default-ui-colors, 'primary');
+          }
+          @media #{$tablet-big} {
+            //background-color: color($background-colors,'secondary');
+          }
+        }
+      }
+
+      #{$self}__menu-open {
+        display: block;
+        height: 2px;
+        width: 20px;
+        top: 2px;
+        background-color: #999;
+        left: 0;
+        transform: rotate(45deg);
+        transition: .2s ease-in-out;
+
+        &:before,&:after {
+          position: absolute;
+          content: '';
+          left: 0;
+          width: 20px;
+          height: 2px;
+          //background-color: color($background-colors,'secondary');
+          transform: rotate(0deg);
+          transition: .2s ease-in-out;
+          transform-origin: left center;
+        }
+        &:before{
+          opacity: 0;
+        }
+        &:after{
+          top: 10px;
+          left: 10px;
+          transform: rotate(-90deg);
+        }
+        &:hover, &:hover:after, &:hover:before {
+          @include breakpoint-md {
+            //background-color: color($default-ui-colors, 'primary');
+          }
+          @media #{$tablet-big} {
+            //background-color: color($background-colors,'secondary');
+          }
+        }
+      }
+ 	}
+  }
+
+  &-button--expanded {
+    $self: &;
+
+    #{$self}__menu {
+      display: block;
+      height: 2px;
+      width: 20px;
+      top: 8px;
+      //background: color($background-colors,'secondary');
+      left: 0;
+      transform: rotate(45deg);
+      transition: .2s ease-in-out;
+
+      &:before,&:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        width: 20px;
+        height: 2px;
+        //background-color: color($background-colors,'secondary');
+        transform: rotate(0deg);
+        transition: .2s ease-in-out;
+        transform-origin: left center;
+      }
+      &:before{
+        opacity: 0;
+      }
+      &:after{
+        top: 10px;
+        left: 10px;
+        transform: rotate(-90deg);
+      }
+      &:hover, &:hover:after, &:hover:before {
+        @include breakpoint-md {
+          //background-color: color($default-ui-colors, 'primary');
+        }
+        @media #{$tablet-big} {
+          //background-color: color($background-colors,'secondary');
+        }
+      }
+    }
+  }
+}

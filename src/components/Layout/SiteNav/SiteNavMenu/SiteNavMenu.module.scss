@@ -1,0 +1,132 @@
+@import '../../../../assets/scss/variables';
+@import '../../../../assets/scss/mixins';
+@import './animations.scss';
+  
+.site-nav-menu {
+    overflow: auto;
+    position: relative;
+    box-shadow: 0 0 6px 1px #d1d1d1;
+    text-align: left;
+    display: none;
+    transition: 12s ease-in-out;
+
+    &__body {
+        lost-center: $layout-width;
+        box-sizing: border-box;
+        width: auto;
+        height: 100vh;
+    }
+
+    &__left {
+        @include margin-top(1);
+    }
+
+    &__right {
+        @include margin-top(2);
+        border-top: 1px solid #f2f2f2;
+    }
+
+    &__nav {
+        list-style: none;
+        margin: 10px 0 0 10px;
+        list-style-position: inside;
+        padding: 0;
+    }
+
+    &__nav-item {
+        margin-bottom: 20px;
+    }
+
+    &__nav-link {
+        color: #666;
+        font-family: stencil-std,sans-serif;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        letter-spacing: 2px;
+        display: flex;
+        @include link-hover;
+    }
+
+    &__banner {
+        max-width: 200px;
+        margin: 0 auto;
+        div {
+            display: block;
+        }
+    }
+
+    &__social {
+         max-width: 300px;
+         @include margin-top(1);
+         a {
+             margin: 0 10px;
+         }
+         div {
+             text-align: left;
+         }
+    }
+
+    &__site-bio {
+        font-family: droid-sans, sans-serif;
+        font-weight: bold;
+        display: block;
+        text-align: left;
+        font-size: 20px;
+        padding: 0 20px;
+        @include margin-top(1.5);
+        p {
+            margin: 0;
+            max-width: 300px;
+            color: #999;
+        }
+    }
+
+    &--expanded {
+        display: block;
+        -webkit-animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    &--collapsed {
+        display: none;
+        -webkit-animation: puff-out-center 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+        animation: puff-out-center 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+    }
+
+    @include breakpoint-sm {
+
+        &__nav-item {
+            margin-bottom: 40px;
+        }
+
+        &__nav-link {
+            font-size: 1.75rem;
+        }
+        &__body {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;     
+        }
+        &__left {
+            flex: 1 0 45%;
+            @include margin-top(1.5);
+        }
+        &__right {
+            flex: 0 0 55%;
+            @include margin-top(0);
+            box-shadow: -3px 0 3px 0px #d1d1d1;
+        }
+        &__social {
+            @include margin-top(2);         
+        }
+        &__site-bio {
+            padding: 0 50px;
+        }
+        &__banner {
+            padding: 0 50px;
+            margin: 0;
+        }
+    }
+}

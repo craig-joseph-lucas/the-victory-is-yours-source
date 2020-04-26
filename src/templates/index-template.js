@@ -3,6 +3,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
+import { useMediaQuery } from 'react-responsive';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
@@ -25,13 +26,17 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     nextPagePath
   } = pageContext;
 
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  });
+
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
   return (
-    <Layout hideNav={true} title={pageTitle} description={siteSubtitle}>
-      <Sidebar isIndex />
+    <Layout hideNav={isDesktopOrLaptop} title={pageTitle} description={siteSubtitle}>
+      { isDesktopOrLaptop && <Sidebar isIndex /> }
       <Page>
       <h1 className="devotionals__title">
         Latest Devotionals
