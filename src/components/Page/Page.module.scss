@@ -2,8 +2,8 @@
 @import '../../assets/scss/mixins';
 
 .page {
-  @include margin-top(.25);
   @include margin-bottom(2);
+  @include margin-top(0);
 
   &__inner {
     padding: 25px 20px;
@@ -14,7 +14,7 @@
     font-family: stencil-std, sans-serif;
     font-weight: 600;
     @include line-height(2);
-    @include margin-top(0);
+    @include margin-top(2);
     @include margin-bottom(1.45);
   }
 

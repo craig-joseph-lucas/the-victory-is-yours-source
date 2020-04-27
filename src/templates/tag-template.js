@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import { graphql } from 'gatsby';
+import { useMediaQuery } from 'react-responsive';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
@@ -26,12 +27,22 @@ const TagTemplate = ({ data, pageContext }: Props) => {
     hasNextPage
   } = pageContext;
 
+
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  });
+
+
   const { edges } = data.allMarkdownRemark;
   const pageTitle = currentPage > 0 ? `All Posts tagged as "${tag}" - Page ${currentPage} - ${siteTitle}` : `All Posts tagged as "${tag}" - ${siteTitle}`;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
-      <Sidebar />
+    <Layout 
+      title={pageTitle} 
+      description={siteSubtitle}
+      hideNav={isDesktopOrLaptop}
+    >
+      { isDesktopOrLaptop && <Sidebar /> }
       <Page title={`All ${tag} posts`}>
         <Feed edges={edges} />
         <Pagination

@@ -35,7 +35,7 @@
     
     &__title {
 
-        align-self: center;
+        align-self: flex-end;
         justify-content: flex-start;
         align-items: center;
         position: relative;
@@ -52,11 +52,12 @@
 
         img { 
             display: inline-block;
-            margin-left: 10px;
+            margin-left: 20px;
             vertical-align: middle;
             max-height: 40px; 
             width: 40px;
             border-radius: 50px;
+            position: relative;
         }
 
         a {
