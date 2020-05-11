@@ -8,6 +8,7 @@ import Verse from '../Verse';
 import SiteNav from './SiteNav';
 import SiteFooter from './SiteFooter';
 import { useSiteMetadata } from '../../hooks';
+import getOgImage from '../../utils/get-og-image';
 import styles from './Layout.module.scss';
 
 type Props = {
@@ -35,7 +36,8 @@ const Layout = ({
 
   const { author, url, facebookAppId } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
-  const metaImageUrl = url + withPrefix(metaImage);
+  const metaImageUrl = getOgImage(url, metaImage);
+  console.log(metaImageUrl)
   return (
     <div>
       <div className={styles.layout}>
