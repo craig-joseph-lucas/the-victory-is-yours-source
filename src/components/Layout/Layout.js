@@ -37,7 +37,7 @@ const Layout = ({
   const { author, url, facebookAppId } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = getOgImage(url, metaImage);
-  console.log(metaImageUrl)
+
   return (
     <div>
       <div className={styles.layout}>
