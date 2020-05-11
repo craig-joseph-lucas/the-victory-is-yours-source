@@ -32,7 +32,8 @@ const Layout = ({
   noIndex,
   hideNav
 }: Props) => {
-  const { author, url } = useSiteMetadata();
+
+  const { author, url, facebookAppId } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
   return (
@@ -42,6 +43,8 @@ const Layout = ({
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta property="fb:app_id" content={facebookAppId} />
+        <meta property="og:title" content={title} />
         <meta property="og:url" content={ogUrl} />
         <meta property="og:site_name" content={title} />
         <meta property="og:type" content="article" />
