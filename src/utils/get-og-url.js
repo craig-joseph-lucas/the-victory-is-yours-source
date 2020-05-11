@@ -1,4 +1,5 @@
 export default function getOgUrl(url, slug) {
-    const ogUrl = `${url}${slug}`;
-    return ogUrl.replace(/\/+/g, '/');
+    const sitePath = url.replace(/\/$/, "");
+    const ogUrl = `${sitePath}${slug}`;
+    return ogUrl;
 }
