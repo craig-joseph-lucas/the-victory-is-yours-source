@@ -22,6 +22,14 @@ export type PageContext = {
   hasNextPage: boolean
 };
 
+export type Image = {
+  url: string,
+  width: number,
+  height: number,
+  title: string,
+  caption: string
+};
+
 export type Node = {
   fields: {
     slug: string,
