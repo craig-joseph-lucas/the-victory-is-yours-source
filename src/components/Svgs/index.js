@@ -1,2 +1,2 @@
 // @flow strict
-export { default as WordOfGodIcon } from './WordOfGodIcon';
+export { default as SwordOfTheSpiritIcon } from './SwordOfTheSpirit';

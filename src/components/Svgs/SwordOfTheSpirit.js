@@ -1,6 +1,6 @@
 import React from 'react';
 
-const WordOfGodIcon = () => {
+const SwordOfTheSpiritIcon = () => {
     const fillColor = "#D2B48C";
     const crossBibleColor = "#0DA5CE";
     const swordColor = "#0DA5CE";
@@ -48,4 +48,4 @@ const WordOfGodIcon = () => {
     );
 };
 
-export default WordOfGodIcon;
+export default SwordOfTheSpiritIcon;

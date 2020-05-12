@@ -5,8 +5,8 @@ import { useMediaQuery } from 'react-responsive';
 import Hero from '../components/Hero';
 import Grid from '../components/Grid';
 import TopicFilters from '../components/Filters/TopicFilters';
-import { WORD_OF_GOD } from '../constants';
-import WordOfGodIcon from '../components/Svgs/WordOfGodIcon';
+import { SWORD_OF_THE_SPIRIT } from '../constants';
+import SwordOfTheSpiritIcon from '../components/Svgs/SwordOfTheSpirit';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
 import Masonry from 'react-masonry-css';
@@ -17,8 +17,7 @@ type Props = {
   }
 };
 
-const DailyMannaTemplate = ({ data }: Props) => {
-  console.log(WORD_OF_GOD);
+const SwordOfTheSpiritTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle, url } = useSiteMetadata();
   const postTitle = 'Our Daily Manna'
   const metaDescription = "";
@@ -26,7 +25,7 @@ const DailyMannaTemplate = ({ data }: Props) => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1224px)'
   });
-  const { IMAGE_PATH, DEK, TITLE } = WORD_OF_GOD;
+  const { IMAGE_PATH, DEK, TITLE } = SWORD_OF_THE_SPIRIT;
 
 
   return (
@@ -39,7 +38,7 @@ const DailyMannaTemplate = ({ data }: Props) => {
         }}
         dek={DEK}
         title={TITLE}
-        Logo={WordOfGodIcon}
+        Logo={SwordOfTheSpiritIcon}
         FooterElement={<TopicFilters />}
       />
       <Layout 
@@ -59,4 +58,4 @@ const DailyMannaTemplate = ({ data }: Props) => {
 };
 
 
-export default DailyMannaTemplate;
+export default SwordOfTheSpiritTemplate;

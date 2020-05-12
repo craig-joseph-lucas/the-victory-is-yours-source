@@ -16,8 +16,8 @@ const createPages = async ({ graphql, actions }) => {
   });
 
   createPage({
-    path: '/daily-manna',
-    component: path.resolve('./src/templates/daily-manna-template.js')
+    path: '/sword-of-the-spirit',
+    component: path.resolve('./src/templates/sword-of-the-spirit-template.js')
   });
 
   // Tags list
