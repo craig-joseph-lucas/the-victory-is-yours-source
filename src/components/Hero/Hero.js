@@ -30,28 +30,17 @@ class Hero extends React.Component {
         );
     }
 
-    renderContent() {
-        const { dek, title, Logo } = this.props;
-        return (
-            <div className={styles['hero__content']}>
-                <Logo />
-                <h2 className={styles['hero__title']}>{title}</h2>
-                <div className={styles['hero__dek']}>
-                    <p>{dek}</p>
-                </div>
-            </div>
-        );
-    }
+   
 
     render() {
-        const { image, FooterElement } = this.props;
+        const { image, FooterElement, title } = this.props;
         return (
             <div className={styles['hero']}>
                 { this.renderBackgroundImage(image) }
-                <div className={styles['hero__main']}>
-                    { this.renderContent() }
-                </div>
+  
                 <div className={styles['hero__footer']}>
+                    <h2 className={styles['hero__title']}>{title}</h2>
+
                     {FooterElement}
                 </div>
             </div>

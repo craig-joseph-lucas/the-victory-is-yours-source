@@ -30,16 +30,11 @@
     box-sizing: border-box;
     text-align: center;
     padding: 40px 24px 20px;
-    margin: -20px 15px 8px;
-    background-color: #fff;
-    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #e6e6e6;
-
+    order: 2;
     @include breakpoint-md {
         padding: 40px;
-        width: 490px;
+        width: 590px;
         display: block;
-        margin-top: -100px;
         margin-left: 0;
     }
   }
@@ -61,8 +56,14 @@
   }
 
   &__title {
-    margin: 0;
+    margin: -20px 0 0 0;
     padding: 0;
+    font-size: 40px;
+    position: relative;
+    color: #fff;
+    text-shadow: #0DA5CE 1px 0 10px;
+    z-index: 2;
+    letter-spacing: 3px;
     font-family: $typographic-font-family-titles-1;
   }
 
@@ -73,7 +74,8 @@
   &__footer {
     @include breakpoint-md {
       flex: 1;
-      max-width: 500px;
+      order: 1;
+      max-width: 600px;
     }
   }
 
