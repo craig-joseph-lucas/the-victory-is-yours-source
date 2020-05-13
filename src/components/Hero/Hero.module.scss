@@ -3,11 +3,10 @@
 
 .hero {
   display: flex;
-  justify-content: flex-end;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: flex-start;
+  justify-content: center;
   box-sizing: border-box;
   position: relative;
   margin-top: $layout-nav-height;
@@ -40,9 +39,8 @@
         padding: 40px;
         width: 490px;
         display: block;
-        margin-top: -208px;
-        margin-left: 24px;
-        order: 2;
+        margin-top: -100px;
+        margin-left: 0;
     }
   }
 
@@ -74,7 +72,8 @@
 
   &__footer {
     @include breakpoint-md {
-      order: 1;
+      flex: 1;
+      max-width: 500px;
     }
   }
 

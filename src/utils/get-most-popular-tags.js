@@ -2,7 +2,7 @@ import { useTagsList } from '../hooks';
 
 function getSlug (topic) {
     const cleanTopic = topic.toLowerCase().replace(/\s/g, '-');
-    return `/tags/${cleanTopic}`;
+    return `/tag/${cleanTopic}`;
 }
 
 export default function getMostPopularTags(count) {
