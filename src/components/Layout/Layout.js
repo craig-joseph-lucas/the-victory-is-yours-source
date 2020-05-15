@@ -16,7 +16,8 @@ type Props = {
   title: string,
   description?: string,
   socialImage? :string,
-  hideNav?: boolean
+  hideNav?: boolean,
+  containerStyles: style
 };
 
 type DefaultProps = {
@@ -29,6 +30,7 @@ const Layout = ({
   title,
   description,
   socialImage,
+  containerStyles,
   ogUrl,
   noIndex,
   hideNav
@@ -39,8 +41,10 @@ const Layout = ({
   const metaImageUrl = getOgImage(url, metaImage);
 
   return (
-    <div>
-      <div className={styles.layout}>
+    <div style={containerStyles}>
+      <div 
+        className={styles.layout}
+      >
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
