@@ -29,6 +29,10 @@
       }
     }
 
+    @media print {
+      display: none;
+    }
+
     @include breakpoint-md {
       font-size: 13px;
     }

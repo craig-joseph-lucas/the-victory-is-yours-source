@@ -14,6 +14,11 @@
     box-shadow: 0 0 6px 1px #d1d1d1;
     z-index: 1200;
     height: auto;
+    @media print {
+        border-bottom: none;
+        box-shadow: none;
+        text-align: center;
+    }
 
     &__bar {
         display: flex;
@@ -43,6 +48,13 @@
             left: 40%;
             top: 50%;
             transform: translate(-40%,-50%);
+        }
+
+        @media print {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+
         }
 
         h1 {

@@ -10,6 +10,7 @@ const selectStyles = {
         ...base,
         width: '200px',
         marginTop: '30px',
+        marginRight: '20px',
         display: 'inline-block'
     })
 };
@@ -51,9 +52,10 @@ class TopicFilters extends React.PureComponent {
                 onChange={this.handleChange}
                 options={topicsList}
                 styles={selectStyles}
+                placeholder="Topic"
                 autoFocus={true} 
             />
-                       <Select 
+            <Select 
                 onChange={this.handleChange}
                 options={topicsList}
                 styles={selectStyles}
@@ -72,7 +74,7 @@ class TopicFilters extends React.PureComponent {
                 <form className={styles['topic-filters__form']}>
                     <input 
                         type="search" 
-                        placeholder="Try “Italian” or “Williamsburg”..." 
+                        placeholder="Try “The Cross or Spiritual Warfare”..." 
                         className={styles['topic-filters__search']}
                     />                    
                 </form>
