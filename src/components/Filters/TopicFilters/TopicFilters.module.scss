@@ -27,6 +27,10 @@
         -webkit-appearance: none;
         color: #000;
         border: none;
+        &::placeholder { 
+            color: #000;
+            opacity: 1; /* Firefox */
+          }
     }
     
     &__form {
