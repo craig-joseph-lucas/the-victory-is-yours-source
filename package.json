@@ -9,7 +9,7 @@
     "build": "yarn run clean && gatsby build --prefix-paths",
     "deploy": "yarn run clean && gatsby build --prefix-paths",
     "deploy:github": "yarn run deploy && node ./scripts/deploy-github",
-    "clean": "rimraf .cache public",
+    "clean": "gatsby clean",
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
     "lint:scss": "stylelint \"src/**/*.scss\"",
