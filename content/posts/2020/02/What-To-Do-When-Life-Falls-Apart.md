@@ -23,13 +23,13 @@ recommendVerses:
   - Acts 2:38
   - Matthew 11:28
   - Deuteronomy 31:8
-  - Revelation 3:20
+  - Revelation 3:20"
                    
-                   escription: "The Corona Virus has caused many to fear. Some to question if the world is really falling apart. Do you feel this way? How do you respond?Some will turn to social media. Which, could cause you to panic. Some may turn to drugs. Some may turn to alcohol. Some may even consider suicide. What should we really do? Turn to God. He is your refuge and your strength!"
-                   --
-                   
-                   he Corona Virus has caused many to fear. Some to question if the world is really falling apart. Do you feel this way? How do you respond? Some will turn to social media. Which, could cause you to panic. Some may turn to drugs. Some may turn to alcohol. Some may even consider suicide. What should we really do? Turn to God. He is your refuge and your strength!
-                   
+  description: "The Corona Virus has caused many to fear. Some to question if the world is really falling apart. Do you feel this way? How do you respond?Some will turn to social media. Which, could cause you to panic. Some may turn to drugs. Some may turn to alcohol. Some may even consider suicide. What should we really do? Turn to God. He is your refuge and your strength!"
+---
+  
+  The Corona Virus has caused many to fear. Some to question if the world is really falling apart. Do you feel this way? How do you respond? Some will turn to social media. Which, could cause you to panic. Some may turn to drugs. Some may turn to alcohol. Some may even consider suicide. What should we really do? Turn to God. He is your refuge and your strength!
+  
 ### We should run to God. 
 Why should we run to God?
 
