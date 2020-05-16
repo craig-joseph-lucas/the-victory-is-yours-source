@@ -3,6 +3,7 @@ title: Do not let your heart be troubled
 date: "2020-04-01T23:40:32.169Z"
 template: "post"
 book: "John"
+type: "Gospels"
 verse: "John 14:1-6"
 pastor: ""
 series: ""
@@ -17,19 +18,20 @@ tags:
   - "Trust"
   - "Heaven"
   - "John"
+  - "Gospels"
 
 socialImage: "/media/posts/do-not-be-troubled.jpg"
 
 description: "There is so much grief going on with the world right now due to COVID 19.You may feel totally helpless. It is normal to have these feelings.
 As we can't do anything on our own about it. We need God. God is our refuge and strength.So remember that and don't let your heart be troubled.
 "
----
-
-There is so much grief going on with the world right now due to COVID 19.You may feel totally helpless. It is normal to have these feelings.
-As we can't do anything on our own about it. We need God. God is our refuge and strength.So remember that and don't let your heart be troubled.
-
-This is an amazing passage of scripture.
-Lets think about the context.
+    --
+       
+       here is so much grief going on with the world right now due to COVID 19.You may feel totally helpless. It is normal to have these feelings.
+       s we can't do anything on our own about it. We need God. God is our refuge and strength.So remember that and don't let your heart be troubled.
+       
+       his is an amazing passage of scripture.
+    ets think about the context.
 
 This happens right after Jesus had finished washing all His disciples feet.
 He had just told his disciples that one of His apostles would betray Him.
@@ -53,13 +55,13 @@ So we have Jesus on our side. We get to the Father through the Son. Most importa
 
 ### We have a home in Heaven
 Jesus reminds us we have a home in Heaven. This is our real home and we will go there one day. This current world we live is in temporary. So don't be so bothered on what is going on this world. Instead keep your eyes and mind fixed on heaven and we could overcome our troubles. 
-
-### God promised to come back for us
-We have a promise from God that He will come back and recieve us.
-What did Jesus promise? He promised that He will come back for His people. The Church. This is a direct reference to the rapture.
-
-He says that no man comes to the Father but through me. What did He mean by that? This is great essential doctrine. That the only way to heaven is through Jesus. You must put your trust in Jesus as your savior. He died for your sins.
-So that you can have a life in Heaven with Him. How great is that!
+    
+       ## God promised to come back for us
+       e have a promise from God that He will come back and recieve us.
+       hat did Jesus promise? He promised that He will come back for His people. The Church. This is a direct reference to the rapture.
+       
+       e says that no man comes to the Father but through me. What did He mean by that? This is great essential doctrine. That the only way to heaven is through Jesus. You must put your trust in Jesus as your savior. He died for your sins.
+    o that you can have a life in Heaven with Him. How great is that!
 Jesus is the way, the truth and the the life. Oh how glorious that statement is!
 
 
@@ -77,3 +79,4 @@ Amen!
 
 </blockquote>
  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

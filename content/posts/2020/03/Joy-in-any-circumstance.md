@@ -4,6 +4,7 @@ date: "2020-03-22T23:40:32.169Z"
 template: "post"
 verse: "Phillipians 1:1-30"
 book: "Phillipians"
+type: "Epistles"
 pastor: ""
 series: ""
 draft: false
@@ -24,12 +25,12 @@ socialImage: "/media/be-still-cross.jpg"
 description: "Sometimes it may be hard to remain joyous under intense situations like what we are going through with the Corona Virus. However, it's important to remember that God is in control. This passage give us the blueprint on how to remain joyous"
 ---
 
-Sometimes it may be hard to remain joyous under intense situations like what we are going through with the Corona Virus. However, it's important to remember that God is in control. The passage here in Philippians 1 give us the blueprint on how to remain joyous
-
-Phillipians 1 we know was written by Paul while he was in prison (Philippians 1:13-14). Paul loved the Phillipians and he wrote this message to encourage his fellow believers. Paul was very thankful to have fellowship with the people of Phillipi. 
-
-## Three things that Paul was thankful for in spite of his circumstances
-  
+    ometimes it may be hard to remain joyous under intense situations like what we are going through with the Corona Virus. However, it's important to remember that God is in control. The passage here in Philippians 1 give us the blueprint on how to remain joyous
+    
+    hillipians 1 we know was written by Paul while he was in prison (Philippians 1:13-14). Paul loved the Phillipians and he wrote this message to encourage his fellow believers. Paul was very thankful to have fellowship with the people of Phillipi. 
+    
+    # Three things that Paul was thankful for in spite of his circumstances
+     
   ### 1. Fellowship in the Gospel
    Despite what is going on we have fellowship with others. We may be limited to our homes right now but we have many means to stay in fellowship with others via social media. It's times like this were we should be eager to fellowship more. 
 
@@ -54,5 +55,5 @@ God has begun the good work in us and He will complete it. We were justified and
 
 Most importantly we have the opporunity to share and defend the gospel through any circumstance in life when we keep the same mindset Paul had. God bless you all and Amen.
 
-Your brother in Christ,
-Craig
+    our brother in Christ,
+    raig                                                                                                                                                                                                                                                                                                                                                                                                                                        

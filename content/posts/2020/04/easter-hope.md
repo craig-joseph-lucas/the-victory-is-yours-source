@@ -3,6 +3,7 @@ title: Easter Hope
 date: "2020-04-12T23:40:32.169Z"
 template: "post"
 book: "Matthew"
+type: "Gospels"
 verse: "Matthew 28:1-7"
 pastor: ""
 series: ""
@@ -16,20 +17,21 @@ recommendVerses:
   - "Hebrews 13:5"
   - 1 Corinthians 15:20"
   - "John 14"
+  - "Gospels"
 tags:
   - "Easter"
   - "Hope"
   - "Ressurection"
   - "Crucification"
   - "Matthew"
-  - "Victory"
-
-socialImage: "/media/posts/he-is-risen-easter.jpeg"
-
-description: "He has risen! He has risen indeed! Those words bring so much joy to a christians heart. When jesus ressurected from the dead He brought so much hope to the world. "
----
-
-He has risen! He has risen indeed! Those words bring so much joy to a christians' heart. When Jesus ressurected from the dead He brought so much hope to the world.
+                 - "Victory"
+                
+                      ocialImage: "/media/posts/he-is-risen-easter.jpeg"
+                      
+                      escription: "He has risen! He has risen indeed! Those words bring so much joy to a christians heart. When jesus ressurected from the dead He brought so much hope to the world. "
+                      --
+       
+       e has risen! He has risen indeed! Those words bring so much joy to a christians' heart. When Jesus ressurected from the dead He brought so much hope to the world.
 
 The ressurection is the basis of the Christian faith. Without the ressurection we have no hope. We have no chance of Heaven. We are forever in bondage to sin. Non believers to this day try to deny the work of the cross and the fact the Jesus rose from the dead. 
 
@@ -52,14 +54,14 @@ Jesus was not there. He was not in the tomb. He had risen like He said He would.
 This was the conclusion of what I believe to be the three greatest events in history.
 
  - **The incarnation** - Jesus was God in flesh.
- - **The crucification** - Jesus died in subsitution for us. He paid His own body for our sins. So we can be freed from sin's penalty. 
- - **The ressurection** - The basis of the Christian fatih. 
-
- ### How do we know Jesus rose from the dead. 
- 1) Jesus told us He would rise. It was written throughout the bible about His ressurection. We know the bible is all true. 
- 2) The tomb was empty. Jesus physically raised from the dead. It wasn't just a spiritual awakening but it was a physically awakening. 
- 3) Jesus was seen alive for 40 days and 40 nights by His apostles.
- 4) He helped convert Saul
+                - **The crucification** - Jesus died in subsitution for us. He paid His own body for our sins. So we can be freed from sin's penalty. 
+                - **The ressurection** - The basis of the Christian fatih. 
+                      
+                      ### How do we know Jesus rose from the dead. 
+                      1) Jesus told us He would rise. It was written throughout the bible about His ressurection. We know the bible is all true. 
+                      2) The tomb was empty. Jesus physically raised from the dead. It wasn't just a spiritual awakening but it was a physically awakening. 
+       3) Jesus was seen alive for 40 days and 40 nights by His apostles.
+       4) He helped convert Saul
  5) The lives Jesus is changing today. We all have our testimony how Jesus has changed us. We all have become new creations in Christ.  
 
 ## Come see 
@@ -89,3 +91,4 @@ Amen!
 
 </blockquote>
  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

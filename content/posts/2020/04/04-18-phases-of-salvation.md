@@ -4,6 +4,7 @@ date: "2020-04-18T23:40:32.169Z"
 template: "post"
 verse: "Phillipians 3"
 book: "Phillipians"
+type: "Epistles"
 pastor: ""
 series: ""
 draft: false
@@ -23,13 +24,13 @@ recommendVerses:
   - "Ephesians 2:8"
   - "Hebrews 12:1-2"
   - "Romans 12:2"
-  - "Romans 4:25"
-  - John 17:17"
-  - 1 Peter 1:7
-  - 1 Timothy 4:4-5
-  - 1 Corinthians 15:53-55
-socialImage: "/media/phases-of-salvation.jpg"
-
+     - "Romans 4:25"
+        - John 17:17"
+        - 1 Peter 1:7
+        - 1 Timothy 4:4-5
+        - 1 Corinthians 15:53-55
+       ocialImage: "/media/phases-of-salvation.jpg"
+    
 description: "Being saved is the greatest moment if your life. It's when you are declared righteous before a Holy God. How great is that!! Ever wonder what happens to your life after making that great decision."
 ---
 
@@ -53,13 +54,13 @@ Justification is to not be confused with God making us righteousness. That is a 
 The next phase of salvation is called sanctification. 
 Sanctification is the process of the Holy Spirit working in us to make us more like Jesus day by day. Jesus loves us and want us to live life more abundantly. 
 
-Paul's goal was to know Christ. He didn't want to just be in him.
-He wanted to know him personally. To know him intimately. 
-He wanted the power of Christ in his life.
-He wanted to the power to turn away from sin. 
-He wanted to know Christ painfully. 
-He wanted to know what it was like to suffer for the glory of God. 
-
+    aul's goal was to know Christ. He didn't want to just be in him.
+       e wanted to know him personally. To know him intimately. 
+       e wanted the power of Christ in his life.
+       e wanted to the power to turn away from sin. 
+       e wanted to know Christ painfully. 
+       e wanted to know what it was like to suffer for the glory of God. 
+    
 In verse 12 Paul is indicating that he wants to forget his old self and instead pursue Christ like an athlete pursues a gold medal or trophy (Hebrews 12:1-2).
 
 We can think of sanctificaiton to the likeness of running a marathon race. We are running to get to the finish line. In our salvation the finish line is when we get to meet Christ. That is our reward. 
@@ -96,3 +97,4 @@ Amen!
  
 
 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
