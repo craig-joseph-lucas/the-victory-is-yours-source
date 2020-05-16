@@ -4,6 +4,7 @@ date: "2020-04-18T23:40:32.169Z"
 template: "post"
 verse: "Phillipians 3"
 book: "Phillipians"
+type: "Epistles"
 pastor: ""
 series: ""
 draft: false
@@ -19,6 +20,7 @@ tags:
   - "Paul"
   - "Phillipians"
   - "Epistles"
+  - "Jesus"
 recommendVerses: 
   - "Ephesians 2:8"
   - "Hebrews 12:1-2"

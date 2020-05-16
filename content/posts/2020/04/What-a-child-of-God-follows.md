@@ -4,6 +4,7 @@ date: "2020-04-08T23:40:32.169Z"
 template: "post"
 verse: "1 Timothy 6:11"
 book: "1 Timothy"
+type: "Epistles"
 pastor: ""
 series: ""
 draft: false

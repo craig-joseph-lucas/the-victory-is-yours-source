@@ -4,6 +4,7 @@ date: "2020-04-26T23:40:32.169Z"
 template: "post"
 verse: "Phillipians 4:1-19"
 book: "Phillipians"
+type: "Epistles"
 pastor: ""
 series: ""
 draft: false

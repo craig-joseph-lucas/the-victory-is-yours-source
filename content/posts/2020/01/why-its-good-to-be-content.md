@@ -4,6 +4,7 @@ date: "2020-01-23T22:40:32.169Z"
 template: "post"
 verse: "1 Corinthians 4:7-8"
 book: "1 Corinthians"
+type: "Epistles"
 pastor: ""
 series: ""
 draft: false

@@ -24,12 +24,12 @@ description: "Psalm 1 is a great passage that shows the difference of a Godly wa
 ---
 
 We need to be separate from the world but not isolated from the world. We should not walk in the counsel of the wicked.
-                            
-                            ho are the wicked? They are the unbelievers. They are the atheists. They are people who don't seek God. They are sinners who rebel against God.
-                            
-                            emember we all are sinners and we all for short of the glory of God. We need God's help to not sin. The Holy Spirit works to convict us of sin day by day through the process of sanctification. 
-                            
-                            in usually starts small. It usually starts with us walking in Sin. Then next we know we are standing in it. Which, leads to us sitting in sin. We can't forget the progression of sin. James 1:14-15 tell us <blockquote>14 But each one is tempted when he is drawn away by his own desires and enticed. 15 Then, when desire has conceived, it gives birth to sin; and sin, when it is full-grown, brings forth death.</blockquote>
+
+who are the wicked? They are the unbelievers. They are the atheists. They are people who don't seek God. They are sinners who rebel against God.
+
+remember we all are sinners and we all for short of the glory of God. We need God's help to not sin. The Holy Spirit works to convict us of sin day by day through the process of sanctification. 
+
+Sin usually starts small. It usually starts with us walking in Sin. Then next we know we are standing in it. Which, leads to us sitting in sin. We can't forget the progression of sin. James 1:14-15 tell us <blockquote>14 But each one is tempted when he is drawn away by his own desires and enticed. 15 Then, when desire has conceived, it gives birth to sin; and sin, when it is full-grown, brings forth death.</blockquote>
 
 Sin leads to sadness while holiness leads to happiness. This is why we should be saturated in God's word. 
 

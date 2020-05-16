@@ -5,6 +5,7 @@ template: "post"
 verse: "Phillipians 1:1-30"
 book: "Phillipians"
 pastor: ""
+type: "Epistles"
 series: ""
 draft: false
 slug: "joy-in-any-circumstance"
@@ -16,6 +17,7 @@ tags:
   - "Grace"
   - "Trust"
   - "Epistles"
+  - "Jesus"
 recommendVerses: 
   - "1 Timothy 3"
   - "Romans 8:28"

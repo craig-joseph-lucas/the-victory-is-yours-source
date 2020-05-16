@@ -51,7 +51,9 @@ export const query = graphql`
         date
         description
         tags
-        title
+        title,
+        book,
+        type,
         socialImage,
         verse,
         recommendVerses,

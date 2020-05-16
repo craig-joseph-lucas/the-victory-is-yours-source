@@ -4,6 +4,7 @@ date: "2020-03-29T23:40:32.169Z"
 template: "post"
 verse: "Phillipians 2:1-16"
 book: "Phillipians"
+type: "Epistles"
 pastor: ""
 series: ""
 draft: false
@@ -17,6 +18,7 @@ tags:
   - "Trust"
   - "Phillipians"
   - "Epistles"
+  - "Jesus"
 recommendVerses: 
   - "Romans 3:23"
   - "Ephesians 2:8"

@@ -23,6 +23,7 @@ tags:
   - "Trials and Tribulation"
   - "God's Glory"
   - "Epistles"
+  - "Jesus"
 
 recommendVerses: 
   - "John 14:2"

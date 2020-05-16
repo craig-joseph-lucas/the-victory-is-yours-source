@@ -4,6 +4,7 @@ date: "2020-04-05T23:40:32.169Z"
 template: "post"
 verse: "2 Corinthians 12:1-10"
 book: "2 Corinthians"
+type: "Epistles"
 pastor: ""
 series: ""
 draft: false
