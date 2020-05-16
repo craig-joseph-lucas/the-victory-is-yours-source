@@ -24,11 +24,11 @@ recommendVerses:
   - 1 Thessalonians 5:17-18
 
 description: "Trust is a hard thing to do for some people. When you worry you are not trusting God. God loves you and wants you to trust in him. Will you?"
-       --
+---
        
-       rust is hard thing to do for some people. When you worry you are not trusting God. God loves you and wants you to trust in him. Will you?
-       
-       rust begins with being a believer. Do you believe in Jesus Christ? If you do that means you have already put your faith in Jesus Christ. So you have established a relationship of trust in Him as your lord. 
+Trust is hard thing to do for some people. When you worry you are not trusting God. God loves you and wants you to trust in him. Will you?
+
+Trust begins with being a believer. Do you believe in Jesus Christ? If you do that means you have already put your faith in Jesus Christ. So you have established a relationship of trust in Him as your lord. 
        
 The hard part is to keep that trust in all seasons of your life. In life you will go through many trials. However, be of good cheer because your Lord has conquered the world. (John 16:33)  Trials come into our life to build up our faith and trust. Trials bring you closer to God. How do you become closer? It starts by trusting in God. 
 
