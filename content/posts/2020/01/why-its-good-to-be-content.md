@@ -3,6 +3,7 @@ title: Happiness is a Choice
 date: "2020-01-23T22:40:32.169Z"
 template: "post"
 verse: "1 Corinthians 4:7-8"
+book: "1 Corinthians"
 pastor: ""
 series: ""
 draft: false
@@ -13,6 +14,7 @@ tags:
   - "Humble"
   - "Happiness"
   - "Devotional"
+  - "Epistles"
 recommendVerses: 
   - James 1:17
   - James 4:6

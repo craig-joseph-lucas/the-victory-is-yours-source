@@ -3,6 +3,7 @@ title: Joy in any Circumstance
 date: "2020-03-22T23:40:32.169Z"
 template: "post"
 verse: "Phillipians 1:1-30"
+book: "Phillipians"
 pastor: ""
 series: ""
 draft: false
@@ -14,6 +15,7 @@ tags:
   - "Peace"
   - "Grace"
   - "Trust"
+  - "Epistles"
 recommendVerses: 
   - "1 Timothy 3"
   - "Romans 8:28"

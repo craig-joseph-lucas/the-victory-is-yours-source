@@ -3,6 +3,7 @@ title: We can have Victory with Jesus Christ
 date: "2020-01-20T22:40:32.169Z"
 template: "post"
 verse: "Matthew 4:1-11"
+book: "Matthew"
 pastor: "Ron Hindt"
 series: ""
 draft: false

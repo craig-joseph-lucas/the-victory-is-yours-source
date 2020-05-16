@@ -3,6 +3,7 @@ title: Three years in Christ
 date: "2020-03-19T22:40:32.169Z"
 template: "post"
 verse: "John 3:16"
+book: "John"
 pastor: ""
 series: ""
 draft: false

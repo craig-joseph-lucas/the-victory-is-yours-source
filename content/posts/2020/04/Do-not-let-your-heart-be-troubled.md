@@ -2,6 +2,7 @@
 title: Do not let your heart be troubled
 date: "2020-04-01T23:40:32.169Z"
 template: "post"
+book: "John"
 verse: "John 14:1-6"
 pastor: ""
 series: ""

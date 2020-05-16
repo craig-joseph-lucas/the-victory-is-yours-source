@@ -3,6 +3,7 @@ title: God's solution to anxiety
 date: "2020-04-26T23:40:32.169Z"
 template: "post"
 verse: "Phillipians 4:1-19"
+book: "Phillipians"
 pastor: ""
 series: ""
 draft: false
@@ -15,6 +16,7 @@ tags:
   - "Paul"
   - "Phillipians"
   - "Prayer"
+  - "Epistles"
 recommendVerses: 
   - "Hebrews 13:5-6"
   - "Romans 5"

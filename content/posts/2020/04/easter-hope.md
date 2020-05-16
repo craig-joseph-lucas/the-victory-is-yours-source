@@ -2,6 +2,7 @@
 title: Easter Hope
 date: "2020-04-12T23:40:32.169Z"
 template: "post"
+book: "Matthew"
 verse: "Matthew 28:1-7"
 pastor: ""
 series: ""

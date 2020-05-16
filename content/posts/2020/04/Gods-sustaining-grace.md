@@ -3,6 +3,7 @@ title: God's sustaining grace can overcome anything in life
 date: "2020-04-05T23:40:32.169Z"
 template: "post"
 verse: "2 Corinthians 12:1-10"
+book: "2 Corinthians"
 pastor: ""
 series: ""
 draft: false
@@ -15,6 +16,7 @@ tags:
   - "Trials"
   - "Suffering"
   - "2 Corinthians"
+  - "Epistles"
 recommendVerses: 
   - "Ephesians 2:18"
   - "James 1:5"

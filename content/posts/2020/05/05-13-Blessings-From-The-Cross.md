@@ -3,9 +3,10 @@ title: Blessings from the Cross
 date: "2020-05-13T23:40:32.169Z"
 template: "post"
 verse: "Romans 5:1-11"
+book: 
+type: "Epistles"
 pastor: ""
 series: ""
-book: Romans
 draft: false
 slug: "blessings-from-the-cross"
 category: "Christian Living"
@@ -21,6 +22,7 @@ tags:
   - "The Cross"
   - "Trials and Tribulation"
   - "God's Glory"
+  - "Epistles"
 
 recommendVerses: 
   - "John 14:2"

@@ -3,6 +3,7 @@ title: How God transforms your life through salvation
 date: "2020-04-18T23:40:32.169Z"
 template: "post"
 verse: "Phillipians 3"
+book: "Phillipians"
 pastor: ""
 series: ""
 draft: false
@@ -17,6 +18,7 @@ tags:
   - "Gods glory"
   - "Paul"
   - "Phillipians"
+  - "Epistles"
 recommendVerses: 
   - "Ephesians 2:8"
   - "Hebrews 12:1-2"

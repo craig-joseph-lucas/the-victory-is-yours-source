@@ -3,6 +3,7 @@ title: What a child of God follows
 date: "2020-04-08T23:40:32.169Z"
 template: "post"
 verse: "1 Timothy 6:11"
+book: "1 Timothy"
 pastor: ""
 series: ""
 draft: false
@@ -16,6 +17,7 @@ tags:
   - "Steadfastness"
   - "Gentleness"
   - "1 Timothy"
+  - "Epistles"
 recommendVerses: 
   - "Matthew 6:33"
   - "Matthew 14:22-33"

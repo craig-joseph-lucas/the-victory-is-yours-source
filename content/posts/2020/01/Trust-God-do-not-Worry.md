@@ -3,6 +3,7 @@ title: Trust God and Don't worry
 date: "2020-01-24T22:40:32.169Z"
 template: "post"
 verse: "Proverbs 3:5-6"
+book: "Proverbs"
 pastor: ""
 series: ""
 draft: false

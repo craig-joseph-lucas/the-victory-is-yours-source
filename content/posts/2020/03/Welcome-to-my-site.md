@@ -3,6 +3,7 @@ title: Welcome to my site
 date: "2020-03-22T22:40:32.169Z"
 template: "post"
 verse: "Romans 1:16"
+book: "Romans"
 pastor: ""
 series: ""
 draft: false

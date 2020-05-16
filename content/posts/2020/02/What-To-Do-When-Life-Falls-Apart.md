@@ -3,6 +3,7 @@ title: What to do when life falls apart
 date: "2020-02-09T22:40:32.169Z"
 template: "post"
 verse: "Psalm 46"
+book: "Psalm"
 pastor: ""
 series: ""
 draft: false

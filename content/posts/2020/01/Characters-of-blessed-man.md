@@ -3,6 +3,7 @@ title: The Godly walk
 date: "2020-01-26T22:40:32.169Z"
 template: "post"
 verse: "Psalm 1"
+book: "Psalm"
 pastor: ""
 series: ""
 draft: false
