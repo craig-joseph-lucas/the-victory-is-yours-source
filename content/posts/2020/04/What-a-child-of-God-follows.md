@@ -24,12 +24,12 @@ recommendVerses:
   - "John 13:1-17"
   - "Romans 5:1-5"
 
-                   ocialImage: "/media/posts/child-of-god.jpg"
-                   
-                   escription: "A man of God should be known for what they do and not what they don't do anymore."
-                   
-                   --
-                   
+socialImage: "/media/posts/child-of-god.jpg"
+
+description: "A man of God should be known for what they do and not what they don't do anymore."
+
+---
+
 A child of God should be known for what they do and not what they don't do anymore. Most christians when they give their testimony they sometimes spend too much time talking about what God has stopped them from doing. It is okay to say what you no longer do but your focus should be on talking about what you now do in your life because of God. 
 
 ## What a child of God should do
@@ -54,12 +54,12 @@ A child of God should be known for what they do and not what they don't do anymo
 <blockquote class="right">
 <strong>John 13:35</strong>
 
-                   By this all people will know that you are my disciples, if you have love for one another"
-                   
-                   /blockquote>
-                   
-                   
-                   - **They should pursue patience and endurance** - What does this look like? This means that we wait on the Lord in all we do. That we understand that God's will will be done and not ours. That everything happens on God's timing not ours. So what are we to do? We need to be still and know that I am God(Psalms 46:10). We need to never lose faith and stand strong in any opposition we face. Always remembering that trials make us stronger (Romans 5:1-5). 
+"By this all people will know that you are my disciples, if you have love for one another"
+
+</blockquote>
+
+
+ - **They should pursue patience and endurance** - What does this look like? This means that we wait on the Lord in all we do. That we understand that God's will will be done and not ours. That everything happens on God's timing not ours. So what are we to do? We need to be still and know that I am God(Psalms 46:10). We need to never lose faith and stand strong in any opposition we face. Always remembering that trials make us stronger (Romans 5:1-5). 
 
  - **They should pursue meekness**  - What does this look like? This means we demonstrate power under control. This means we are in control of our flesh. We don't lose patience. We don't get easily angered. We become like Jesus. Jesus only mad when God was dishonored (1 Peter 2:21-23). Being meek may be one of the hardest thing to do as a christian. As we need to be in control over our flesh. There is only one way we can do that. We need the help of the Holy Spirit. So make sure to be in good fellowship with God and seeking His help everyday and every minute.
 
@@ -79,4 +79,3 @@ Amen!
 
 </blockquote>
  
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

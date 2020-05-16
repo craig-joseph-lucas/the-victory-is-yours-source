@@ -4,7 +4,6 @@ date: "2020-03-29T23:40:32.169Z"
 template: "post"
 verse: "Phillipians 2:1-16"
 book: "Phillipians"
-type: "Epistles"
 pastor: ""
 series: ""
 draft: false
@@ -24,13 +23,13 @@ recommendVerses:
   - "Mark 10:45"
   - "Romans 8:28"
   - "Luke 22:27"
-     - "Matthew 25:23"
-           - "1 Peter 5:6"
-          ocialImage: "/media/humbleyourself.jpg?v2"
-          
-          escription: "Joy is not dependent on outward things. 
-          oy comes from inward things when you have rest in your soul.
-       oy comes from having one mind. A mind that is like Jesus Christ.  in control. This passage give us the blueprint on how to remain joyous"
+  - "Matthew 25:23"
+  - "1 Peter 5:6"
+socialImage: "/media/humbleyourself.jpg?v2"
+
+description: "Joy is not dependent on outward things. 
+Joy comes from inward things when you have rest in your soul.
+Joy comes from having one mind. A mind that is like Jesus Christ.  in control. This passage give us the blueprint on how to remain joyous"
 ---
 
 Joy is not dependent on outward things. 
@@ -54,13 +53,13 @@ Christ set the pattern for us. He completely humbled himself for us.
 This is why We need to have the same mindset of Jesus to humble ourselves for others.  
 
  - In verse 6 Paul points out that Jesus is God. That Jesus is soverign and that Jesus was God.
-    - In verse 7 Paul tells us how Jesus went from a soverign God to a humble servant just for us. 
-          e emptied Himself. He laid aside His majesty and took on humanity/humility. He took off his Crown and became a peasant. He did this voluntarily and for us. 
-          - In verse 8 Pauls tell us that Christ humbled himself for us. He gave himself up for us. He died and sacrificied Himself for us. Why did Jesus die on the cross for us?
-            - To give us Salvation(John 3:16). By his death we were given the opportunity to be rescued from the penalty of sin(Romans 6:23).
-            - He died on the cross so he can defeat sin and Satan
-            - He died so the love of God could be revealed to us. 
-       
+ - In verse 7 Paul tells us how Jesus went from a soverign God to a humble servant just for us. 
+He emptied Himself. He laid aside His majesty and took on humanity/humility. He took off his Crown and became a peasant. He did this voluntarily and for us. 
+ - In verse 8 Pauls tell us that Christ humbled himself for us. He gave himself up for us. He died and sacrificied Himself for us. Why did Jesus die on the cross for us?
+   - To give us Salvation(John 3:16). By his death we were given the opportunity to be rescued from the penalty of sin(Romans 6:23).
+   - He died on the cross so he can defeat sin and Satan
+   - He died so the love of God could be revealed to us. 
+
 ### Paul reveals the power for humility
   Finally in verse 12 Paul concludes to say that we need to work out our own salvation with fear and trembling. What did Paul mean by this? He was simply saying we need to go out and live our salvation. It doesn't mean we are to work for our salvation. Remember we can never earn our salvation. It is a free gift given to us(Ephesians 2:8). It means we are working for the good of the church because of our salvation. 
  
@@ -87,4 +86,3 @@ Craig
 
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

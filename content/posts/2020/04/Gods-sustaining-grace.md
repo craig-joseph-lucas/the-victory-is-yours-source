@@ -4,7 +4,6 @@ date: "2020-04-05T23:40:32.169Z"
 template: "post"
 verse: "2 Corinthians 12:1-10"
 book: "2 Corinthians"
-type: "Epistles"
 pastor: ""
 series: ""
 draft: false
@@ -25,12 +24,12 @@ recommendVerses:
 
 socialImage: "/media/posts/gods-sustaining-grace.png"
 
-    escription: "It's by God's grace we are given the amazing gift of salvation. Sometimes we connect his grace only with salvation. However, His grace is much deeper than salvation only. God's grace can sustain us through any storm in life."
-    --
-    
-    t's by God's grace we are given the amazing gift of salvation. Sometimes we connect his grace only with salvation. However, His grace is much deeper than salvation only. God's grace can sustain us through any storm in life.
-    
-    his is one of my favorite passages of scripture. Paul wrote this letter to the people of Corinth. He wrote this letter to address the false teachers that were questioning his authority. 
+description: "It's by God's grace we are given the amazing gift of salvation. Sometimes we connect his grace only with salvation. However, His grace is much deeper than salvation only. God's grace can sustain us through any storm in life."
+---
+
+It's by God's grace we are given the amazing gift of salvation. Sometimes we connect his grace only with salvation. However, His grace is much deeper than salvation only. God's grace can sustain us through any storm in life.
+
+This is one of my favorite passages of scripture. Paul wrote this letter to the people of Corinth. He wrote this letter to address the false teachers that were questioning his authority. 
 
 He broke his message into two sections. 
 
@@ -55,13 +54,12 @@ Paul responded to this trial in three ways
    - It taught Paul that God's grace is sufficient. We are not only saved by God's grace but we are also sustained by Gods grace. It's by God's sustaining grace that we get through any trial in life. How do we allow God's sustaining grace to work in our lifes? We need to be weak. It's when we are weak. God's strength is made perfect. Remember this always. It is okay to be weak. Right now our nation feel weaks. There is not much we can do to stop the coronavirus. It is all in God's control and that is when His true glory and grace can shine. 
 
 Your brother in Christ,
-    br /> Craig
-    
-    blockquote>
-    ord we thank you for this amazing scripture. Help us to be like Paul and remember that you are with us through any trial in life. Help us to be humble and turn to you. Help us to acknowledge that it is your will we want done in our lifes and not us. You want to use us and we can make that happen by believing in Christ and always turning to you in prayer. In the mighty powerful name of Jesus. 
-    
-    men!
+<br /> Craig
+
+<blockquote>
+Lord we thank you for this amazing scripture. Help us to be like Paul and remember that you are with us through any trial in life. Help us to be humble and turn to you. Help us to acknowledge that it is your will we want done in our lifes and not us. You want to use us and we can make that happen by believing in Christ and always turning to you in prayer. In the mighty powerful name of Jesus. 
+
+Amen!
 
 </blockquote>
  
-                                                                                                                                                                                                                                                                                                                                                                        

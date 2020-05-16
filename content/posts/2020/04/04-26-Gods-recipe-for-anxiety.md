@@ -4,7 +4,6 @@ date: "2020-04-26T23:40:32.169Z"
 template: "post"
 verse: "Phillipians 4:1-19"
 book: "Phillipians"
-type: "Epistles"
 pastor: ""
 series: ""
 draft: false
@@ -24,13 +23,13 @@ recommendVerses:
 socialImage: "/media/posts/do-not-be-anxous-phil4.png"
 
 description: "According to the Anxiety and Depression Association of America (ADAA), 40 million American adults are affected by anxiety. That's around 18% of the population. Wow! Some of us try different ways to deal with their anxiety. Some turn to medicine. Some turn to alcohol. None of these are the answer. Jesus is the only answer."
-          --
-                            
-                            ccording to the Anxiety and Depression Association of America (ADAA), 40 million American adults are affected by anxiety. That's around 18% of the population. Wow! Some of us try different ways to deal with their anxiety. Some turn to medicine. Some turn to alcohol. None of these are the answer. Jesus is the only answer. Want to know why?
-                            
-                            n this passage Paul is addressing all his fellow believers. Paul really loved the people of Phillipi and he didn't want them to be anxious. 
-                            o what is anxiety? Anxiety is a feeling of worry. It's a feeling of unease. A feeling of constant thinking and worrying about things that we ourselves can't control. We all have gone through anxiety at times in life. Some of us may be going through it right now. 
-                   
+---
+
+According to the Anxiety and Depression Association of America (ADAA), 40 million American adults are affected by anxiety. That's around 18% of the population. Wow! Some of us try different ways to deal with their anxiety. Some turn to medicine. Some turn to alcohol. None of these are the answer. Jesus is the only answer. Want to know why?
+
+In this passage Paul is addressing all his fellow believers. Paul really loved the people of Phillipi and he didn't want them to be anxious. 
+So what is anxiety? Anxiety is a feeling of worry. It's a feeling of unease. A feeling of constant thinking and worrying about things that we ourselves can't control. We all have gone through anxiety at times in life. Some of us may be going through it right now. 
+
 Anxiety is the work of the enemy. The enemey wants us to worry because when we worry we can't do anything to further the kingdom of God. So what are we to do as Christians? We are to meditate on God's word and pray. Phillipians 4 is a perfect outline on how we are to deal with anxiety. 
 
 In this time of panademic a lot of people are worrying. Some are worrying will they have a job? Will they be able to provide food for their family? These are all valid concerns. However, God doesn't want us to worry. Someone once said worry is a conversation you have with yourself about things you can't change on your own. While prayer is a conversation with God who can change things. So the big takeaway here is to stay faithful. Let's take a look at the scripture now and see how God wants us to deal with anxiety. 
@@ -54,13 +53,13 @@ Sometimes its hard to feel God's prescence. We may rush through everything in ou
 
 In verse 7 Paul says that we have the peace of God. We have the peace of the God through the Holy Spirit. 
 
-          he Holy Spirit guard and protects our minds.
-                             love his choice of words. When I heard guard It makes me think of a big battle. So God is protecting us in a war we are going through.
-                            t's true our mind and heart are under constant attack by the enemy. So God is on our side working to protect our emotions and our thoughts. 
-                            o always remember we have the peace of God. See John 14:27
-                            
-                            ## How does the peace come to us?
-                   
+The Holy Spirit guard and protects our minds.
+I love his choice of words. When I heard guard It makes me think of a big battle. So God is protecting us in a war we are going through.
+It's true our mind and heart are under constant attack by the enemy. So God is on our side working to protect our emotions and our thoughts. 
+So always remember we have the peace of God. See John 14:27
+
+### How does the peace come to us?
+
  - We need to pray correctly - we are to pray about everything. Not just big things but small things as well. Prayer is so powerful. So if you want peace make your requests known to God. 
  - There is 4 ways to pray. 
    - **We need to pray with adoration** - simply tell God how great he is. 
@@ -103,4 +102,3 @@ Amen!
  
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
