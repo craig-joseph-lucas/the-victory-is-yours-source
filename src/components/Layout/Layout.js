@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import BibleReflagger from '../BibleReflagger';
+import Verse from '../Verse';
 import SiteNav from './SiteNav';
 import SiteFooter from './SiteFooter';
 import { useSiteMetadata } from '../../hooks';
@@ -65,7 +66,7 @@ const Layout = ({
         )}
 
       </Helmet>
-        { !hideNav && <SiteNav /> }
+  { !hideNav && <SiteNav /> }
        {children}
       <BibleReflagger />
       </div>
