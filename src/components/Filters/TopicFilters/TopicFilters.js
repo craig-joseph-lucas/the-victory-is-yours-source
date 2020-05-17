@@ -74,7 +74,7 @@ class TopicFilters extends React.PureComponent {
                 <form className={styles['topic-filters__form']}>
                     <input 
                         type="search" 
-                        placeholder="Try “The Cross or Spiritual Warfare”..." 
+                        placeholder="What does the Sword of the Spirit say about..." 
                         className={styles['topic-filters__search']}
                     />                    
                 </form>
