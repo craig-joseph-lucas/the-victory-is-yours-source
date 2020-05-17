@@ -41,35 +41,39 @@ const Layout = ({
   const metaImageUrl = getOgImage(url, metaImage);
 
   return (
-    <div style={containerStyles}>
+    <div>
       <div 
-        className={styles.layout}
+        style={containerStyles}
       >
-      <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta property="fb:app_id" content={facebookAppId} />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content={ogUrl} />
-        <meta property="og:site_name" content={title} />
-        <meta property="og:type" content="article" />
-        <meta property="og:description" content={description} />
-        <meta property="og:image" content={metaImageUrl} />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={metaImageUrl} />
-        <script src="//use.edgefonts.net/stencil-std;open-sans;droid-sans.js"></script>
-        { noIndex && (
-          <meta name="robots" content="noindex"></meta>
-        )}
+        <div className={styles.layout}>
+          <Helmet>
+            <html lang="en" />
+            <title>{title}</title>
+            <meta name="description" content={description} />
+            <meta property="fb:app_id" content={facebookAppId} />
+            <meta property="og:title" content={title} />
+            <meta property="og:url" content={ogUrl} />
+            <meta property="og:site_name" content={title} />
+            <meta property="og:type" content="article" />
+            <meta property="og:description" content={description} />
+            <meta property="og:image" content={metaImageUrl} />
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:title" content={title} />
+            <meta name="twitter:description" content={description} />
+            <meta name="twitter:image" content={metaImageUrl} />
+            <script src="//use.edgefonts.net/stencil-std;open-sans;droid-sans.js"></script>
+            { noIndex && (
+              <meta name="robots" content="noindex"></meta>
+            )}
 
-      </Helmet>
-  { !hideNav && <SiteNav /> }
-       {children}
-      <BibleReflagger />
+          </Helmet>
+          { !hideNav && <SiteNav /> }
+          {children}
+
+        </div>
+
       </div>
+      <BibleReflagger />
       <SiteFooter 
         title={title}
       />
