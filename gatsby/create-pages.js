@@ -5,9 +5,21 @@ const _ = require('lodash');
 const createCategoriesPages = require('./pagination/create-categories-pages.js');
 const createTagsPages = require('./pagination/create-tags-pages.js');
 const createPostsPages = require('./pagination/create-posts-pages.js');
-
+const getVerses = require('../src/utils/get-verses');
+const tagData = require('../src/content/tag-data');
 const createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+const { createPage } = actions;
+
+const getDefaultTagVerses = () => {
+  try {
+    return tagData.filter(tag => tag.name === 'default')[0].verses;
+  } catch (e) {
+    return [];
+  }
+};
+
+
+const swordOfTheSpiritVerses = await getVerses(getDefaultTagVerses());
 
   // 404
   createPage({
@@ -17,7 +29,8 @@ const createPages = async ({ graphql, actions }) => {
 
   createPage({
     path: '/sword-of-the-spirit',
-    component: path.resolve('./src/templates/sword-of-the-spirit-template.js')
+    component: path.resolve('./src/templates/sword-of-the-spirit-template.js'),
+    context: { verses: swordOfTheSpiritVerses }
   });
 
   // Tags list

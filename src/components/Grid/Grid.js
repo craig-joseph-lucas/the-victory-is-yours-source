@@ -10,18 +10,21 @@ import Dummy from 'dummyjs';
 import { props } from 'bluebird';
 
 type Props = {
-  isDesktopOrLaptop: boolean
+  isDesktopOrLaptop: boolean,
+  verses: Array
 };
 
 class MasonryGrid extends React.Component {
   render() {
-    const itemVerses = [
-      'John 3:16', 'Ephesians 2:16', 'Phillipians 4:13', '1 Corinthians 5:17',
-      'Hebrews 12:2', 'Joshua 1:8', 'Jeremiah 29:11', 'Galations 5:22'
-    ];
-    const items = itemVerses.map((item, i) => {
+    const { verses } = this.props;
+    if (!verses.length) {
+      return null;
+    }
+    const items = verses.map((item, i) => {
+      //console.log(item);
+
       return (
-        <VerseCard keyword={item} key={i} />  
+        <VerseCard overrideVerse={item.overrideVerse} keyword={item.keyword} key={i} />  
       )
     });
     const { isDesktopOrLaptop } = this.props;

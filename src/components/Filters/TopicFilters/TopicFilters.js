@@ -2,38 +2,38 @@ import React from 'react';
 import Select from 'react-select';
 import styles from './TopicFilters.module.scss';
 
-const selectStyles = { 
-    singleValue: (base) => ({ 
-        ...base 
-    }),
-    container: base => ({
-        ...base,
-        width: '200px',
-        marginTop: '30px',
-        marginRight: '20px',
-        display: 'inline-block'
-    })
-};
+
 
 class TopicFilters extends React.PureComponent {
     state = {
-        selectedOption: null,
+        selectedOption: 'Jesus'
+        // when there is selected option
+            // show active filter button inside search box
+            // show close button
+            // update masonry grid with correct itemse
     };
 
-    handleChange = (selectedOption) => {
-        this.setState({ selectedOption });
-        console.log(`Option selected:`, selectedOption);
+    removeFilter() {
+        this.setState((state) => {
+            return {selectedOption: null};
+        });
+    }
+
+    onTopicClick(label) {
+        this.setState((state) => {
+            return {selectedOption: label};
+        });
     }
 
     renderTopic(topic) {
         const { label, url } = topic;
         return (
-            <a 
-                href={url}
+            <button
+                onClick={(e) => { this.onTopicClick(label)}}
                 className={styles['topic-filters__btn']}
             >
                 { label }
-            </a>
+            </button>
         );
     }
 
@@ -47,37 +47,54 @@ class TopicFilters extends React.PureComponent {
           });
         return (
             <>
-            <span>Refine by: </span>
-            <Select 
-                onChange={this.handleChange}
-                options={topicsList}
-                styles={selectStyles}
-                placeholder="Topic"
-                autoFocus={true} 
-            />
-            <Select 
-                onChange={this.handleChange}
-                options={topicsList}
-                styles={selectStyles}
-                autoFocus={true} 
-            />
+            <div className={styles['topic-filters__label']}>
+                POPULAR Topics: 
+            </div>
+            <div className={styles['topic-filters__tags']}>
+                {
+                    topicsList.map(topic => this.renderTopic(topic))
+                }
+            </div>
             </>
         );
     }
 
+    renderSearchBar() {
+        return (
+           
+                <input 
+                    type="search" 
+                    placeholder="What does the Sword of the Spirit say about..." 
+                    className={styles['topic-filters__search']}
+                />                    
+            
+        );
+    }
+
+    renderActiveFilter() {
+        const { selectedOption } = this.state;
+        return (
+            <div className={styles['topic-filters__filter']}>
+                <button
+                    onClick={() => this.removeFilter()}
+                >
+                    { selectedOption }
+                </button>
+            </div>
+        );
+    }
 
     render() {
         const { tags } = this.props;
-        
+        const { selectedOption } = this.state;
+
         return (
             <div className={styles['topic-filters']}>
-                <form className={styles['topic-filters__form']}>
-                    <input 
-                        type="search" 
-                        placeholder="What does the Sword of the Spirit say about..." 
-                        className={styles['topic-filters__search']}
-                    />                    
-                </form>
+                 <form className={styles['topic-filters__form']} data-has-option={selectedOption ? true : false}>
+                 { 
+                    !selectedOption ? this.renderSearchBar() : this.renderActiveFilter()
+                 }
+                 </form>
                 <div className={styles['topic-filters__tags']}>
                     { this.renderTopics(tags)}
                 </div>

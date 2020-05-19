@@ -1,19 +1,8 @@
 // @flow strict
 import React from 'react';
 import styles from './VerseCard.module.scss';
+import getVerses from '../../utils/get-verses';
 
-const ESV_TEXT_ONLY = {
-  'include-passage-references': false,
-  'include-verse-numbers': true,
-  'include-first-verse-numbers': false,
-  'include-footnotes': false,
-  'include-footnote-body': false,
-  'include-headings': false,
-  'include-chapter-numbers': false,
-  'include-audio-link': false,
-  'wrapping-div': false
-};
-const TOKEN = 'bbc2a930dcc019b8b9b73e3203919a258ad96ba2';
 type Props = {
     keyword: string,
     version?: string,
@@ -38,19 +27,8 @@ class VerseCard extends React.Component {
       if (overrideVerse) {
         return;
       }
-
-      const params = new URLSearchParams({
-        ...ESV_TEXT_ONLY,
-        q: keyword
-      });
-
-      return fetch('https://api.esv.org/v3/passage/text/?' + params.toString(), {
-        method: 'GET',
-        headers: new Headers({
-            'Authorization': `Token ${TOKEN}`
-        })
-      })
-      .then(res=>res.clone().json())
+      const verse = `${keyword};john3:1`
+      getVerses(verse)
       .then(verses => {
         this.setState({
           verse: verses.passages[0]
@@ -72,7 +50,7 @@ class VerseCard extends React.Component {
             </h3>
             <div className={styles['verse-card__content']}>
               <p>
-                { verse }
+                { verse || overrideVerse }
               </p>
             </div>
         </section>
