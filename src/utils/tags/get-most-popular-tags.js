@@ -1,4 +1,4 @@
-import { useTagsList } from '../hooks';
+import { useTagsList } from '../../hooks';
 
 function getSlug (topic) {
     const cleanTopic = topic.toLowerCase().replace(/\s/g, '-');

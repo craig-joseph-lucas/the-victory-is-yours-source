@@ -20,9 +20,9 @@ class TopicFilters extends React.PureComponent {
     }
 
     onTopicClick(label) {
-        this.setState((state) => {
-            return {selectedOption: label};
-        });
+        const name = label.toString().toLowerCase();
+        window.location = `/sword-of-the-spirit/${name}/`
+        
     }
 
     renderTopic(topic) {

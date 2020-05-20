@@ -4,14 +4,12 @@ import Layout from '../components/Layout';
 import { useMediaQuery } from 'react-responsive';
 import Hero from '../components/Hero';
 import Grid from '../components/Grid';
-import GetMostPopularTags  from '../utils/get-most-popular-tags';
+import GetMostPopularTags  from '../utils/tags/get-most-popular-tags';
 import TopicFilters from '../components/Filters/TopicFilters';
-import GetVerses from '../utils/get-verses';
 import { SWORD_OF_THE_SPIRIT } from '../constants';
 import SwordOfTheSpiritIcon from '../components/Svgs/SwordOfTheSpirit';
 import { useSiteMetadata, useTagsList } from '../hooks';
 import type { MarkdownRemark } from '../types';
-
 
 type Props = {
   data: {

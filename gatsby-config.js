@@ -18,6 +18,9 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `${__dirname}/plugins/sword-of-the-spirit-filters`,
+    },
+    {
       resolve: `gatsby-plugin-sitemap`,
     },
     {

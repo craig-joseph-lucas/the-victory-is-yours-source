@@ -21,7 +21,6 @@ class MasonryGrid extends React.Component {
       return null;
     }
     const items = verses.map((item, i) => {
-      //console.log(item);
 
       return (
         <VerseCard overrideVerse={item.overrideVerse} keyword={item.keyword} key={i} />  
