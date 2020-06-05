@@ -6,7 +6,7 @@ import styles from './TopicFilters.module.scss';
 
 class TopicFilters extends React.PureComponent {
     state = {
-        selectedOption: 'Jesus'
+        selectedOption: null
         // when there is selected option
             // show active filter button inside search box
             // show close button
@@ -22,15 +22,17 @@ class TopicFilters extends React.PureComponent {
     onTopicClick(label) {
         const name = label.toString().toLowerCase();
         window.location = `/sword-of-the-spirit/${name}/`
-        
     }
 
     renderTopic(topic) {
-        const { label, url } = topic;
+        const { label } = topic;
         return (
             <button
                 onClick={(e) => { this.onTopicClick(label)}}
-                className={styles['topic-filters__btn']}
+                className={styles[
+                    'topic-filters__btn'
+                ]}
+                data-topic-name={label}
             >
                 { label }
             </button>

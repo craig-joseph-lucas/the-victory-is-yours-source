@@ -17,6 +17,9 @@
             content: '\203A';
             margin: 0 0 0 5px;
         }
+        &[data-topic-name="default"] {
+            display: none;
+        }
     }
     &__tags {
         display: flex;

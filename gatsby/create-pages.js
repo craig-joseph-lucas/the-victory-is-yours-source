@@ -5,6 +5,7 @@ const _ = require('lodash');
 const createCategoriesPages = require('./pagination/create-categories-pages.js');
 const createTagsPages = require('./pagination/create-tags-pages.js');
 const createPostsPages = require('./pagination/create-posts-pages.js');
+const createSosPages = require('./pagination/create-sos-pages.js');
 
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -50,41 +51,7 @@ const createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  const sosResult = await graphql(`
-  query MyPokemonQuery {
-    allSwordOfTheSpiritFilter(filter: {name: {eq: "default"}}) {
-      nodes {
-        name
-        verses {
-          keyword
-          overrideVerse
-        }
-        id
-      }
-    }
-  }
-  `);
-
   const { edges } = result.data.allMarkdownRemark;
-
-  const {
-    data: {
-      allSwordOfTheSpiritFilter: {
-          nodes: sosNodes,
-      }
-    },
-  } = sosResult;
-
-  if (sosNodes.length) {
-    createPage({
-      path: '/sword-of-the-spirit',
-      component: path.resolve('./src/templates/sword-of-the-spirit-template.js'),
-      context: { 
-        verses: sosNodes[0].verses,
-        devotionals: []
-      }
-    });
-  }
 
   _.each(edges, (edge) => {
     if (_.get(edge, 'node.frontmatter.template') === 'page') {
@@ -103,6 +70,11 @@ const createPages = async ({ graphql, actions }) => {
   });
 
   // Feeds
+  await createSosPages(
+    edges.filter(edge => edge.node.frontmatter.template === 'post'), 
+    graphql, 
+    actions
+  );
   await createTagsPages(graphql, actions);
   await createCategoriesPages(graphql, actions);
   await createPostsPages(graphql, actions);

@@ -17,6 +17,49 @@ type Props = {
   }
 };
 
+function addItemEvery(arr, item, starting, frequency) {
+  for (var i = 0, a = []; i < arr.length; i++) {
+    a.push(arr[i]);
+    if ((i + 1 + starting) % frequency === 0) {
+      a.push(item);
+      i++;
+      if(arr[i]) a.push(arr[i]);
+    }
+  }
+  return a;
+}
+
+function shuffleGridItems(verseItems, devotionalItems) {
+  if (!devotionalItems.length) {
+    return verseItems;
+  }
+  let finalArray;
+  devotionalItems.forEach((item, index) => {
+    finalArray = addItemEvery([...verseItems], item, 3, 3);
+  });
+  return finalArray;
+}
+
+function getGridContentItems(verses, devotionals){
+  const finalVerses = verses.map(verse => {
+    return {
+      content: { ...verse },
+      type: 'VerseCard'
+    }
+  });
+  const finalDevotionals = devotionals.map(devotional => {
+    return {
+      content: { ...devotional },
+      type: 'DevotionalCard'
+    }
+  });
+  const content = [
+    ...finalDevotionals,
+    ...finalVerses
+  ];
+  return shuffleGridItems(finalVerses, finalDevotionals);
+}
+
 const getFilters = () => {
   const tags = GetMostPopularTags(7);
   return (
@@ -33,8 +76,8 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
     query: '(min-device-width: 1224px)'
   });
   const { IMAGE_PATH, DEK, TITLE } = SWORD_OF_THE_SPIRIT;
-  const { verses } = pageContext;
-
+  const { verses, filters, devotionals } = pageContext;
+  console.log(getGridContentItems(verses, devotionals))
   return (
     <div>
 
@@ -45,7 +88,7 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
         dek={DEK}
         title={TITLE}
         Logo={SwordOfTheSpiritIcon}
-        FooterElement={getFilters()}
+        FooterElement={<TopicFilters tags={filters} />}
       />
       <Layout 
         title={`${postTitle} | ${siteTitle}`} 
@@ -56,12 +99,41 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
           backgroundColor: '#f2f2f2'
         }}
       >
-          <Grid verses={verses} isDesktopOrLaptop={isDesktopOrLaptop} />
+          <Grid 
+            verses={verses} 
+            isDesktopOrLaptop={isDesktopOrLaptop}
+            contentItems={getGridContentItems(verses, devotionals)}
+          />
     </Layout>
 
     </div>
   );
 };
+
+const myTest = 5;
+
+export const query = graphql`
+  {
+    allMarkdownRemark(limit: 5, skip: 0, filter: {frontmatter: {tags: {}, template: {eq: "post"}, draft: {ne: true}}}, sort: {order: DESC, fields: [frontmatter___date]}) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            date
+            category
+            description
+            tags
+            verse
+          }
+        }
+      }
+    }
+  }
+  `;
+
 
 
 export default SwordOfTheSpiritTemplate;
