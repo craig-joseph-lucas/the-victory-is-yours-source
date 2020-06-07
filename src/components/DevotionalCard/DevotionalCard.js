@@ -16,12 +16,34 @@ class DevotionalCard extends React.Component {
     }
   
     render() {
+
+      const { 
+        node: {
+          fields: {
+            slug
+          },
+          frontmatter: {
+            description,
+            tags,
+            title
+          }
+        }
+      } = this.props;
+
+      console.log(`slug is ${slug}, description is ${description}, title is ${title} `);
+      console.log(tags);
+
       return (
         
         <section className={styles['devotional-card']}>
-            <h3 className={styles['devotional-card__passage']}>
+           <h3 
+            className={styles['devotional-card__subheader']}
+           >
+             DEVOTIONAL
+          </h3> 
+            <h2 className={styles['devotional-card__passage']}>
                 header here
-            </h3>
+            </h2>
             <div className={styles['devotional-card__content']}>
               <p>
                 content here

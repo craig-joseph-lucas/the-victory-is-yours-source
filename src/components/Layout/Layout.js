@@ -31,6 +31,7 @@ const Layout = ({
   description,
   socialImage,
   containerStyles,
+  layoutStyles,
   ogUrl,
   noIndex,
   hideNav
@@ -45,7 +46,7 @@ const Layout = ({
       <div 
         style={containerStyles}
       >
-        <div className={styles.layout}>
+        <div className={styles.layout} style={layoutStyles}>
           <Helmet>
             <html lang="en" />
             <title>{title}</title>

@@ -29,18 +29,19 @@ function addItemEvery(arr, item, starting, frequency) {
   return a;
 }
 
-function shuffleGridItems(verseItems, devotionalItems) {
+function shuffleGridItems(verseItems, devotionalItems, isDesktopOrLaptop) {
   if (!devotionalItems.length) {
     return verseItems;
   }
+  let devOccurence = isDesktopOrLaptop ? 4 : 3;
   let finalArray;
   devotionalItems.forEach((item, index) => {
-    finalArray = addItemEvery([...verseItems], item, 3, 3);
+    finalArray = addItemEvery([...verseItems], item, 2, devOccurence);
   });
   return finalArray;
 }
 
-function getGridContentItems(verses, devotionals){
+function getGridContentItems(verses, devotionals, isDesktopOrLaptop){
   const finalVerses = verses.map(verse => {
     return {
       content: { ...verse },
@@ -57,7 +58,7 @@ function getGridContentItems(verses, devotionals){
     ...finalDevotionals,
     ...finalVerses
   ];
-  return shuffleGridItems(finalVerses, finalDevotionals);
+  return shuffleGridItems(finalVerses, finalDevotionals, isDesktopOrLaptop);
 }
 
 const getFilters = () => {
@@ -77,7 +78,6 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
   });
   const { IMAGE_PATH, DEK, TITLE } = SWORD_OF_THE_SPIRIT;
   const { verses, filters, devotionals } = pageContext;
-  console.log(getGridContentItems(verses, devotionals))
   return (
     <div>
 
@@ -95,6 +95,10 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
         description={metaDescription}
         noIndex
         socialImage={socialImage}
+        layoutStyles={{
+          margin: '0 20px',
+          maxWidth: 'none'
+        }}
         containerStyles={{
           backgroundColor: '#f2f2f2'
         }}
@@ -102,7 +106,7 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
           <Grid 
             verses={verses} 
             isDesktopOrLaptop={isDesktopOrLaptop}
-            contentItems={getGridContentItems(verses, devotionals)}
+            contentItems={getGridContentItems(verses, devotionals, isDesktopOrLaptop)}
           />
     </Layout>
 

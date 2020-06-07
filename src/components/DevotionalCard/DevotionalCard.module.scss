@@ -1,49 +1,25 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
-.verse-card {
+.devotional-card {
   @include margin-top(1);
   @include margin-bottom(1);
-  margin-left: 0;
-  margin-right: 0;
-  border-radius: 10px;
-  padding: 0 20px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.08), 0 5px 15px 0 rgba(0,0,0,.05);
+  padding: 24px 20px;
+  color: #fff;
+  background-color: $color-primary;
+  box-shadow: 0 2px 4px 0 #00000014, 0 5px 15px 0 rgba(0,0,0,.05);
   box-sizing: border-box;
 
-  &__passage{
-    font-family: stencil-std, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: justify;
-    padding: 1rem 0; 
-  }
-
-  &__content{
-    display: block;
-    @include margin-top(.25);
-    @include margin-bottom(.25);
-    padding: 0 10px;
-    p {
-      color: #333;
-      font-size: 15px;
-      padding-bottom: 20px;
-      line-height: 19px;
-      text-align: justify;
-    }  
+  &__subheader {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    margin: 0 0 8px;
+    padding: 0;
   }
 
   @include breakpoint-md {
     @include margin-top(2);
     @include margin-bottom(2);
-  
-    &__passage {
-      font-size: 20px;
-      line-height: 24px;
-      padding: 1rem 0;
-    }
   }
 }
