@@ -5,17 +5,41 @@
   @include margin-top(1);
   @include margin-bottom(1);
   padding: 24px 20px;
+  cursor: pointer;
   color: #fff;
   background-color: $color-primary;
   box-shadow: 0 2px 4px 0 #00000014, 0 5px 15px 0 rgba(0,0,0,.05);
   box-sizing: border-box;
+  position: relative;
+
+  svg {
+    position: absolute;
+    top: -14px;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 27px;
+    font-family: $typographic-font-family-titles-2;
+    line-height: 35px;
+    font-weight: bold;
+    padding: 0;
+  }
 
   &__subheader {
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     font-size: 12px;
-    margin: 0 0 8px;
+    margin: 0 0 16px;
     padding: 0;
+  }
+
+  &__footer {
+    color: #fff;
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
   }
 
   @include breakpoint-md {

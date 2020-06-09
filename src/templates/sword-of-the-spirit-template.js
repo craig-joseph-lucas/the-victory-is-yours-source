@@ -17,27 +17,22 @@ type Props = {
   }
 };
 
-function addItemEvery(arr, item, starting, frequency) {
-  for (var i = 0, a = []; i < arr.length; i++) {
-    a.push(arr[i]);
-    if ((i + 1 + starting) % frequency === 0) {
-      a.push(item);
-      i++;
-      if(arr[i]) a.push(arr[i]);
-    }
-  }
-  return a;
-}
-
 function shuffleGridItems(verseItems, devotionalItems, isDesktopOrLaptop) {
   if (!devotionalItems.length) {
     return verseItems;
   }
-  let devOccurence = isDesktopOrLaptop ? 4 : 3;
-  let finalArray;
+
+  let startIndex = 1;
+  let devOccurence = isDesktopOrLaptop ? 2 : 4;
+  let finalArray = [...verseItems];
   devotionalItems.forEach((item, index) => {
-    finalArray = addItemEvery([...verseItems], item, 2, devOccurence);
+      let insertIndex = devOccurence * (index + 2);
+      if (insertIndex < finalArray.length) {
+        finalArray.splice(insertIndex, 0, item);
+      }
+    console.log(finalArray);
   });
+  console.log(finalArray)
   return finalArray;
 }
 
@@ -59,6 +54,7 @@ function getGridContentItems(verses, devotionals, isDesktopOrLaptop){
     ...finalVerses
   ];
   return shuffleGridItems(finalVerses, finalDevotionals, isDesktopOrLaptop);
+  //return content.sort(() => Math.random() - 0.5);
 }
 
 const getFilters = () => {
@@ -78,6 +74,8 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
   });
   const { IMAGE_PATH, DEK, TITLE } = SWORD_OF_THE_SPIRIT;
   const { verses, filters, devotionals } = pageContext;
+  const gridItems = getGridContentItems(verses, devotionals, isDesktopOrLaptop);
+  console.log(gridItems);
   return (
     <div>
 
@@ -106,7 +104,7 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
           <Grid 
             verses={verses} 
             isDesktopOrLaptop={isDesktopOrLaptop}
-            contentItems={getGridContentItems(verses, devotionals, isDesktopOrLaptop)}
+            contentItems={gridItems}
           />
     </Layout>
 

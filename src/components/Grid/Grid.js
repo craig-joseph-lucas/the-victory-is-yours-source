@@ -46,7 +46,6 @@ class MasonryGrid extends React.Component {
           breakpointCols={(isDesktopOrLaptop ? 3 : 1)}
           className={styles['masonry-grid']}
           columnClassName={styles['masonry-grid__column']}
-          columnAttrs={{ className: 'should be overridden', 'data-test': '', style: { '--test': 'test' }}}
         >
           {items}
         </Masonry>      

@@ -41,6 +41,7 @@ const createPages = async ({ graphql, actions }) => {
               tags
               title
               description
+              verse
             }
             fields {
               slug
