@@ -42,7 +42,7 @@ Moses had faith and believed that God would deliver them out of bondage. He knew
 God delivered His people back then and can deliver His people today. There is no situation in life to big for God!! So trust in God and be bold like Moses!
 
 <blockquote>
-Gracious Father God you are a God of promises. You are a God of love. You are a God that takes care of His people. You delivered your people from a situation that seemed so impossible. Nothing is impossible for you. We are so blessed to have a God that loves us so much. Thank you Lord for giving us the blessed assurance that we can trust in you. 
+Gracious Father God you are a God of promises. You are a God of love. You are a God that takes care of His people. You delivered your people from a situation that seemed so impossible. Nothing is impossible for you. We are so blessed to have a God that loves us so much. Thank you Lord for giving us the blessed assurance that we can trust in you in all we do.
 
 In the Holy Precious name of Jesus we pray.
 Amen
