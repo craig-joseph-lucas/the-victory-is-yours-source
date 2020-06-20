@@ -23,7 +23,7 @@ tags:
 recommendVerses: 
   - "Romans 8:1"
 
-socialImage: "/media/posts/living-church-loving-church.jpg"
+socialImage: "/media/posts/god-always-delivers-his-people.jpg"
 
 description: "Ever feel like you are going through something impossible in your life. Something you are not sure how it will end. A serious trial that you feel may never end. Maybe the coronavirus has you feeling the blues. Or maybe it’s the racial inequities that have you feeling that way. This is the work of the enemy"
 ---
