@@ -60,16 +60,17 @@ module.exports = async (edges, graphql, actions) => {
     });
   });
  
+  var defaultDevotionals = edges.slice(0,10);
   var defaultSos = sosNodes.filter(node => node.name === 'default');
   createPage({
     path: '/sword-of-the-spirit',
     component: path.resolve('./src/templates/sword-of-the-spirit-template.js'),
     context: { 
       verses: defaultSos[0].verses,
-      devotionals: [],
+      devotionals: defaultDevotionals,
       filters: sosFilters,
     }
   });
   
 
-};
+  };
