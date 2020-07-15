@@ -73,7 +73,7 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
     query: '(min-device-width: 1224px)'
   });
   const { IMAGE_PATH, DEK, TITLE } = SWORD_OF_THE_SPIRIT;
-  const { verses, filters, devotionals } = pageContext;
+  const { verses, filters, devotionals, activeTopic } = pageContext;
   const gridItems = getGridContentItems(verses, devotionals, isDesktopOrLaptop);
   console.log(gridItems);
   return (
@@ -86,7 +86,7 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
         dek={DEK}
         title={TITLE}
         Logo={SwordOfTheSpiritIcon}
-        FooterElement={<TopicFilters tags={filters} />}
+        FooterElement={<TopicFilters tags={filters} activeTopic={activeTopic} />}
       />
       <Layout 
         title={`${postTitle} | ${siteTitle}`} 

@@ -19,16 +19,16 @@ class TopicFilters extends React.PureComponent {
         });
     }
 
-    onTopicClick(label) {
-        const name = label.toString().toLowerCase();
-        window.location = `/sword-of-the-spirit/${name}/`
+    onTopicClick(url) {
+        if (!url) return null;
+        window.location = url;
     }
 
     renderTopic(topic) {
-        const { label } = topic;
+        const { label, url } = topic;
         return (
             <button
-                onClick={(e) => { this.onTopicClick(label)}}
+                onClick={(e) => { this.onTopicClick(url)}}
                 className={styles[
                     'topic-filters__btn'
                 ]}
@@ -62,39 +62,39 @@ class TopicFilters extends React.PureComponent {
     }
 
     renderSearchBar() {
+        const activeSearchText = 'What does the Sword of the Spirit say about?';
         return (
-           
-                <input 
-                    type="search" 
-                    placeholder="What does the Sword of the Spirit say about..." 
-                    className={styles['topic-filters__search']}
-                />                    
-            
+            <input 
+                type="search"
+                placeholder={activeSearchText} 
+                className={styles['topic-filters__search-bar']}
+            />                    
         );
     }
 
     renderActiveFilter() {
-        const { selectedOption } = this.state;
-        return (
-            <div className={styles['topic-filters__filter']}>
-                <button
-                    onClick={() => this.removeFilter()}
-                >
-                    { selectedOption }
-                </button>
-            </div>
+        const { activeTopic } = this.props;
+           return (
+
+            <div className={styles['topic-filters__selected']}>
+                  { 
+                    this.renderTopic({
+                       label: activeTopic, 
+                       url: '/sword-of-the-spirit/'
+                    })
+                }
+            </div>                  
         );
     }
 
     render() {
-        const { tags } = this.props;
-        const { selectedOption } = this.state;
+        const { tags, activeTopic } = this.props;
 
         return (
             <div className={styles['topic-filters']}>
-                 <form className={styles['topic-filters__form']} data-has-option={selectedOption ? true : false}>
+                 <form className={styles['topic-filters__form']} data-has-option={!!activeTopic }>
                  { 
-                    !selectedOption ? this.renderSearchBar() : this.renderActiveFilter()
+                    !activeTopic ? this.renderSearchBar() : this.renderActiveFilter()
                  }
                  </form>
                 <div className={styles['topic-filters__tags']}>

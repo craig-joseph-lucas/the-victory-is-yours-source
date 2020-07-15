@@ -54,6 +54,7 @@ module.exports = async (edges, graphql, actions) => {
       component: path.resolve('./src/templates/sword-of-the-spirit-template.js'),
       context: { 
         verses: node.verses,
+        activeTopic: node.name,
         devotionals: devotionals,
         filters: sosFilters
       }

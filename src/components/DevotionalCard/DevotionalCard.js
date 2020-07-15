@@ -26,19 +26,19 @@ class DevotionalCard extends React.Component {
           frontmatter: {
             description,
             verse,
-            title
+            title,
+            tags
           }
         }
       } = this.props;
 
-      //console.log(`slug is ${slug}, description is ${description}, title is ${title} `);
-      //console.log(tags);
+      console.log(`slug is ${slug}, description is ${description}, title is ${title} `);
+      console.log(tags);
 
       return (
         
         <section 
           className={styles['devotional-card']}
-          onClick={() => window.location.href={slug}}
         >
           <Icon />
            <h3 
@@ -60,7 +60,7 @@ class DevotionalCard extends React.Component {
             </p>
           </div>
           <div className={styles['devotional-card__footer']}>
-            <a href="#">Read this devotional</a>
+            <a href={slug}>Read this devotional</a>
           </div>
           
         </section>
