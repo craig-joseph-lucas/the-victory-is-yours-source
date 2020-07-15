@@ -56,6 +56,7 @@ export const query = graphql`
         type,
         socialImage,
         verse,
+        overrideVerse,
         recommendVerses,
         slug
       }

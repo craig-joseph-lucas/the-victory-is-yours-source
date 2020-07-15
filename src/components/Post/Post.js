@@ -22,7 +22,7 @@ type Props = {
 const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
-  const { tags, title, date, verse, recommendVerses } = post.frontmatter;
+  const { tags, title, date, verse, recommendVerses, overrideVerse } = post.frontmatter;
   const { facebookAppId, url } = useSiteMetadata();
 
 
@@ -30,7 +30,7 @@ const Post = ({ post }: Props) => {
     <div className={styles['post']}>
 
       <div className={styles['post__content']}>
-        <Content body={html} title={title} verseKeyword={verse} />
+        <Content body={html} title={title} verseKeyword={verse} overrideVerse={overrideVerse} />
       </div>
 
       <div className={styles['post__footer']}>

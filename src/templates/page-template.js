@@ -54,6 +54,7 @@ export const query = graphql`
         description
         socialImage,
         verse,
+        overrideVerse,
         type,
         book,
         recommendVerses,

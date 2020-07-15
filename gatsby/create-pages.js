@@ -42,6 +42,7 @@ const createPages = async ({ graphql, actions }) => {
               title
               description
               verse
+              overrideVerse
             }
             fields {
               slug
