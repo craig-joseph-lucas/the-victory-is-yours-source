@@ -1,18 +1,8 @@
 import React from 'react';
-import Select from 'react-select';
+import { Link } from 'gatsby';
 import styles from './TopicFilters.module.scss';
 
-
-
 class TopicFilters extends React.PureComponent {
-    state = {
-        selectedOption: null
-        // when there is selected option
-            // show active filter button inside search box
-            // show close button
-            // update masonry grid with correct itemse
-    };
-
     removeFilter() {
         this.setState((state) => {
             return {selectedOption: null};
@@ -21,17 +11,18 @@ class TopicFilters extends React.PureComponent {
 
     onTopicClick(url) {
         if (!url) return null;
-        window.location = url;
+        window.location.href = url;
     }
 
     renderTopic(topic) {
-        const { label, url } = topic;
+        const { label, url, activeTopic } = topic;
         return (
             <button
                 onClick={(e) => { this.onTopicClick(url)}}
-                className={styles[
-                    'topic-filters__btn'
-                ]}
+                className={styles[{
+                    'topic-filters__btn': true,
+                    'topic-filters__btn--active': label === activeTopic
+                }]}
                 data-topic-name={label}
             >
                 { label }
@@ -73,15 +64,19 @@ class TopicFilters extends React.PureComponent {
     }
 
     renderActiveFilter() {
-        const { activeTopic } = this.props;
+        const { activeTopic, topicLandingUrl } = this.props;
            return (
 
             <div className={styles['topic-filters__selected']}>
-                  { 
-                    this.renderTopic({
-                       label: activeTopic, 
-                       url: '/sword-of-the-spirit/'
-                    })
+                { 
+                    <Link 
+                        to={topicLandingUrl} 
+                        className={styles[
+                            'topic-filters__btn'
+                        ]}  
+                    >
+                        {activeTopic}
+                    </Link>
                 }
             </div>                  
         );

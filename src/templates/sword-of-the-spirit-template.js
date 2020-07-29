@@ -30,9 +30,7 @@ function shuffleGridItems(verseItems, devotionalItems, isDesktopOrLaptop) {
       if (insertIndex < finalArray.length) {
         finalArray.splice(insertIndex, 0, item);
       }
-    console.log(finalArray);
   });
-  console.log(finalArray)
   return finalArray;
 }
 
@@ -54,14 +52,6 @@ function getGridContentItems(verses, devotionals, isDesktopOrLaptop){
     ...finalVerses
   ];
   return shuffleGridItems(finalVerses, finalDevotionals, isDesktopOrLaptop);
-  //return content.sort(() => Math.random() - 0.5);
-}
-
-const getFilters = () => {
-  const tags = GetMostPopularTags(7);
-  return (
-    <TopicFilters tags={tags} />
-  );
 }
 
 const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
@@ -72,10 +62,9 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1224px)'
   });
-  const { IMAGE_PATH, DEK, TITLE } = SWORD_OF_THE_SPIRIT;
+  const { IMAGE_PATH, DEK, TITLE, LANDING_URL } = SWORD_OF_THE_SPIRIT;
   const { verses, filters, devotionals, activeTopic } = pageContext;
   const gridItems = getGridContentItems(verses, devotionals, isDesktopOrLaptop);
-  console.log(gridItems);
   return (
     <div>
 
@@ -86,7 +75,7 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
         dek={DEK}
         title={TITLE}
         Logo={SwordOfTheSpiritIcon}
-        FooterElement={<TopicFilters tags={filters} activeTopic={activeTopic} />}
+        FooterElement={<TopicFilters topicLandingUrl={LANDING_URL} tags={filters} activeTopic={activeTopic} />}
       />
       <Layout 
         title={`${postTitle} | ${siteTitle}`} 
