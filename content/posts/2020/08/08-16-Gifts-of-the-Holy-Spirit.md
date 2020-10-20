@@ -38,7 +38,7 @@ recommendVerses:
   - "John 14:26-27"
   - "Romans 12:2"
 
-socialImage: ""
+socialImage: "/media/posts/spiritual-gifts/spiritual-gifts.jpg"
 
 description: "Did you know that when you accept the free gift of salvation that you receive the Holy Spirit. It is the goal of the Holy Spirit to transform you to become like Jesus through a process that is called sanctification. Let's look at one way the Holy Spirit does this. Which, is through spiritual gifts"
 
