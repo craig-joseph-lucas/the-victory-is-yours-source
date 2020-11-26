@@ -22,11 +22,12 @@ tags:
   - "Psalms"
 
 recommendVerses: 
-  - "Romans 3:10"
-  - "Romans 3:23"
+  - "Romans 8:38-39"
+  - "James 1:17"
   - "John 3:16"
-  - "John 15:13"
-  - "Romans 6:23"
+  - "Romans 5:6-8"
+  - "John 3:16"
+  - "Romans 8:15"
   - "Lamentations 3:22-23"
   - "Matthew 25:31-46"
   - "2 Corinthians 5:17"
