@@ -1,5 +1,5 @@
 // @flow strict
-import React from 'react';
+import React, { useState }from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
@@ -26,6 +26,7 @@ const PageTemplate = ({ data, location }: Props) => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1224px)'
   });
+  
 
   return (
     <Layout

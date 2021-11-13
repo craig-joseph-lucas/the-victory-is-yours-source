@@ -1,11 +1,11 @@
 'use strict';
 
-const tags =   [
+const tags = [
   {
     name: 'default',
     verses: [
       'John 3:16',
-      'Jeremiah 29:11', 
+      'Jeremiah 29:11',
       'Phillipians 4:13',
       'Galations 5:22',
       'Proverbs 16:3',
@@ -36,33 +36,33 @@ const tags =   [
   {
     name: 'Suffering',
     verses: [
-      "1 Peter 5:8-9",
-      "2 Corinthians 4:8-9",
-      "Romans 8:18-21",
-      "Matthew 5:4",
-      "John 16:20",
-      "John 16:33",
-      "Romans 15:13",
-      "Romans 8:28",
-      "Hebrews 13:5"
+      '1 Peter 5:8-9',
+      '2 Corinthians 4:8-9',
+      'Romans 8:18-21',
+      'Matthew 5:4',
+      'John 16:20',
+      'John 16:33',
+      'Romans 15:13',
+      'Romans 8:28',
+      'Hebrews 13:5'
     ]
   },
   {
     name: 'Prayer',
     verses: [
-      "Phillipians 4:6",
-      "1 John 1:9",
-      "Colossians 4:2",
-      "James 5:16",
-      "John 15:7",
-      "1 John 5:14-15",
-      "Ephesians 6:18",
-      "James 5:13",
-      "Matthew 5:44",
-      "Matthew 26:41",
-      "Romans 12:12",
-      "Luke 11:2-4",
-      "1 Thessalonians 5:16-18"
+      'Phillipians 4:6',
+      '1 John 1:9',
+      'Colossians 4:2',
+      'James 5:16',
+      'John 15:7',
+      '1 John 5:14-15',
+      'Ephesians 6:18',
+      'James 5:13',
+      'Matthew 5:44',
+      'Matthew 26:41',
+      'Romans 12:12',
+      'Luke 11:2-4',
+      '1 Thessalonians 5:16-18'
     ]
   },
   {
@@ -92,7 +92,7 @@ const tags =   [
       'Ephesians 1:7'
     ]
   },
-/*   {
+  {
     name: 'Spiritual Warfare',
     verses: [
       'James 4:7',
@@ -102,15 +102,16 @@ const tags =   [
       '1 Peter 5:7',
       'Philippians 4:8'
     ]
-  }, */
+  },
   {
     name: 'Salvation',
-    verses:  [
+    verses: [
       'John 3:16',
       'Ephesians 2:8-9',
       '1 John 1:9',
       'Romans 10:9-10',
       'Acts 4:12',
+      'Matthew 12:30',
       'John 14:6',
       'Mark 16:6',
       'Romans 3:23',
@@ -125,6 +126,69 @@ const tags =   [
       'Phillipians 1:6',
       'Revelation 3:20'
     ]
+  },
+  {
+    name: 'Mercy',
+    verses: [
+      'Hebrews 4:16',
+      'Ephesians 2:4-5',
+      'Lamentations 3:22-23',
+      'Matthew 5:7',
+      '1 Peter 1:3',
+      'Titus 3:5'
+    ],
+    hidePopularFilter: true
+  },
+  {
+    name: 'Ten Commandments',
+    verses: [
+      'Exodus 20:3',
+      'Exodus 20:4-6',
+      'Exodus 20:7',
+      'Exodus 20:8-11',
+      'Exodus 20:12',
+      'Exodus 20:13',
+      'Exodus 20:14',
+      'Exodus 20:15',
+      'Exodus 20:16',
+      'Exodus 20:17'
+    ],
+    hidePopularFilter: true
+  },
+  {
+    name: 'Worship',
+    verses: ['tktk'],
+    hidePopularFilter: true
+  },
+  {
+    name: 'End Times',
+    verses: ['tktk'],
+    hidePopularFilter: true
+  },
+  {
+    name: 'Death',
+    verses: ['tktk'],
+    hidePopularFilter: true
+  },
+  {
+    name: 'Sin',
+    verses: ['tktk'],
+    hidePopularFilter: true
+  },
+  {
+    name: 'Heaven',
+    verses: ['tktk'],
+    hidePopularFilter: true
+  },
+  {
+    name: 'Parenting',
+    verses: ['tktk'],
+    hidePopularFilter: true
+  },
+  {
+    name: 'Marriage',
+    verses: ['tktk'],
+    hidePopularFilter: true
   }
 ];
 

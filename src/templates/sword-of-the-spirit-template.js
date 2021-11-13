@@ -1,15 +1,17 @@
 // @flow strict
-import React from 'react';
-import Layout from '../components/Layout';
+import React, { useState, useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive';
+import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import Grid from '../components/Grid';
-import GetMostPopularTags  from '../utils/tags/get-most-popular-tags';
+import InfoIcon from '../components/Svgs/info';
 import TopicFilters from '../components/Filters/TopicFilters';
 import { SWORD_OF_THE_SPIRIT } from '../constants';
 import SwordOfTheSpiritIcon from '../components/Svgs/SwordOfTheSpirit';
 import { useSiteMetadata, useTagsList } from '../hooks';
 import type { MarkdownRemark } from '../types';
+import gridHelpers from '../utils/grid';
+import getVersesByTopic from '../utils/get-verses-by-topic';
 
 type Props = {
   data: {
@@ -17,68 +19,40 @@ type Props = {
   }
 };
 
-function shuffleGridItems(verseItems, devotionalItems, isDesktopOrLaptop) {
-  if (!devotionalItems.length) {
-    return verseItems;
-  }
-
-  let startIndex = 1;
-  let devOccurence = isDesktopOrLaptop ? 2 : 4;
-  let finalArray = [...verseItems];
-  devotionalItems.forEach((item, index) => {
-      let insertIndex = devOccurence * (index + 2);
-      if (insertIndex < finalArray.length) {
-        finalArray.splice(insertIndex, 0, item);
-      }
-  });
-  return finalArray;
-}
-
-function getGridContentItems(verses, devotionals, isDesktopOrLaptop){
-  const finalVerses = verses.map(verse => {
-    return {
-      content: { ...verse },
-      type: 'VerseCard'
-    }
-  });
-  const finalDevotionals = devotionals.map(devotional => {
-    return {
-      content: { ...devotional },
-      type: 'DevotionalCard'
-    }
-  });
-  const content = [
-    ...finalDevotionals,
-    ...finalVerses
-  ];
-  return shuffleGridItems(finalVerses, finalDevotionals, isDesktopOrLaptop);
-}
-
-const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
+const SwordOfTheSpiritTemplate = ({ data, pageContext, location }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle, url } = useSiteMetadata();
   const postTitle = 'The Sword of the Spirit';
-  const metaDescription = "";
-  const socialImage = "";
+  const metaDescription = '';
+  const socialImage = '';
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1224px)'
   });
-  const { IMAGE_PATH, DEK, TITLE, LANDING_URL } = SWORD_OF_THE_SPIRIT;
-  const { verses, filters, devotionals, activeTopic } = pageContext;
-  const gridItems = getGridContentItems(verses, devotionals, isDesktopOrLaptop);
+  const {
+    IMAGE_PATH, DEK, TITLE, LANDING_URL
+  } = SWORD_OF_THE_SPIRIT;
+  const {
+    verses, filters, devotionals, activeTopic
+  } = pageContext;
+  const urlSearchParams = new URLSearchParams(location.search);
+  const urlParams = Object.fromEntries(urlSearchParams.entries());
+  const { topic } = urlParams;
+  const gridItems = gridHelpers.getGridContentItems(verses, devotionals, isDesktopOrLaptop);
+
   return (
     <div>
 
-      <Hero 
+      <Hero
         image={{
           url: IMAGE_PATH
         }}
         dek={DEK}
         title={TITLE}
         Logo={SwordOfTheSpiritIcon}
-        FooterElement={<TopicFilters topicLandingUrl={LANDING_URL} tags={filters} activeTopic={activeTopic} />}
+        FooterElement={
+          <TopicFilters topicLandingUrl={LANDING_URL} isDesktopOrLaptop={isDesktopOrLaptop}tags={filters} activeTopic={activeTopic || topic} />}
       />
-      <Layout 
-        title={`${postTitle} | ${siteTitle}`} 
+      <Layout
+        title={`${postTitle} | ${siteTitle}`}
         description={metaDescription}
         noIndex
         socialImage={socialImage}
@@ -90,18 +64,18 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext }: Props) => {
           backgroundColor: '#f2f2f2'
         }}
       >
-          <Grid 
-            verses={verses} 
-            isDesktopOrLaptop={isDesktopOrLaptop}
-            contentItems={gridItems}
-          />
+        <Grid
+          verseTopic={topic}
+          verses={verses}
+          devotionals={devotionals}
+          gridItems={gridItems}
+          isDesktopOrLaptop={isDesktopOrLaptop}
+        />
     </Layout>
 
     </div>
   );
 };
-
-const myTest = 5;
 
 export const query = graphql`
   {
@@ -124,7 +98,6 @@ export const query = graphql`
     }
   }
   `;
-
 
 
 export default SwordOfTheSpiritTemplate;

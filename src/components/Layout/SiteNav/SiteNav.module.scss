@@ -51,10 +51,9 @@
         }
 
         @media print {
-            left: 50%;
+            left: 95%;
             top: 50%;
-            transform: translate(-50%,-50%);
-
+            transform: translate(-95%,-50%);
         }
 
         h1 {
@@ -79,6 +78,9 @@
             font-size: 1rem;
             @include breakpoint-md {
                 font-size: 1.5rem;
+            }
+            @media print {
+                color: #000;
             }
             font-weight: 600;
         }

@@ -32,28 +32,21 @@ class DevotionalCard extends React.Component {
         }
       } = this.props;
 
-      console.log(`slug is ${slug}, description is ${description}, title is ${title} `);
-      console.log(tags);
-
       return (
-        
-        <section 
+        <section
           className={styles['devotional-card']}
         >
           <Icon />
-           <h3 
+           <h3
             className={styles['devotional-card__subheader']}
            >
              DEVOTIONAL
-          </h3> 
+          </h3>
           <h2 className={styles['devotional-card__title']}>
-            { title }
+            <a href={slug}>
+              { title }
+            </a>
           </h2>
-          <h4 
-            className={styles['devotional-card__subheader']}
-          >
-            {verse}
-          </h4>
           <div className={styles['devotional-card__content']}>
             <p>
               { description }
@@ -62,10 +55,9 @@ class DevotionalCard extends React.Component {
           <div className={styles['devotional-card__footer']}>
             <a href={slug}>Read this devotional</a>
           </div>
-          
         </section>
       );
     }
-  }
+}
 
-  export default DevotionalCard;
+export default DevotionalCard;

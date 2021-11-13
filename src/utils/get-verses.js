@@ -5,6 +5,7 @@ const axios = require('axios');
 function getVerses (verses) {
     return new Promise((resolve, reject) => {
 
+      
         const verseKeywords = verses.join(';');
         const versesToRender = [];
         const params = new URLSearchParams({

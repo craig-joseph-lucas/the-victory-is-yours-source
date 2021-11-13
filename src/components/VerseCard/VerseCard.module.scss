@@ -2,14 +2,18 @@
 @import '../../assets/scss/mixins';
 
 .verse-card {
-  @include margin-top(1);
-  @include margin-bottom(1);
+  @include margin-top(.6);
+  @include margin-bottom(.6);
   margin-left: 0;
   margin-right: 0;
   padding: 0 20px;
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.08), 0 5px 15px 0 rgba(0,0,0,.05);
   box-sizing: border-box;
+  @media print {
+    box-shadow: none;
+    border: 1px solid #333;
+  }
 
   &__passage{
     font-family: stencil-std, sans-serif;
@@ -18,6 +22,7 @@
     margin-left: 0;
     margin-right: 0;
     text-align: justify;
+    @include margin-top(.6);
     padding: 1rem 0; 
   }
 
@@ -32,17 +37,24 @@
       padding-bottom: 20px;
       line-height: 19px;
       text-align: justify;
+      transition: opacity 600ms ease-in-out;
     }  
   }
 
   @include breakpoint-md {
-    @include margin-top(2);
     @include margin-bottom(2);
   
     &__passage {
       font-size: 20px;
       line-height: 24px;
+      @include margin-top(1); 
       padding: 1rem 0;
+    }
+  }
+
+  &:nth-child(3n+4) {  
+    @media print {
+      background: green;
     }
   }
 }

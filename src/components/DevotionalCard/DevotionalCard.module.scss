@@ -12,6 +12,10 @@
   box-sizing: border-box;
   position: relative;
 
+  @media print { 
+    display: none; 
+  }
+
   svg {
     position: absolute;
     top: -14px;
@@ -24,6 +28,8 @@
     line-height: 35px;
     font-weight: bold;
     padding: 0;
+
+    a { color: #fff; }
   }
 
   &__subheader {

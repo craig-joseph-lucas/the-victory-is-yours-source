@@ -3,5 +3,7 @@
 
 .layout {
     lost-center: $layout-width;
-
+    @media print {
+        background-color: #fff;
+    }
 }
