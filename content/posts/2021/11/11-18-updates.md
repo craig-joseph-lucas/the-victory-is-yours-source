@@ -47,7 +47,7 @@ Our neighbor at the time told us about a good church by us. We decided to give i
 
 We decided to make new church our home church and attended for a few months when we heard announcements about an upcoming ministry fair. This fair turned out to have a major impact on our lives. God opened two new doors for us. Two great blessings. 
 
-## Blessing #1 - Kids Ministry
+## New Blessing #1 - Kids Ministry
 
 The first door was for me in the kids ministry. I feel this is something God has been calling me to do for some time. The Lord has been preparing me. However, I kept saying I wasn't ready. This time the Lord prompted and I said yes. I said yes to being an assistant teacher. I was super nervous going in but I took the leap of faith and its been such a blessing so far. 
 
@@ -59,7 +59,7 @@ For me the greatest thing about the kids ministry is watching the children prais
 
 So if you guys can pray for me that I can be a great blessing to the children at my church. That I can help them grow in maturity in their relationship with God. 
 
-## Blessing #2 - Safe Families with OliveCrest 
+## New Blessing #2 - Safe Families with OliveCrest 
 
 There was another blessing that came from the ministry fair. This was us joining a ministry called Safe Families. Safe Families mission is simple. To provide a safe place for children to stay in times of emergencies. 
 
