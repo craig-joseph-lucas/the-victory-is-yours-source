@@ -29,7 +29,8 @@
         position: sticky;
         height: 55px;
         padding: 0 15px;
-        lost-center: $layout-width;
+        margin: 0 auto;
+        max-width: $layout-post-single-width;
     }
 
     &__container {
@@ -45,9 +46,9 @@
         align-items: center;
         position: relative;
         @include breakpoint-sm {
-            left: 40%;
+            left: 37%;
             top: 50%;
-            transform: translate(-40%,-50%);
+            transform: translate(-37%,-50%);
         }
 
         @media print {
@@ -63,7 +64,6 @@
 
         img { 
             display: inline-block;
-            margin-left: 20px;
             vertical-align: middle;
             max-height: 40px; 
             width: 40px;

@@ -7,6 +7,7 @@ import Masonry from 'react-masonry-css';
 import styles from './Grid.module.scss';
 import useDetectPrint from "react-detect-print";
 import gridHelpers from '../../utils/grid';
+import InfoIcon from '../../components/Svgs/info';
 import getVersesByTopic from '../../utils/get-verses-by-topic';
 
 // Placeholder text library
@@ -80,6 +81,12 @@ class MasonryGrid extends React.Component {
 
     return (
       <>
+        <div className={styles['grid__help-msg']}>
+          <InfoIcon /> Click a verse to show or hide
+        </div>
+
+
+
           <Masonry
             breakpointCols={colCount}
             className={styles['masonry-grid']}

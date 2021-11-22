@@ -55,7 +55,7 @@ class SiteNav extends React.PureComponent {
             </button>
             <div className={styles[`${cn}__title`]}>
               <h1>
-                <a href="/">Victory in Jesus Christ <img src="/media/logo.png" /></a>
+                <a href="/">Victory <img src="/media/logo.png" /> in Jesus Christ </a>
               </h1>
             </div>
             <div className={styles[`${cn}__search`]}>
