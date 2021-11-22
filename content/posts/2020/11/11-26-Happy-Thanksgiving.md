@@ -1,6 +1,6 @@
 ---
 title: Happy Thanksgiving
-date: "2021-11-26T23:40:32.169Z"
+date: "2020-11-26T23:40:32.169Z"
 template: "post"
 verse: "Psalm 100:4-5"
 book: "Psalm"
@@ -8,7 +8,7 @@ type: ""
 pastor: ""
 series: ""
 draft: false
-slug: "Happy-Thanksgiving-2021"
+slug: "Happy-Thanksgiving-2020"
 category: "Christian Living"
 tags:
   - "God"
@@ -40,7 +40,7 @@ description: "We can give thanks to God in all times in life. God deserves all o
 ---
 
 
-The year 2021 is a year many could argue what do we have to be thankful for. Many things have gone wrong with our nation. The coronavirus, social injustice, fires, and earthquakes. Just to name a few.  Yes many bad things and many big problems. Many trials. Many sorrows. However, one thing that always remains and never changes is God’s love for us.  His love conquers all and nothing can separate us from His love (Romans 8:38-39). 
+The year 2020 is a year many could argue what do we have to be thankful for. Many things have gone wrong with our nation. The coronavirus, social injustice, fires, and earthquakes. Just to name a few.  Yes many bad things and many big problems. Many trials. Many sorrows. However, one thing that always remains and never changes is God’s love for us.  His love conquers all and nothing can separate us from His love (Romans 8:38-39). 
 
 ![Gift of Wisdom](/media/posts/2020-thanksgiving.jpg)
 
