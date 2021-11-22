@@ -38,14 +38,14 @@ God chose a home for us that we could grow in. The new home gave us a private pl
 
 We feel totally blessed to call it home. God is so good. We were very thankful for the Home and we decided to dedicate the house to the Lord. We wanted to be good stewards of the home. We started praying about it and decided to start looking for a new church closer to our new home. 
 
-Our neighbor at the time told us about a good church by us. We decided to give it a chance. I started listening to the sermons online for a weeks before our family attended in person. The church connected right away with our family between the worship, the kids ministry and the message.
+Our neighbor at the time told us about a good church by us. We decided to give it a chance. I started listening to the sermons online for a few weeks before our family attended in person. The church connected right away with our family between the worship, the kids ministry and the message.
 
 <div class="post-image">
   <img src="/media/posts/2021-updates-church.jpg" />
 </div>
 
 
-We decided to make new church our home church and attended for a few months when we heard announcements about an upcoming ministry fair. This fair turned out to have a major impact on our lives. God opened two new doors for us. Two great blessings. 
+We decided to make the new church our home church and attended for a few months when we heard announcements about an upcoming ministry fair. This fair turned out to have a major impact on our lives. God opened two new doors for us. Two great blessings. 
 
 ## New Blessing #1 - Kids Ministry
 
