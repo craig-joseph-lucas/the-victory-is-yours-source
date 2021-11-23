@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import styles from './Page.module.scss';
-
+import Banner from '../Banner';
+import { useSiteMetadata } from '../../hooks';
 
 type Props = {
   title?: string,
@@ -9,15 +10,25 @@ type Props = {
 
 const Page = ({ title, children }: Props) => {
   const pageRef = useRef();
+  const { subtitle } = useSiteMetadata();
 
   useEffect(() => {
-    pageRef.current.scrollIntoView();
+    //pageRef.current.scrollIntoView();
   });
 
   return (
     <div ref={pageRef} className={styles['page']}>
       <div className={styles['page__inner']}>
         { title && <h1 className={styles['page__title']}>{title}</h1>}
+        <div className={styles['page__sidebar']}>
+            <div className={styles['page__sidebar-tagline']}> { subtitle } </div>
+
+              <Banner 
+                url="https://www.biblegateway.com"
+                title="Click to Study Scripture at Bible Gateway"
+                imgSrc="https://bg3-blog.s3.amazonaws.com/blog/wp-content/uploads/2014/08/bg-badge-option-1.jpg"
+              />
+        </div>
         <div className={styles['page__body']}>
           {children}
         </div>
