@@ -17,16 +17,13 @@ const Feed = ({ edges }: Props) => (
     {edges.map((edge) => (
       <div className={styles['feed__item']} key={edge.node.fields.slug}>
         <div className={styles['feed__item-meta']}>
-          <span className={styles['feed__item-meta-category']}>
-            <Link to={edge.node.fields.categorySlug} className={styles['feed__item-meta-category-link']}>{edge.node.frontmatter.category}</Link>
-          </span>
+        <time className={styles['feed__item-meta-category']} dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}>
+            {moment(edge.node.frontmatter.date).format('MMMM DD, YYYY')}
+          </time>
         </div>
         <h2 className={styles['feed__item-title']}>
           <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
         </h2>
-        <time className={styles['feed__item-meta-time']} dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}>
-            Published on {moment(edge.node.frontmatter.date).format('MMMM DD, YYYY')}
-          </time>
         <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
         <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read more</Link>
       </div>

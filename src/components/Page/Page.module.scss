@@ -25,11 +25,28 @@
     @include margin(0, 0, 1);
   }
 
+  &__sidebar {
+    width: '200px';
+    float: 'right';
+    position: 'relative';
+    top: '75px';
+  }
+
+  &__sidebar-tagline {
+    font-family: droid-sans, sans-serif;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    padding: 0 20px;
+    color: #999;
+    line-height: 18px;
+  }
+
 }
 
 @include breakpoint-md {
   .page {
-    lost-column: 7/12;
 
     &__inner {
       padding: 30px 20px;
@@ -41,8 +58,6 @@
 
 @include breakpoint-md {
   .page {
-    lost-column: 2/3;
-
     &__inner {
       padding: 40px 35px;
     }

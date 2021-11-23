@@ -36,14 +36,13 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
 
   return (
     <Layout hideNav={isDesktopOrLaptop} title={pageTitle} description={siteSubtitle}>
-      { isDesktopOrLaptop && <Sidebar isIndex /> }
       <Page>
       <h1 className="devotionals__title">
-        Latest Devotionals
-        <img
+        Latest <img
           className="devotionals__title-img"
           src="/media/black-and-white-bible.svg" 
-        />
+        /> Devotionals
+
       </h1>
         <Feed edges={edges} />
         <Pagination

@@ -42,7 +42,6 @@ const TagTemplate = ({ data, pageContext }: Props) => {
       description={siteSubtitle}
       hideNav={isDesktopOrLaptop}
     >
-      { isDesktopOrLaptop && <Sidebar /> }
       <Page title={`All ${tag} posts`}>
         <Feed edges={edges} />
         <Pagination

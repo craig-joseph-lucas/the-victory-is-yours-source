@@ -36,7 +36,6 @@ const PageTemplate = ({ data, location }: Props) => {
       socialImage={socialImage}
       ogUrl={ogUrl}
     >
-      { isDesktopOrLaptop && <Sidebar /> }
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>

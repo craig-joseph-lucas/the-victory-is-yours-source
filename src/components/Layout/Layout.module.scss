@@ -6,4 +6,14 @@
     @media print {
         background-color: #fff;
     }
+
+    &__banner {
+        height: 20px;
+        margin-top: 56px;
+        background-color: #f2f2f2;
+        img {
+            margin: 0 auto;
+            display: block;
+        }
+    }
 }

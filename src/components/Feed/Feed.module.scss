@@ -4,7 +4,10 @@
 .feed {
 
   &__item {
-    @include margin-bottom(3);
+    @include margin-bottom(2);
+    max-width: 600px;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 8px;
 
     &:last-child {
       @include margin-bottom(.5);

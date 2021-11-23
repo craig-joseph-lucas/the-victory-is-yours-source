@@ -6,14 +6,11 @@
 
 .devotionals {
     &__title {
-        @include margin-top(2);
-        @include margin-bottom(2);
+      display: none;
+        @include margin-top(3);
+        @include margin-bottom(1);
         color: #0DA5CE;
         font-family: stencil-std, sans-serif;
-        @include breakpoint-md {
-          @include margin-top(2);
-          @include margin-bottom(3);
-        }
       }
     
       &__title-img {
@@ -21,7 +18,6 @@
         height: 100px;
         display: inline-block;
         vertical-align: middle;
-        padding-left: 20px;
         position: absolute;
         top: 50px;
         right: 80px;

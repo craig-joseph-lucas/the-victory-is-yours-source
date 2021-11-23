@@ -13,7 +13,6 @@ const CategoriesListTemplate = () => {
 
   return (
     <Layout title={`Categories - ${title}`} description={subtitle}>
-      <Sidebar />
       <Page title="Categories">
         <ul>
           {categories.map((category) => (

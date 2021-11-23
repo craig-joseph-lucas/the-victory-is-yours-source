@@ -3,3 +3,7 @@
 - implement google adsense 
 - check metrics on site 
 - print bible verse view
+
+add new categories
+ - safeFamilies
+ - mensMinistry
