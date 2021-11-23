@@ -5,6 +5,10 @@
   @include margin-bottom(2);
   @include margin-top(0);
 
+  &__sidebar {
+    margin-bottom: 30px;
+  }
+
   &__inner {
     padding: 25px 20px;
   }
@@ -23,13 +27,6 @@
     font-family: open-sans, sans-serif;
     @include line-height(1);
     @include margin(0, 0, 1);
-  }
-
-  &__sidebar {
-    width: 200px;
-    float: right;
-    position: relative;
-    top: 75px;
   }
 
   &__sidebar-tagline {
@@ -51,9 +48,14 @@
     &__inner {
       padding: 30px 20px;
     }
-
+    &__sidebar {
+      width: 200px;
+      float: right;
+      position: relative;
+      top: 75px;
+      margin-bottom: 0;
+    }
   }
-
 }
 
 @include breakpoint-md {

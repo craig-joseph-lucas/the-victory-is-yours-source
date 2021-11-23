@@ -4,10 +4,14 @@
 .feed {
 
   &__item {
-    @include margin-bottom(2);
+    @include margin-bottom(1.5);
     max-width: 600px;
     border-bottom: 1px solid #d1d1d1;
     padding-bottom: 8px;
+
+    @include breakpoint-md {
+      @include margin-bottom(2);
+    }
 
     &:last-child {
       @include margin-bottom(.5);
