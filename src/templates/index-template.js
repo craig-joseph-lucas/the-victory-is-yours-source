@@ -3,6 +3,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
+import FeaturedPromo from '../components/featured-promo';
 import { useMediaQuery } from 'react-responsive';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
@@ -35,15 +36,23 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
   return (
-    <Layout hideNav={isDesktopOrLaptop} title={pageTitle} description={siteSubtitle}>
-      <Page>
-      <h1 className="devotionals__title">
-        Latest <img
-          className="devotionals__title-img"
-          src="/media/black-and-white-bible.svg" 
-        /> Devotionals
+    <Layout
+      hideNav={isDesktopOrLaptop}
+      title={pageTitle}
+      description={siteSubtitle}
+      hideBanner
+    >
+      <Page hideSidebar>
 
-      </h1>
+      <FeaturedPromo
+        title="Sword of the Spirit"
+        imgPath="/media/custom-pages/hero-daily-vitals-sm.jpg"
+        dek="The Sword of the Spirit is your only weapon against the enemy. It is the key to victory!"
+      >
+
+      </FeaturedPromo>
+      <div className="container">
+
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
@@ -51,6 +60,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
           hasPrevPage={hasPrevPage}
           hasNextPage={hasNextPage}
         />
+      </div>
       </Page>
     </Layout>
   );

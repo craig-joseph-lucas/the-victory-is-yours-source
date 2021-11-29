@@ -11,6 +11,16 @@ import { useSiteMetadata } from '../../hooks';
 import getOgImage from '../../utils/get-og-image';
 import styles from './Layout.module.scss';
 
+function renderBanner() {
+  return (
+    <div className={styles['layout__banner']}>
+      <a href="#">
+        <img src="http://localhost:8000/media/banner.jpg" />
+      </a>
+    </div>
+  );
+}
+
 type Props = {
   children: ReactNode,
   title: string,
@@ -22,7 +32,8 @@ type Props = {
 
 type DefaultProps = {
   hideNav: false,
-  noIndex: false
+  noIndex: false,
+  hideBanner: false
 }
 
 const Layout = ({
@@ -34,7 +45,7 @@ const Layout = ({
   layoutStyles,
   ogUrl,
   noIndex,
-  hideNav
+  hideBanner
 }: Props) => {
 
   const { author, url, facebookAppId } = useSiteMetadata();
@@ -43,10 +54,9 @@ const Layout = ({
 
   return (
     <div>
-              { <SiteNav /> }
-          <div className={styles['layout__banner']}>
-          </div>
-      <div 
+          { <SiteNav /> }
+          { !hideBanner && renderBanner() }
+      <div
         style={containerStyles}
       >
         <div className={styles.layout} style={layoutStyles}>
@@ -82,7 +92,7 @@ const Layout = ({
         title={title}
       />
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8109674561526292"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
     </div>
   );
 };

@@ -4,19 +4,20 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
+
 Hello my name is Craig. I am a child of God and your brother in Christ.
 I am 37 years old and have an amazing wife and two beautiful Children(see pics below).
 They are true gifts of God. My son is 5 years old. While my daughter is three.
-
-<div class="post-image post-image--inline-images">
-  <img src="/media/family-christmas.jpg" alt="Water Baptism" />
-  <img src="/media/in-hawaii.jpg" />
-</div>
 
 I currently work as a Web Developer, where I have been building websites for a living. I have been in the field for over 15 years and I work remotely. Which, has been a true blessing for me. As I have been able to spend the days with my children.
 God is so great in giving me that opportunity. 
 
 I attend Revival Christian Fellowship in Menifee, CA and have been going there for 4 years. It was not till recently that I came to know Jesus Christ as my personal Savior and Lord. God truly has saved my life. He has been with me my entire life but it wasn't till three years ago when I made that great decision. To repent and declare Jesus as Lord. 
+
+<div class="post-image post-image--inline-images">
+  <img src="/media/family-christmas.jpg" alt="Water Baptism" />
+  <img src="/media/in-hawaii.jpg" />
+</div>
 
 My life before I came to Christ was filled with pursuing all the desires of my flesh. I did whatever my flesh told me to do. No matter what route I took I always came back to me feeling empty. I always thought I can fill that empty void by these fleshful desires. I was in bondage to sin and knew no other way. The way I was living was really bad. Thanks be to God that He was there for me through my days of darkness. Not only was I fullfilling my fleshful desires but I also fought depression for a long time. I always wondered what was my purpose in life.  
 

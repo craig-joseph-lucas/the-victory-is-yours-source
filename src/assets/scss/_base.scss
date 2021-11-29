@@ -4,9 +4,12 @@
 @import "base/generic";
 @import "base/front-matter-styles";
 
+.container {
+  lost-center: $layout-width;
+}
+
 .devotionals {
     &__title {
-      display: none;
         @include margin-top(3);
         @include margin-bottom(1);
         color: #0DA5CE;

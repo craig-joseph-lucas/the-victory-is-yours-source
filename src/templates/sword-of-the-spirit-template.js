@@ -55,6 +55,7 @@ const SwordOfTheSpiritTemplate = ({ data, pageContext, location }: Props) => {
         title={`${postTitle} | ${siteTitle}`}
         description={metaDescription}
         noIndex
+        hideBanner
         socialImage={socialImage}
         layoutStyles={{
           margin: '0 20px',
