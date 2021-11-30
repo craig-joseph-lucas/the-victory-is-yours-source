@@ -1,0 +1,23 @@
+@mixin sosTitle ($fontSize: 24px, $fontSizeLg: 40px) {
+    font-size: $fontSize;
+    position: relative;
+    color: #0DA5CE;
+    text-shadow: #0DA5CE 1px 0 10px;
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 12px;
+    font-family: $typographic-font-family-titles-1;
+    margin-top: 0;
+
+    @include breakpoint-md {
+      font-size: $fontSizeLg;
+      margin-bottom: 30px;
+      margin-top: 10px;
+    }
+
+    @media print {
+      margin-top: 0;
+      text-shadow: none;
+      color: #000;
+    }
+}

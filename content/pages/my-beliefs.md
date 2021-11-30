@@ -1,5 +1,5 @@
 ---
-title: "My Beliefs"
+title: "Our Beliefs"
 template: "page"
 socialImage: "/media/image-2.jpg"
 ---

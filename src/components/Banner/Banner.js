@@ -13,7 +13,6 @@ type Props = {
 
 class Banner extends React.Component {
   render() {
-
     const {
       url,
       imgSrc,
@@ -22,14 +21,13 @@ class Banner extends React.Component {
     } = this.props;
 
     return (
-  
       <div className={styles['banner']}>
-      { url && 
-          <a 
+      { url &&
+          <a
             href={url}
             target="_blank"
           >
-            <img 
+            <img
               src={imgSrc}
               alt={title}
               className={styles['banner__img']}

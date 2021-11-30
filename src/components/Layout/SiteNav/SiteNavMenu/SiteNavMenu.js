@@ -56,15 +56,11 @@ const SiteNavMenu = ({ menuExpanded }: Props) => {
           </div>
           <div className={styles[`${cn}__right`]}>
             <div className={styles[`${cn}__site-bio`]}>
-              <p>{ bio }</p>
+              <p>The Sword of the Spirit is your only weapon against the enemy. It is the key to victory!</p>
             </div>
             <div className={styles[`${cn}__banner`]}>
-              <Banner 
-                url="https://www.biblegateway.com"
-                title="Click to Study Scripture at Bible Gateway"
-                imgSrc="https://bg3-blog.s3.amazonaws.com/blog/wp-content/uploads/2014/08/bg-badge-option-1.jpg"
-              />
-              </div>
+              <a className={styles[`${cn}__banner-link`]} href="/sword-of-the-spirt/">Sword of the Sprit</a>
+            </div>
           </div>
         </div>
     </div>

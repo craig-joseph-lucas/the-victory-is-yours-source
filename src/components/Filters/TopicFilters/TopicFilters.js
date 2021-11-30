@@ -4,6 +4,8 @@ import { FaPrint } from "react-icons/fa";
 import styles from './TopicFilters.module.scss';
 import getVersesByTopic from '../../../utils/get-verses-by-topic';
 
+
+
 const DEFAULT_URL = '/sword-of-the-spirit/';
 
 

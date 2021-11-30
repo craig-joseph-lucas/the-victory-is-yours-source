@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import styles from './VerseCard.module.scss';
+import { FaRegCopy } from "react-icons/fa";
 import getVerses from '../../utils/get-verses';
 
 type Props = {
@@ -19,8 +20,27 @@ class VerseCard extends React.Component {
           verse: '',
           readyToRender: false,
           isActiveVerseText: false,
-          isActiveVersePassage: false
+          isActiveVersePassage: false,
+          verseCopied: false
        }
+    }
+
+    handleClickOfCopy = (evt) => {
+      const { overrideVerse, keyword } = this.props;
+      const text = `${keyword} ${overrideVerse}`;
+      try {
+        navigator.clipboard.writeText(text).then(() => {
+          this.setState(state => ({
+            verseCopied: !state.verseCopied
+          }));
+
+          setTimeout(() => this.setState({verseCopied: false}), 900);
+
+          /* clipboard write failed */
+        });
+      } catch (e) {
+        console.log(e)
+      }
     }
   
     handleToggleOfText = () => {
@@ -62,7 +82,7 @@ class VerseCard extends React.Component {
     render() {
       
       const { keyword, overrideVerse } = this.props;
-      const { verse, isActiveVersePassage, isActiveVerseText } = this.state;
+      const { verse, isActiveVersePassage, isActiveVerseText, verseCopied } = this.state;
 
       return (
         
@@ -75,6 +95,24 @@ class VerseCard extends React.Component {
                 { verse || overrideVerse }
               </p>
             </div>
+            <div className={styles['verse-card__controls']}>
+              
+              <span 
+                className={styles['verse-card__copy']}
+                onClick={(evt) => {this.handleClickOfCopy(evt)}}
+              >
+                
+                { verseCopied && 
+                  <span
+                    className={styles['verse-card__copy']}
+                  >
+                  Verse was copied </span>
+                }
+                <FaRegCopy height="20"></FaRegCopy>
+              </span>
+                
+            </div>
+
         </section>
       );
     }

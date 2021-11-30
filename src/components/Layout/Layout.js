@@ -14,8 +14,8 @@ import styles from './Layout.module.scss';
 function renderBanner() {
   return (
     <div className={styles['layout__banner']}>
-      <a href="#">
-        <img src="http://localhost:8000/media/banner.jpg" />
+      <a href="/sword-of-the-spirit">
+        <img src="/media/banner.jpg" />
       </a>
     </div>
   );

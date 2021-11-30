@@ -46,17 +46,19 @@ class FeaturedPromo extends React.Component {
                        <strong>Popular topics:</strong>
                        
                            <a href="/sword-of-the-spirit/jesus">Jesus</a>
-                           <a href="sword-of-the-spirit/prayer">Prayer</a>
-                           <a href="">Holy Spirit</a>
+                           <a href="/sword-of-the-spirit/prayer">Prayer</a>
+                           <a href="/sword-of-the-spirit/holy-spirit">Holy Spirit</a>
                    
                        <button className={styles['featured-promo__all-filters']}>
-                            <a href="#" className={styles['featured-promo__all-filters-btn']}>
-                                Explore all topics
+                            <a href="/sword-of-the-spirit/" className={styles['featured-promo__all-filters-btn']}>
+                                Read God's Word!
                             </a>
                        </button>
                     </div>
 
                 </div>
+            
+                <a href="/sword-of-the-spirit" className={styles['featured-promo__cover-link']}>&nbsp;</a>
             </div>
         );
     }

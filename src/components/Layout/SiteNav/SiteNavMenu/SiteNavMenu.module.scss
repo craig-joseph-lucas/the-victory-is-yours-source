@@ -41,7 +41,7 @@
 
     &__nav-link {
         color: #666;
-        font-family: stencil-std,sans-serif;
+        font-family: $typographic-font-family-titles-1;
         font-size: 20px;
         line-height: 26px;
         margin-bottom: 0;
@@ -52,11 +52,14 @@
     }
 
     &__banner {
-        max-width: 200px;
-        margin: 0 auto;
+        margin: 25px auto 0;
         div {
             display: block;
         }
+    }
+
+    &__banner-link {
+        @include sosTitle(24px,24px)
     }
 
     &__social {
@@ -126,7 +129,7 @@
         }
         &__banner {
             padding: 0 50px;
-            margin: 0;
+            margin: 25px 0 0 0;
         }
     }
 }

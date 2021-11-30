@@ -19,7 +19,9 @@ tags:
   - "Mercy"
   - "Compassion"
   - "Grace"
-  - God's Grace"
+  - "God's Grace"
+  - "Testimony"
+  - "Praise Reports"
 
 description: "It's been awhile since you guys have heard from me. Some of you may be wondering what happened to me?"
 ---

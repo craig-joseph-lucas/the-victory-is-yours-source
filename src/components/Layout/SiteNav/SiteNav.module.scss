@@ -73,7 +73,7 @@
 
         a {
             color: #0DA5CE;
-            font-family: stencil-std,sans-serif;
+            font-family: $typographic-font-family-titles-1;
             display: block;
             font-size: 1rem;
             @include breakpoint-md {

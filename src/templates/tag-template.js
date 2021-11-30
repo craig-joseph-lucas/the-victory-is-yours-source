@@ -42,15 +42,18 @@ const TagTemplate = ({ data, pageContext }: Props) => {
       description={siteSubtitle}
       hideNav={isDesktopOrLaptop}
     >
-      <Page title={`All ${tag} posts`}>
-        <Feed edges={edges} />
-        <Pagination
-          prevPagePath={prevPagePath}
-          nextPagePath={nextPagePath}
-          hasPrevPage={hasPrevPage}
-          hasNextPage={hasNextPage}
-        />
-      </Page>
+
+      <div className="container">
+        <Page title={`All ${tag} posts`} hideSidebar>
+          <Feed edges={edges} />
+          <Pagination
+            prevPagePath={prevPagePath}
+            nextPagePath={nextPagePath}
+            hasPrevPage={hasPrevPage}
+            hasNextPage={hasNextPage}
+          />
+        </Page>
+      </div>
     </Layout>
   );
 };

@@ -4,12 +4,12 @@
 .content {
   max-width: $layout-post-single-width;
   padding: 0 12px;
-  margin: 80px auto 0;
+  margin: 30px auto 0;
 
   &__title {
     font-size: $typographic-base-font-size * 1.75;
     line-height: $typographic-base-font-size * 2.125;
-    font-family: droid-sans, sans-serif;
+    font-family: $typographic-font-family-titles-1;
     margin-left: auto;
     margin-right: auto;
     color: #666;
@@ -86,7 +86,7 @@
 
 @include breakpoint-md {
   .content {
-    margin: 90px auto 0;
+    margin: 50px auto 0;
     padding: 0;
 
     &__title {

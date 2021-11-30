@@ -26,19 +26,20 @@ const PageTemplate = ({ data, location }: Props) => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1224px)'
   });
-  
 
   return (
     <Layout
       hideNav={isDesktopOrLaptop}
-      title={`${pageTitle} - ${siteTitle}`} 
-      description={metaDescription} 
+      title={`${pageTitle} - ${siteTitle}`}
+      description={metaDescription}
       socialImage={socialImage}
       ogUrl={ogUrl}
     >
-      <Page title={pageTitle}>
-        <div dangerouslySetInnerHTML={{ __html: pageBody }} />
-      </Page>
+      <div className="container">
+        <Page title={pageTitle} hideSidebar>
+          <div dangerouslySetInnerHTML={{ __html: pageBody }} />
+        </Page>
+      </div>
     </Layout>
   );
 };

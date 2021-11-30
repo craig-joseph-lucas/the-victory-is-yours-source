@@ -1,12 +1,24 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
 .verse-card {
+
   @include margin-top(.6);
   @include margin-bottom(.6);
   margin-left: 0;
   margin-right: 0;
   padding: 0 20px;
+  position: relative;
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.08), 0 5px 15px 0 rgba(0,0,0,.05);
   box-sizing: border-box;
@@ -16,7 +28,7 @@
   }
 
   &__passage{
-    font-family: stencil-std, sans-serif;
+    font-family: $typographic-font-family-titles-1;
     font-size: 20px;
     font-weight: bold;
     margin-left: 0;
@@ -24,6 +36,12 @@
     text-align: justify;
     @include margin-top(.6);
     padding: 1rem 0; 
+  }
+
+  &__controls {
+    position: absolute;
+    right: 10px;
+    top: 10px;
   }
 
   &__content{
@@ -40,6 +58,11 @@
       transition: opacity 600ms ease-in-out;
     }  
   }
+
+  &__fade-out {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+ }
 
   @include breakpoint-md {
     @include margin-bottom(2);
