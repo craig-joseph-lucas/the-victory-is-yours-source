@@ -1,6 +1,6 @@
 ---
 title: True meaning of Christmas
-date: "2021-12-09T23:40:32.169Z"
+date: "2021-12-20T23:40:32.169Z"
 template: "post"
 verse: "John 3:16"
 book: "John"
