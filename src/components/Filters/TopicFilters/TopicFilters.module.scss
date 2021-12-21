@@ -10,12 +10,16 @@
     &__btn {
         display: inline-block;
         color: #000;
-        font: normal 14px/1 Helvetica,sans-serif;
+        font: normal 12px/1 Helvetica,sans-serif;
         margin: 4px 2px 0 0;
         padding: 8px 8px 10px;
         background: none;
         border: none;
         cursor: pointer;
+
+        @include breakpoint-md {
+            font: normal 14px/1 Helvetica,sans-serif;
+        }
 
         &:after {
             content: '\203A';
@@ -26,11 +30,12 @@
         }
         &--active {
             border: 1px solid #bdbdbd;
-            padding: 8px 16px 10px;
+            padding: 4px 10px 5px;
             border-radius: 3px;
             font-weight: bold;
             @include breakpoint-md {
              border: none;
+             padding: 8px 16px 10px;
             }
             &:after {
               content: '\2715';
@@ -120,7 +125,11 @@
         font-size: 10px;
         &::placeholder { 
             opacity: 1; /* Firefox */
-            font-size: 16px;
+            font-size: 12px;
+            font-weight: normal;
+            @include breakpoint-md {
+                font-size: 14px;
+            }
           }
 
           &-active {
@@ -183,7 +192,12 @@
         &[data-has-option="true"] {
             border-width: 0 0 1px 0;
             border-radius: 0;
-            input { font-weight: bold; }
+            input { 
+                text-transform: uppercase; 
+                &::placeholder {
+                    font-weight: bold; 
+                }
+            }
 
             @media print {
                 border-width: 0;

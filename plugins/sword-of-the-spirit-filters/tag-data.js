@@ -21,7 +21,7 @@ const tags = [
     name: 'Jesus',
     verses: [
       'John 3:16',
-      'John 15:33',
+      'John 15:5',
       'John 6:35',
       'John 8:12',
       'John 10:7',
@@ -140,6 +140,44 @@ const tags = [
     hidePopularFilter: true
   },
   {
+    name: 'How to love',
+    verses: [
+      'John 13:34',
+      'Romans 12:10',
+      'Romans 12:16',
+      'Romans 14:19',
+      '1 Thessalonians 5:11',
+      'Romans 15:5',
+      'Romans 15:7',
+      'Romans 15:14',
+      'Colossians 3:16',
+      'Romans 16:16',
+      '1 Corinthians 12:25',
+      'Galatians 5:13',
+      'Galatians 6:2',
+      'Ephesians 4:2',
+      'Colossians 3:13',
+      'Ephesians 4:15',
+      'Ephesians 4:32',
+      'Ephesians 5:19',
+      'Ephesians 5:21',
+      '1 Peter 5:5',
+      'Philippians 2:3',
+      'Philippians 2:4',
+      'Colossians 3:13',
+      'Colossians 3:16',
+      '1 Thessalonians 4:18',
+      '1 Thessalonians 5:11',
+      'Hebrews 3:13',
+      'Hebrews 10:24',
+      '1 Peter 4:9',
+      '1 Peter 4:10',
+      '1 Peter 5:5',
+      'James 5:16'
+    ],
+    hidePopularFilter: true
+  },
+  {
     name: 'Ten Commandments',
     verses: [
       'Exodus 20:3',
@@ -157,38 +195,118 @@ const tags = [
   },
   {
     name: 'Worship',
-    verses: ['tktk'],
+    verses: [
+      'John 4:23-24',
+      '1 Chronicles 16:29',
+      'Psalm 86:9',
+      'Psalm 95:6',
+      'Luke 4:8',
+      'Romans 12:1',
+      'Phillipians 3:3'
+    ],
     hidePopularFilter: true
   },
   {
     name: 'End Times',
-    verses: ['tktk'],
+    verses: [
+      '1 Thessalonians 4:13-18',
+      'Matthew 24:36',
+      'Revelation 20:1-15',
+      'Matthew 24:44',
+      'Matthew 24:1-51'
+    ],
     hidePopularFilter: true
   },
   {
     name: 'Death',
-    verses: ['tktk'],
+    verses: [
+      'John 5:24',
+      'Romans 6:8',
+      'Romans 6:23',
+      'Romans 8:38-39',
+      'Matthew 5:4',
+      '1 Corinthians 15:55-57',
+      'Isaiah 41:10',
+      'Psalm 23:4',
+      '1 Corinthians 15:52',
+      '1 Thessalonians 4:13-14',
+      'Revelation 21:4'
+    ],
     hidePopularFilter: true
   },
   {
     name: 'Sin',
-    verses: ['tktk'],
+    verses: [
+      'Romans 6:6-9',
+      'Ephesians 4:22-24',
+      'Psalm 25:6-8',
+      '1 Corinthians 10:13',
+      'Romans 3:23',
+      'Romans 6:23',
+      'Galatians 5:19-21',
+      '1 John 1:8-10'
+    ],
     hidePopularFilter: true
   },
   {
     name: 'Heaven',
-    verses: ['tktk'],
+    verses: [
+      'Revelation 21:4',
+      'John 3:16',
+      '1 Thessalonians 4:16-17',
+      'Colossians 3:2',
+      'John 14:2',
+      'Philippians 3:20',
+      'Psalm 19:1-2',
+      'Matthew 6:19-20',
+      '2 Corinthians 5:1'
+    ],
     hidePopularFilter: true
   },
   {
     name: 'Parenting',
-    verses: ['tktk'],
+    verses: [
+      'proverbs 22:6',
+      'Ephesians 6:4',
+      'Colossians 3:21',
+      'Proverbs 13:24',
+      'Ephesians 4:29',
+      'James 1:17',
+      'Proverbs 29:17',
+      'Psalm 103:13',
+      '1 Timothy 5:8',
+      '1 Timothy 3:4',
+      'Philippians 4:6',
+      '2 Timothy 3:16'
+    ],
     hidePopularFilter: true
   },
   {
     name: 'Marriage',
-    verses: ['tktk'],
+    verses: [
+      '1 Corinthians 13:4-7',
+      'Ephesians 5:22-24',
+      'Ephesians 5:25-33',
+      'Proverbs 18:22',
+      'Genesis 2:24',
+      '1 Peter 3:1-7',
+      '1 Peter 3:7',
+      'Mark 10:8-12',
+      '1 Peter 4:8',
+      'Colossians 3:18-19',
+      '1 Corinthians 7:12-15',
+      'Matthew 19:9',
+      'Proverbs 12:4',
+      '1 Timothy 3:2-6'
+    ],
     hidePopularFilter: true
+  },
+  {
+    name: 'Redemption',
+    verses: [
+      'Romans 5:12',
+      'Romans 6:23'
+    ]
   }
 ];
 

@@ -40,13 +40,13 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
       hideNav={isDesktopOrLaptop}
       title={pageTitle}
       description={siteSubtitle}
-      hideBanner
+      hideBanner={false}
     >
       <Page hideSidebar>
 
       <FeaturedPromo
         title="Sword of the Spirit"
-        imgPath="/media/custom-pages/hero-daily-vitals-sm.jpg"
+        imgPath="/media/custom-pages/hero-daily-vitals9.jpg"
         dek="The Sword of the Spirit is your only weapon against the enemy. It is the key to victory!"
       >
 

@@ -11,6 +11,10 @@
   margin-top: $layout-nav-height;
   margin-bottom: 12px;
 
+    // remove this 
+    display: none;
+
+
   @include breakpoint-md {
     display: flex;
     margin-left: auto;
@@ -22,6 +26,10 @@
     box-shadow: 0 10px 6px -6px #eaeaea;
     cursor: pointer;
     margin-bottom: 50px;
+
+      // remove this 
+      display: none;
+
   }
 
   @media print {

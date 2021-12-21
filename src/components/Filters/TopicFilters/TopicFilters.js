@@ -3,8 +3,7 @@ import { Hint } from 'react-autocomplete-hint';
 import { FaPrint } from "react-icons/fa";
 import styles from './TopicFilters.module.scss';
 import getVersesByTopic from '../../../utils/get-verses-by-topic';
-
-
+4
 
 const DEFAULT_URL = '/sword-of-the-spirit/';
 
@@ -83,7 +82,7 @@ class TopicFilters extends React.PureComponent {
     const { activeTopic } = this.props;
     const defaultSearchText = 'or enter your own topic to search for';
     const placeholder = activeTopic 
-      ? `What the Sword of the Spirit says about ${activeTopic}`
+      ? `What you need to know about "${activeTopic}"`
       : defaultSearchText
     return (
 
