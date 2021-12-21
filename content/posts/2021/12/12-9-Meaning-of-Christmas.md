@@ -40,7 +40,7 @@ recommendVerses:
   - "1 Peter 2:24"
 
 
-socialImage: "/media/posts/2020-thanksgiving.jpg"
+socialImage: "/media/posts/christmas-2021.jpg"
 
 description: "What is Christmas about? Why do we celebrate it? These are all some great questions. Let's take a look at the true meaning of Christmas"
 ---
