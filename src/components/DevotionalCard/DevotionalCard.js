@@ -34,6 +34,7 @@ class DevotionalCard extends React.Component {
 
       return (
         <section
+          onclick={() => { window.location = slug; } }
           className={styles['devotional-card']}
         >
           <Icon />

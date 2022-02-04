@@ -8,28 +8,22 @@
 
     &__banner {
         margin-top: 56px;
-        //height: auto;
+        height: auto;
         background-color: #f2f2f2;
         margin-bottom: 30px;
-
-        height: 20px;
-
 
         img {
             margin: 0 auto;
             display: block;
             border: 1px #999;
             position: relative;
-                // remove these
-                display: none;
         }
 
         @include breakpoint-md {
-            height: 20px;
+            height: 150px;
             margin-top: 56px;
             margin-bottom: 0;
             img {
-                display: none;
                 top: 50%;
                 transform: translateY(-50%);    
             }

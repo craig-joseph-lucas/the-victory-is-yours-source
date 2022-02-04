@@ -74,7 +74,7 @@ class VerseCard extends React.Component {
 
     getToggleStyle (isActive) {
       return {
-        opacity: isActive ? '0.075' : '1'
+        opacity: isActive ? '0' : '1'
       };
     };
 

@@ -12,7 +12,6 @@
   margin-bottom: 12px;
 
     // remove this 
-    display: none;
 
 
   @include breakpoint-md {
@@ -28,8 +27,7 @@
     margin-bottom: 50px;
 
       // remove this 
-      display: none;
-
+      
   }
 
   @media print {

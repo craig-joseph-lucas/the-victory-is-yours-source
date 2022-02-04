@@ -304,9 +304,13 @@ const tags = [
   {
     name: 'Redemption',
     verses: [
+      'Genesis 1:26:27',
       'Romans 5:12',
-      'Romans 6:23'
-    ]
+      'Romans 6:23',
+      '1 Corinthians 15:22',
+      'Romans 3:23'
+    ],
+    hidePopularFilter: true
   }
 ];
 

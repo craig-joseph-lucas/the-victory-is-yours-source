@@ -40,7 +40,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
       hideNav={isDesktopOrLaptop}
       title={pageTitle}
       description={siteSubtitle}
-      hideBanner={false}
+      hideBanner={true}
     >
       <Page hideSidebar>
 
