@@ -59,7 +59,12 @@
     }
 
     &__banner-link {
-        @include sosTitle(24px,24px)
+        @include sosTitle(24px,24px);
+        color: #666;
+        text-shadow: none;
+        display: block;
+        text-align: left;
+        padding-top: 25px;
     }
 
     &__social {
@@ -85,6 +90,9 @@
             margin: 0;
             max-width: 300px;
             color: #999;
+        }
+        div button a {
+            color: #666;
         }
     }
 
