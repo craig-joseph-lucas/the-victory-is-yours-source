@@ -55,11 +55,19 @@ const SiteNavMenu = ({ menuExpanded }: Props) => {
             </div>
           </div>
           <div className={styles[`${cn}__right`]}>
-            <div className={styles[`${cn}__site-bio`]}>
-              <p>The Sword of the Spirit is your only weapon against the enemy. It is the key to victory!</p>
-            </div>
-            <div className={styles[`${cn}__banner`]}>
+          <div className={styles[`${cn}__banner`]}>
               <a className={styles[`${cn}__banner-link`]} href="/sword-of-the-spirt/">Sword of the Sprit</a>
+            </div>
+            <div className={styles[`${cn}__site-bio`]}>
+              <p>The Sword of the Spirit is your only weapon against the enemy.
+                It is the key to victory!</p>
+                <div class="FeaturedPromo-module--featured-promo__filters--3SDdw">
+                  <strong>Popular topics:</strong>
+                  <a href="/sword-of-the-spirit/jesus">Jesus</a>
+                  <a href="/sword-of-the-spirit/prayer">Prayer</a>
+                  <a href="/sword-of-the-spirit/holy-spirit">Holy Spirit</a>
+                  <button><a href="/sword-of-the-spirit/">Read God's Word!</a></button>
+              </div>
             </div>
           </div>
         </div>

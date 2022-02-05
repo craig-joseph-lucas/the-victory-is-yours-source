@@ -47,4 +47,16 @@ It will allow you to study the truths on any given topic. Start by choosing one 
 
 The bible tells us to store God's word on our heart so we don't Sin against Him (Psalm 119:11). To not sin! That would be great. That will be the case one day when we are glorified in Heaven. For now accept that we all fall short of the Glory of God and that best we can do is try to sin less and less. It starts with memorizing God's word.
 
-Try memorizing God's word by using this tool. Each verse gives the ability to hide and show the passage text and location. I really hope you enjoy it and it helps you grow in the truth! I welcome your feedback at <a href="mailto:wecanhavevictoryinjesus@gmail.com"></a>. To start using the tool visit this <a href="/sword-of-the-spirit/">link </a>now.
+Try memorizing God's word by using this tool. Each verse gives the ability to hide and show the passage text and location. I really hope you enjoy it and it helps you grow in the truth! I welcome your feedback in the comments below. To see the tool now click this <a href="/sword-of-the-spirit/"> link </a>.
+ 
+  <div class="FeaturedPromo-module--featured-promo__filters--3SDdw">
+<button><a href="/sword-of-the-spirit/">Read God's Word!</a></button>
+
+
+
+  <strong>Popular topics:</strong>
+  <a href="/sword-of-the-spirit/jesus">Jesus</a>
+  <a href="/sword-of-the-spirit/prayer">Prayer</a>
+  <a href="/sword-of-the-spirit/holy-spirit">Holy Spirit</a>
+    
+  </div>
