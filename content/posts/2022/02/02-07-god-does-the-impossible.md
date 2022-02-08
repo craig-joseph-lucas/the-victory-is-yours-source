@@ -30,7 +30,7 @@ recommendVerses:
   
 socialImage: "/media/posts/nothing-is-impossible-with-god.jpg"
 
-description: "What is the the Sword of the Spirit. It's the Word of God. It's your weapon against the enemy. It's sharper than any double-edged sword!"
+description: "God can do the impossible in your life!"
 ---
 
 Had the blessing this past Sunday to teach the children about how God does the impossible. We were covering Luke 1:26-1:38. This is an amazing story in the gospel of Luke.
