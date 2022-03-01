@@ -311,6 +311,42 @@ const tags = [
       'Romans 3:23'
     ],
     hidePopularFilter: true
+  },
+  {
+    hidePopularFilter: true,
+    name: 'One Anothers',
+    verses: [
+      'John 13:34',
+      'Romans 12:10',
+      'Romans 12:16',
+      'Romans 14:19',
+      '1 Thessalonians 5:11',
+      'Romans 15:5',
+      'Romans 15:7',
+      'Romans 15:14',
+      'Colossians 3:16',
+      'Romans 16:16',
+      '1 Corinthians 12:25',
+      'Galatians 5:13',
+      'Galatians 6:2',
+      'Ephesians 4:2',
+      'Colossians 3:13',
+      'Ephesians 4:15',
+      'Ephesians 4:25',
+      'Ephesians 4:32',
+      'Ephesians 5:19',
+      'Ephesians 5:21',
+      '1 Peter 5:5',
+      'Phillipians 2:3',
+      'Phillipians 2:4',
+      '1 Thessalonians 4:18',
+      'Hebrews 3:13',
+      'Hebrews 10:24',
+      '1 Peter 4:9',
+      '1 Peter 4:10',
+      '1 Peter 5:5',
+      'James 5:16'
+    ]
   }
 ];
 

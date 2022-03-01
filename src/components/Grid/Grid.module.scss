@@ -7,6 +7,10 @@
   display: flex;
   margin-left: -30px; /* gutter size offset */
   width: auto;
+
+  @media print {
+    display: block;
+  }
   
   &__column {
     padding-left: 30px; /* gutter size */
@@ -14,6 +18,11 @@
 
     @include breakpoint-md {
       width: 33.3333% !important;
+    }
+
+    @media print {
+      width: 75% !important;
+      text-align: center;
     }
 
   }
@@ -31,4 +40,7 @@
   text-align: center;
   color: #999;
   font-weight: bold;
+  @media print {
+    display: none;
+  }
 }

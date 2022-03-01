@@ -22,6 +22,7 @@ tags:
   - "Holy Spirit"
   - "Prayer"
   - "Gifts of the Holy Spirit"
+  - "One Anothers"
 recommendVerses: 
   - "1 John 1:5-7"
   - "John 14:16"

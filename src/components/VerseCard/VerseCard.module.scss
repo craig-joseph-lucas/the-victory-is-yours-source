@@ -24,7 +24,8 @@
   box-sizing: border-box;
   @media print {
     box-shadow: none;
-    border: 1px solid #333;
+    border: none;
+    page-break-inside: avoid;
   }
 
   &__passage{
@@ -42,6 +43,9 @@
     position: absolute;
     right: 10px;
     top: 10px;
+    @media print {
+      display: none;
+    }
   }
 
   &__content{
@@ -77,7 +81,7 @@
 
   &:nth-child(3n+4) {  
     @media print {
-      background: green;
+      //background: green;
     }
   }
 }
