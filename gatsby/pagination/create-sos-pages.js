@@ -50,7 +50,7 @@ module.exports = async (edges, graphql, actions) => {
         }
       }
     });
-
+    debugger;
     devotionals = devotionals.slice(0, 5);
     node.path = nodePath;
     createPage({
