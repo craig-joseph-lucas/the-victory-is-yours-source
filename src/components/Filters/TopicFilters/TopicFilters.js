@@ -85,7 +85,7 @@ class TopicFilters extends React.PureComponent {
       ? `What you need to know about "${activeTopic}"`
       : defaultSearchText
     return (
-
+      
       <Hint allowTabFill options={topics} onFill={value=> {
         this.onTopicClick(value.url)
       }}>
@@ -99,6 +99,7 @@ class TopicFilters extends React.PureComponent {
           onKeyDown={this.handleKeyDown}
           className={styles['topic-filters__search-bar']}
         />
+        
         
       </Hint>
     );

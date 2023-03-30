@@ -1,8 +1,11 @@
 'use strict';
 
+const { ChildProcess } = require('child_process');
+
 const _ = require('lodash');
 const path = require('path');
 const siteConfig = require('../../config.js');
+const { buildSosDoc, writeSosDoc } = require('./create-sos-docs');
 
 module.exports = async (edges, graphql, actions) => {
   const { createPage } = actions;
@@ -15,6 +18,8 @@ module.exports = async (edges, graphql, actions) => {
         name
         path
         hidePopularFilter
+        studyName
+        docxHeader
         verses {
           keyword
           overrideVerse
@@ -38,10 +43,14 @@ module.exports = async (edges, graphql, actions) => {
   }
 
   const sosFilters = sosNodes.map(({ name, path, hidePopularFilter }) => ({ fieldValue: name, url: path, hidePopularFilter }));
+  const docxStudies = {};
 
   sosNodes.forEach((node) => {
+    const { verses } = node;
     let name = node.name.toString().toLowerCase();
-    name = name.replace(' ', '-');
+    name = name.replace(/\s+/g, '-').toLowerCase();
+
+    console.log(`the sos name is ${name}`);
     const nodePath = `/sword-of-the-spirit/${name}`;
     let devotionals = _.filter(edges, {
       node: {
@@ -50,7 +59,6 @@ module.exports = async (edges, graphql, actions) => {
         }
       }
     });
-    debugger;
     devotionals = devotionals.slice(0, 5);
     node.path = nodePath;
     createPage({
@@ -63,8 +71,25 @@ module.exports = async (edges, graphql, actions) => {
         filters: sosFilters
       }
     });
+    console.log(`${node.docxHeader}`);
+    if (node.docxHeader) {
+      const result = buildSosDoc(node.studyName, node.docxHeader, verses);
+      const studyName = node.studyName.replace(/\s+/g, '-').toLowerCase();
+      studyName.replace(/---\\s+/g, '-').toLowerCase();
+
+      docxStudies[studyName] = docxStudies[studyName] || [];
+      docxStudies[studyName] = [
+        ...docxStudies[studyName],
+        ...result
+      ];
+    }
   });
 
+  Object.keys(docxStudies).forEach((key) => {
+    writeSosDoc(docxStudies[key], key.replace(/-\s+/g, '-').toLowerCase());
+  });
+
+  console.dir(docxStudies);
   const defaultDevotionals = edges.slice(0, 10);
   const defaultSos = sosNodes.filter((node) => node.name === 'default');
   createPage({
@@ -85,5 +110,4 @@ module.exports = async (edges, graphql, actions) => {
       filters: sosFilters,
     }
   });
-
 };

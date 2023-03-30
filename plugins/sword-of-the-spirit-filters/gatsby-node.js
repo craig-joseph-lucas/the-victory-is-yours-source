@@ -4,9 +4,10 @@ const tagData = require('./tag-data');
 exports.sourceNodes = async ({ actions, createNodeId, createContentDigest}) => {
     const swordOfSpiritFilters = await getAllTagVerses(tagData);
     swordOfSpiritFilters.forEach(filter => {
-      const name = filter.name.toString().toLowerCase();
+      const name = filter.name.replace(/\s+/g, '-').toLowerCase();
+      console.log(`GN the sos name is ${name}`);
+
       let nodePath = `/sword-of-the-spirit/${name}`;
-      nodePath = nodePath.replace(' ','-');
 
       const node = {
         name: filter.name,
@@ -14,6 +15,8 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest}) => {
         id: createNodeId(`Sword-of-the-spirit-filter-${filter.name}`),
         verses: filter.verses,
         hidePopularFilter: filter.hidePopularFilter,
+        docxHeader: filter.docxHeader,
+        studyName: filter.studyName,
         internal: {
           type: "SwordOfTheSpiritFilter",
           contentDigest: createContentDigest(filter),

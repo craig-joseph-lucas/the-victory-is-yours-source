@@ -90,7 +90,7 @@ If you are ready to make that leap of faith. I am very happy for you. That decis
 
 <blockquote>
 
-Jesus I know I am a sinner and there is only one way to be forgiven for my sins. It is to put my faith and trust in you. I believe you were born of the virgin Mary and lived a sinless life. That you took my place and died on the cross for my sin. I belive that you ressurected from the dead three days later and that you are exhalted and seated at the right hand of the Father. I want to turn away from my sin and follow you. Please come into my heart and be my Lord. In Jesus Holy name I pray.
+Jesus I know I am a sinner and there is only one way to be forgiven for my sins. It is to put my faith and trust in you. I believe you were born of the virgin Mary and lived a sinless life. That you took my place and died on the cross for my sin. I believe that you resurrected from the dead three days later and that you are exalted and seated at the right hand of the Father. I want to turn away from my sin and follow you. Please come into my heart and be my Lord. In Jesus Holy name I pray.
 
 Amen!
 

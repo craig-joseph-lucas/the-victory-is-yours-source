@@ -347,6 +347,117 @@ const tags = [
       '1 Peter 5:5',
       'James 5:16'
     ]
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us Barnabus',
+    verses: [
+      'Acts 4:36-37',
+      'Acts 9:26-27',
+      'Acts 11:21-26',
+      'Acts 14:12',
+      'Acts 15:36-41'
+    ],
+    studyName: 'Session 3 - The Encourager',
+    docxHeader: 'Barnabus'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us Ananias',
+    verses: ['Acts 9:1-19'],
+    studyName: 'Session 3 - The Encourager',
+    docxHeader: 'Ananias'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us the builder',
+    verses: [
+      'II Cor. 2:5-7', 'Gal. 6:1', 'Eph. 6:4', 'Col. 2:1-2', 'I Thess. 5:11', 'I Thess. 5:14', 'II Tim. 4:2'
+    ],
+    studyName: 'Session 3 - The Encourager',
+    docxHeader: 'Additional Verses'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us the seven servants',
+    verses: [
+      'Acts 6:1-7',
+      'Luke 22:27'
+    ],
+    studyName: 'Session 4 - The Helper',
+    docxHeader: 'Seven Servants'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us Jason',
+    verses: [
+      'Acts 17:1-9'
+    ],
+    studyName: 'Session 4 - The Helper',
+    docxHeader: 'Jason'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us John Mark',
+    verses: [
+      'Acts 12:25', 'Acts 13:5', 'Acts 13', 'Acts 15:36-41', 'Colossians 4:10-11', '2 Timothy 4:11'
+    ],
+    studyName: 'Session 4 - The Helper',
+    docxHeader: 'John Mark'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us the encourager',
+    verses: [
+      'Prov. 22:9', 'Ecc. 2:4', 'Matt. 23:11', 'Rom. 12:1-8', '1 Cor. 3:13', '1 Cor 12 12:1-31', 'Philippians 2:4'
+    ],
+    studyName: 'Session 4 - The Helper',
+    docxHeader: 'Other verses for the Helper'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us Timothy and Silas',
+    verses: [
+      'Acts 16:1-5', 'Acts 17:14', '2 Tim. 1:5-7', 'I Cor. 14:7', 'I Thessalonians 1:1', 'II Timothy 3:14-15'
+    ],
+    studyName: 'Session 5 - The Heir',
+    docxHeader: 'Timothy and Silas'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us Ephesian Elders',
+    verses: [
+      'Acts 20:17-38'
+    ],
+    studyName: 'Session 5 - The Heir',
+    docxHeader: 'Ephesian elders'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us the Heir',
+    verses: [
+      'Romans 8:15-18', 'Heb. 11:1-12:1', '1 John 2:24', '1 John 1:4-8', 'Rev.21:7'
+    ],
+    studyName: 'Session 5 - The Heir',
+    docxHeader: 'Other Verses for the Heir'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us the Martyr',
+    verses: [
+      'Hebrews 11:37-38', 'Acts 14:21-22', 'Acts 7:54-60', 'Acts 12:1-5', 'Acts 14:19-23', 'Acts 16:25', '2 Cor. 11:24-33'
+    ],
+    studyName: 'Session 6 - The Martyr',
+    docxHeader: 'STEPHEN, JAMES , PETER, PAUL'
+  },
+  {
+    hidePopularFilter: true,
+    name: 'Men like us the Martyr verses',
+    verses: [
+      'Is. 53:7', 'Ps. 69:26', 'Matt. 5:10-12', 'Jn. 15:20', 'II Cor. 4:7-12', 'Rev. 2:10'
+    ],
+    studyName: 'Session 6 - The Martyr',
+    docxHeader: 'Other verses for the Martyr'
   }
 ];
 
